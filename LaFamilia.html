@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ByDesign">
-    <meta name="keywords" content="ByDesign">
-    <title>ByDesign</title>
+    <title>ByAlfa</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
 body {
@@ -15,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('https://i.imgur.com/7V5Kf1T.gif') no-repeat center center fixed;
+    background: url('') no-repeat center center fixed;
     background-size: cover;
     color: #e0e0e0;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
@@ -29,7 +25,7 @@ body {
     text-align: center;
     backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    max-width: 500px;
+    max-width: 620px;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -66,12 +62,12 @@ body {
 .current-info p {
     margin: 8px 0;
     font-size: 1.1em;
-    color: #1dd4ce;
+    color: #ffffff;
 }
 
 .current-info span {
     font-weight: bold;
-    color: #ffe0b5;
+    color: #aaaaaa;
 }
 
 #audioVisualizer {
@@ -80,7 +76,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: inset 0 0 10px rgb(37, 233, 255);
+    box-shadow: inset 0 0 10px rgb(170, 170, 170);
 }
 
 .controls {
@@ -92,8 +88,8 @@ body {
 }
 
 .player-button {
-    background-color: #f5a123ce;
-    color: rgb(195, 240, 255);
+    background-color: #c2c2c2ce;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     border: none;
     padding: 5px 15px;
@@ -106,29 +102,29 @@ body {
 }
 
 .player-button:hover {
-    background-color: #ffe2a4;
+    background-color: #e6e6e6;
     color: #0b0b0b;
     transform: translateY(-2px);
     box-shadow: 3px 3px 25px rgba(255, 255, 255, 0.4);
 }
 
 .player-button:active {
-    background-color: #aeffb2;
+    background-color: #ededed;
     transform: translateY(0);
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
 }
 
 .player-button.playing {
-    background-color: #c13228;
+    background-color: #717171;
 }
 
 .player-button.playing:hover {
-    background-color: #ff837a;
+    background-color: #aaaaaa;
     color: #181818;
 }
 
 .player-button.playing:active {
-    background-color: #c13228;
+    background-color: #717171;
 }
 
 .volume-control {
@@ -141,7 +137,7 @@ body {
 
 .volume-control label {
     font-size: 1.1em;
-    color: #ffe3ab;
+    color: #e1e1e1;
 }
 
 #volumeSlider {
@@ -160,7 +156,7 @@ body {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #00e5ff;
+    background: #bdbdbd;
     cursor: pointer;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transition: background 0.2s ease, transform 0.2s ease;
@@ -170,7 +166,7 @@ body {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #00e5ff;
+    background: #bdbdbd;
     cursor: pointer;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transition: background 0.2s ease, transform 0.2s ease;
@@ -189,7 +185,7 @@ body {
 .status-message {
     margin-top: 20px;
     font-size: 1.1em;
-    color: #ffe2a4;
+    color: #d1d1d1;
     font-style: italic;
 }
 
@@ -205,7 +201,7 @@ body {
 }
 
 .song-history h2 {
-    color: #23c5bd;
+    color: #9f9f9f;
     font-size: 1.5em;
     margin-bottom: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -306,13 +302,13 @@ body {
 </head>
 <body>
     <div class="radio-player-container">
-        <img src="https://i.imgur.com/ir1Fv0O.png" alt="Titulo">
         <div class="now-playing-section">
-            <img id="albumArt" src="https://technoplayerserver.net/cp/musiclibrary/nowplay_radioxatoficial.png" alt="Album Art" class="album-art">
+            <img id="albumArt" src="https://i.imgur.com/AN93Fcs.png" alt="Album Art" class="album-art">
             <div class="current-info">
                 <p>Acum Live: <span id="songTitle">Încărcare...</span></p>
                 <p>DJ: <span id="djName">Încărcare...</span></p>
                 <p>Ascultatori: <span id="listeners">Încărcare...</span></p>
+				<p>Radio: <span id="jd-station">LaFamilia</span></p>
             </div>
         </div>
 
@@ -339,27 +335,38 @@ body {
         <button
             id="chatButton"
             class="floating-button bg-blue-600 text-white font-bold py-3 px-6 rounded-full flex items-center space-x-2
-                hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75"
+                hover:bg-Black-700 focus:outline-none focus:ring-2 focus:ring-Black-500 focus:ring-opacity-75"
         >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                <path d="M12.525 2.166a9.962 9.962 0 0 1 1.666 4.336c-.026.007-.052.014-.078.021-.86.23-1.657.65-2.34 1.233-.683.583-1.24 1.29-1.657 2.08-.417.79-.683 1.66-.79 2.58-.107.92-.107 1.88-.001 2.81.106.93.362 1.81.765 2.62.403.81.95 1.52 1.633 2.12.683.6 1.46 1.05 2.34 1.34.88.29 1.81.43 2.76.43a9.962 9.962 0 0 0 4.336-1.666V12.525h-2.166a.75.75 0 0 1-.75-.75V8.875a.75.75 0 0 1 .75-.75h2.166V4.336a9.962 9.962 0 0 0-1.666-4.336z" />
-            </svg>
+                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 13.5997 2.37562 15.1116 3.04346 16.4525C3.22094 16.8088 3.28001 17.2161 3.17712 17.6006L2.58151 19.8267C2.32295 20.793 3.20701 21.677 4.17335 21.4185L6.39939 20.8229C6.78393 20.72 7.19121 20.7791 7.54753 20.9565C8.88837 21.6244 10.4003 22 12 22Z" stroke="#ffffff" />
+				</svg>
             <span>Chat</span>
         </button>
 
         <button
             id="SiteButton"
-            class="floating-button bg-black text-white font-bold py-3 px-6 rounded-full flex items-center space-x-2
-                hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-75"
+            class="floating-button bg-red-600 text-white font-bold py-3 px-6 rounded-full flex items-center space-x-2
+                hover:bg-Black-800 focus:outline-none focus:ring-2 focus:ring-Black-600 focus:ring-opacity-75"
         >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                <path d="M12.525 2.166a9.962 9.962 0 0 1 1.666 4.336c-.026.007-.052.014-.078.021-.86.23-1.657.65-2.34 1.233-.683.583-1.24 1.29-1.657 2.08-.417.79-.683 1.66-.79 2.58-.107.92-.107 1.88-.001 2.81.106.93.362 1.81.765 2.62.403.81.95 1.52 1.633 2.12.683.6 1.46 1.05 2.34 1.34.88.29 1.81.43 2.76.43a9.962 9.962 0 0 0 4.336-1.666V12.525h-2.166a.75.75 0 0 1-.75-.75V8.875a.75.75 0 0 1 .75-.75h2.166V4.336a9.962 9.962 0 0 0-1.666-4.336z" />
+                <path d="M14.982 19.61c.454-.7.909-1.6 1.236-2.755.755.29 1.273.636 1.591.909a8.182 8.182 0 0 1-2.864 1.845h.037v.001zm-8.8-1.855c.336-.273.845-.61 1.6-.91.336 1.164.773 2.064 1.236 2.764A8.2 8.2 0 0 1 6.2 17.755h-.018zm10.636-6.664c-.028-.81-.11-1.619-.245-2.418 1-.364 1.727-.8 2.236-1.2a8.136 8.136 0 0 1 1.282 3.618h-3.273zm-8.973-4.2a5.936 5.936 0 0 1-1.481-.8 8.2 8.2 0 0 1 2.654-1.7c-.427.636-.845 1.454-1.182 2.5h.01-.001zm7.137-2.5a8.145 8.145 0 0 1 2.654 1.7 6.01 6.01 0 0 1-1.481.8 9.58 9.58 0 0 0-1.182-2.5h.009zM14.8 9.118c.09.6.182 1.246.2 1.973H9c.027-.727.09-1.382.182-1.973 1.855.334 3.754.334 5.609 0h.009zM12 7.545c-.91 0-1.71-.072-2.39-.181.726-2.237 1.854-3.137 2.39-3.455.518.318 1.655 1.227 2.382 3.455A15.04 15.04 0 0 1 12 7.545zm-6.818-.072a8.03 8.03 0 0 0 2.245 1.2 18.368 18.368 0 0 0-.245 2.418h-3.31a8.13 8.13 0 0 1 1.319-3.618h-.01.001zm-1.3 5.436h3.3c.036.782.09 1.5.2 2.155a7.682 7.682 0 0 0-2.31 1.272 8.11 8.11 0 0 1-1.2-3.427h.01zM12 14.364c-1.09 0-2.027.09-2.845.236A16.91 16.91 0 0 1 9 12.91h6c-.027.608-.073 1.18-.145 1.69A15.388 15.388 0 0 0 12 14.355v.009zm0 5.727c-.545-.327-1.745-1.3-2.473-3.727A14.095 14.095 0 0 1 12 16.182c.955 0 1.773.063 2.482.182-.727 2.454-1.927 3.4-2.473 3.727H12zm6.927-3.764a7.634 7.634 0 0 0-2.309-1.272 17.95 17.95 0 0 0 .2-2.146h3.31a8.11 8.11 0 0 1-1.2 3.418h-.001zM12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z" fill="#ffffff" />
             </svg>
             <span>Site</span>
         </button>
+		
+	    <button
+            id="DediButton"
+            class="floating-button bg-green-600 text-white font-bold py-3 px-6 rounded-full flex items-center space-x-2
+                hover:bg-Black-800 focus:outline-none focus:ring-2 focus:ring-Black-600 focus:ring-opacity-75"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path d="M19 10V12C19 15.866 15.866 19 12 19M5 10V12C5 15.866 8.13401 19 12 19M12 19V22M8 22H16M15 6H13M15 10H13M12 15C10.3431 15 9 13.6569 9 12V5C9 3.34315 10.3431 2 12 2C13.6569 2 15 3.34315 15 5V12C15 13.6569 13.6569 15 12 15Z" stroke="#ffffff" />
+            </svg>
+            <span>Dedicatii</span>
+        </button>
     </div>
 <script>
-    const audio = new Audio('https://radio.sonicpanel.ro/8132/stream');
+    const audio = new Audio('https://radio.sonicpanel.ro:10922/stream');
 audio.crossOrigin = "anonymous";
 
 const playStopButton = document.getElementById('playStopButton');
@@ -368,7 +375,9 @@ const statusDisplay = document.getElementById('status');
 
 const songTitleDisplay = document.getElementById('songTitle');
 const djNameDisplay = document.getElementById('djName');
+const radioNameDisplay = document.getElementById('radioName');
 const listenersDisplay = document.getElementById('listeners');
+const bitrateDisplay = document.getElementById('bitrate');
 const historyList = document.getElementById('historyList');
 const albumArtDisplay = document.getElementById('albumArt');
 
@@ -430,9 +439,9 @@ function drawVisualizer() {
         const barHeight = dataArray[i] / 2;
 
         const gradient = canvasCtx.createLinearGradient(0, audioVisualizer.height, 0, 0);
-        gradient.addColorStop(0, '#673ab7');
-        gradient.addColorStop(0.5, '#00e5ff');
-        gradient.addColorStop(1, '#FFC107');
+        gradient.addColorStop(0, '#161616');
+        gradient.addColorStop(0.5, '#aaaaaa');
+        gradient.addColorStop(1, '#dddddd');
 
         canvasCtx.fillStyle = gradient;
         canvasCtx.fillRect(x, audioVisualizer.height - barHeight, barWidth, barHeight);
@@ -541,7 +550,7 @@ audio.addEventListener('waiting', () => {
 });
 
 audio.addEventListener('stalled', () => {
-    statusDisplay.textContent = 'Connection stalled. Retrying...';
+    statusDisplay.textContent = 'Se reîncearcă...';
 });
 
 fetchRadioInfo();
@@ -590,12 +599,12 @@ async function fetchRadioInfo() {
         songTitleDisplay.textContent = 'Failed to load';
         djNameDisplay.textContent = 'Failed to load';
         listenersDisplay.textContent = 'Failed to load';
-        albumArtDisplay.src = 'https://technoplayerserver.net/cp/musiclibrary/nowplay_radioxatoficial.png';
+        albumArtDisplay.src = 'https://i.imgur.com/AN93Fcs.png';
         historyList.innerHTML = '<li>Error loading history.</li>';
     }
 }
 
-const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
+const colors = ["#d1d1d1", "#a1a1a1", "#ffffff", "#4d4f4e", "#000000"];
 
 const numBalls = 50;
 const balls = [];
@@ -637,16 +646,51 @@ for (let i = 0; i < numBalls; i++) {
 
         const chatButton = document.getElementById('chatButton');
         const SiteButton = document.getElementById('SiteButton');
+		const DediButton = document.getElementById('DediButton');
 
         chatButton.addEventListener('click', () => {
-            const facebookUrl = 'https://www.facebook.com/people/Radio-Hispanohablante/61573727018441/';
+            const chatUrl = 'https://uxat.eu/chat';
             window.open(chatUrl, '_blank');
         });
 
         SiteButton.addEventListener('click', () => {
-            const tiktokUrl = 'https://www.tiktok.com/@radiohispano';
+            const SiteUrl = 'https://uxat.eu/';
             window.open(SiteUrl, '_blank');
         });
+		
+		
+        DediButton.addEventListener('click', () => {
+            const DediUrl = 'https://dedicatiipanel.ro/dedicatii/lafamilia/';
+            window.open(DediUrl, '_blank');
+        });
+
+	// --- PROTECT SCRIPT ---
+const protectionMessage="Stop Copyright ByAlfa";
+document.addEventListener("contextmenu", e=>{e.preventDefault();alert(protectionMessage);});
+document.addEventListener("selectstart", e=>{e.preventDefault();});
+document.addEventListener("keydown", e=>{e.preventDefault();alert(protectionMessage);});
+document.addEventListener("keyup", e=>{e.preventDefault();alert(protectionMessage);});
+document.addEventListener("dragstart", e=>{e.preventDefault();});
+document.addEventListener("copy", e=>{e.preventDefault();alert(protectionMessage);});
+document.addEventListener("mousedown", e=>{if(e.button===1||e.button===2){e.preventDefault();alert(protectionMessage);}});
+document.addEventListener("keydown", function(e) {
+
+    // Ctrl + U
+    if (e.ctrlKey && e.key.toLowerCase() === "u") {
+        e.preventDefault();
+    }
+
+    // Ctrl + Shift + I (DevTools)
+    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") {
+        e.preventDefault();
+    }
+
+    // F12
+    if (e.key === "F12") {
+        e.preventDefault();
+    }
+
+});
 </script>
 </body>
 </html>
