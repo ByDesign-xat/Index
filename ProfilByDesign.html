@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ByDesign</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Agbalumo&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script>
+        tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','sans-serif'],display:['Agbalumo','cursive']},colors:{dark:{900:'#18181b',800:'#27272a',700:'#3f3f46',600:'#52525b'},brand:{400:'#60a5fa',500:'#3b82f6',600:'#2563eb'}}}}};
+    </script>
+	
+    <style>
+        body {background-color:#18181b;color:#e2e8f0;overflow-x:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+        img {-webkit-user-drag:none;user-drag:none;pointer-events:none;}
+        .pointer-events-auto {pointer-events:auto;}
+        ::-webkit-scrollbar {width:8px;}
+        ::-webkit-scrollbar-track {background:#18181b;}
+        ::-webkit-scrollbar-thumb {background:#3f3f46;border-radius:4px;}
+        ::-webkit-scrollbar-thumb:hover {background:#3b82f6;}
+        .card-hover {transition:all 0.3s cubic-bezier(0.4,0,0.2,1);}
+        .card-hover:hover {transform:translateY(-5px);box-shadow:0 10px 25px -5px rgba(0,0,0,0.5);border-color:#3b82f6;}
+        .text-gradient {background:linear-gradient(to right,#60a5fa,#a78bfa,#f472b6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:hue 5s infinite linear;}
+        @keyframes hue {from {filter:hue-rotate(0deg);} to {filter:hue-rotate(360deg);}}
+        .submenu-transition {transition:max-height 0.3s ease-in-out,opacity 0.3s ease-in-out;max-height:0;opacity:0;overflow:hidden;}
+        .submenu-open {max-height:500px;opacity:1;}
+        .rotate-180 {transform:rotate(180deg);}
+        @media print {html,body {display:none !important;}}
+    </style>
+</head>
+<body class="flex h-screen w-full antialiased selection:bg-brand-500 selection:text-white" ondragstart="return false;" onselectstart="return false;">
+
+<div id="login-screen" style="
+position:fixed;
+inset:0;
+background:#18181b;
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:999999;
+">
+
+  <div style="
+  background:#27272a;
+  padding:30px;
+  border-radius:15px;
+  text-align:center;
+  width:300px;
+  box-shadow:0 0 20px rgba(0,0,0,0.6);
+  ">
+    
+    <h2 style="color:white;margin-bottom:15px;">🔐 Protected Access 🔐</h2>
+	<h6 style="color:white;margin-bottom:15px; font-size:10px;">Ask for password access</h6>
+    
+    <input id="password" type="password" placeholder="Password..."
+      style="
+      width:100%;
+      padding:10px;
+      border-radius:8px;
+      border:none;
+      outline:none;
+      margin-bottom:15px;
+      text-align:center;
+      ">
+
+    <button onclick="checkPassword()"
+      style="
+      width:100%;
+      padding:10px;
+      border:none;
+      border-radius:8px;
+      background:#3b82f6;
+      color:white;
+      font-weight:bold;
+      cursor:pointer;
+      ">
+      Login
+    </button>
+
+    <p id="error" style="color:red;margin-top:10px;font-size:12px;"></p>
+
+  </div>
+</div>
+
+<script>
+function checkPassword() {
+    const pass = document.getElementById("password").value;
+
+    // 🔑 SCHIMBĂ PAROLA AICI
+    const correctPassword = "6969";
+
+    if (pass === correctPassword) {
+        document.getElementById("login-screen").style.display = "none";
+    } else {
+        document.getElementById("error").innerText = "Wrong password!";
+    }
+}
+</script>
+
+    <aside class="w-20 lg:w-64 flex-shrink-0 bg-dark-800 border-r border-dark-700 flex flex-col h-full z-20 shadow-xl overflow-hidden">
+        <div class="flex-shrink-0 p-4 flex flex-row items-center border-b border-dark-700 bg-dark-800/90 relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-r from-brand-600/10 to-transparent pointer-events-none"></div>
+			<img src="https://i0.xat.com/web_gear/chat/GetImage9.php?s&W=80&H=80&U=https://xatimg.com/image/TTCxdIfiBlcl.png" class="w-12 h-12 rounded-full border-2 border-brand-500 object-cover shadow-lg relative z-10 flex-shrink-0 pointer-events-auto">
+            <div class="ml-3 hidden lg:block relative z-10 flex-1 min-w-0">
+				<p class="text-sm font-bold text-white tracking-wide leading-tight truncate">๖ۣۜBʏDᴇsɪɢɴۣۜ</p>
+				<p class="text-xs text-brand-400 mt-0.5 truncate">ID: 1515147447</p>
+				<p class="text-sm font-bold text-white text-brand-50 mt-0.5 truncate">🇻​/🇸​ 🇪​🇩​🇮​🇹​🇦​🇧​🇮​🇱​🇪​ 🇬​🇮​🇫​🇸​ - 🇦​🇫​🇹​🇪​🇷​/🇧​🇹​</p>
+            </div>
+			<img src="https://i0.xat.com/web_gear/chat/GetImage9.php?s&W=80&H=80&U=https://xatimg.com/image/TTCxdIfiBlcl.png" class="w-12 h-12 rounded-full border-2 border-brand-500 object-cover shadow-lg relative z-10 flex-shrink-0 pointer-events-auto">
+        </div>
+
+        <div class="flex-1 overflow-y-auto w-full overflow-x-hidden">
+            <nav class="p-3 space-y-1 w-full">
+                <button onclick="changeView('home')" id="nav-home" class="nav-btn w-full flex items-center p-2 lg:p-3 rounded-lg text-gray-300 hover:text-white hover:bg-dark-700 transition-colors group active-nav">
+                    <i class="ph ph-house text-xl lg:text-2xl group-hover:text-brand-500 transition-colors flex-shrink-0"></i>
+                    <span class="hidden lg:block ml-3 font-medium text-sm truncate">Home</span>
+                </button>
+                <p class="hidden lg:block px-3 text-[10px] sm:text-xs font-semibold text-gray-500 uppercase tracking-wider mt-6 mb-2 truncate">Categorías</p>
+                <div class="w-full">
+                    <button onclick="toggleMenu('gifs')" class="w-full flex items-center p-2 lg:p-3 rounded-lg text-gray-300 hover:text-white hover:bg-dark-700 transition-colors group">
+                        <i class="ph-duotone ph-film-strip text-xl lg:text-2xl group-hover:text-brand-500 transition-colors flex-shrink-0"></i>
+                        <span class="hidden lg:block ml-3 font-medium text-sm truncate">GIFS</span>
+                        <i id="gifs-caret" class="ph ph-caret-down hidden lg:block ml-auto transition-transform duration-300 flex-shrink-0"></i>
+                    </button>
+                    <div id="gifs-submenu" class="submenu-transition hidden lg:flex flex-col space-y-1 mt-1 border-l-2 border-dark-700 ml-5 pl-2 w-full">
+                        <button onclick="changeView('gifs-new')" id="nav-gifs-new" class="nav-btn w-full flex items-center p-2 rounded-lg text-gray-400 hover:text-white hover:bg-dark-700 transition-colors"><i class="ph ph-four-k text-lg flex-shrink-0"></i><span class="ml-3 text-sm truncate">New Style</span></button>
+                        <button onclick="changeView('gifs-girls')" id="nav-gifs-girls" class="nav-btn w-full flex items-center p-2 rounded-lg text-gray-400 hover:text-white hover:bg-dark-700 transition-colors"><i class="ph ph-crown text-lg flex-shrink-0"></i><span class="ml-3 text-sm truncate">Girls</span></button>
+                        <button onclick="changeView('gifs-boys')" id="nav-gifs-boys" class="nav-btn w-full flex items-center p-2 rounded-lg text-gray-400 hover:text-white hover:bg-dark-700 transition-colors"><i class="ph ph-soccer-ball text-lg flex-shrink-0"></i><span class="ml-3 text-sm truncate">Boys</span></button>
+                        <button onclick="changeView('gifs-dj')" id="nav-gifs-dj" class="nav-btn w-full flex items-center p-2 rounded-lg text-gray-400 hover:text-white hover:bg-dark-700 transition-colors"><i class="ph ph-headphones text-lg flex-shrink-0"></i><span class="ml-3 text-sm truncate">DJ</span></button>
+                        <button onclick="changeView('gifs-lovers')" id="nav-gifs-lovers" class="nav-btn w-full flex items-center p-2 rounded-lg text-gray-400 hover:text-white hover:bg-dark-700 transition-colors"><i class="ph ph-heart text-lg flex-shrink-0"></i><span class="ml-3 text-sm truncate">Lovers</span></button>
+                        <button onclick="changeView('gifs-christmas')" id="nav-gifs-christmas" class="nav-btn w-full flex items-center p-2 rounded-lg text-gray-400 hover:text-white hover:bg-dark-700 transition-colors"><i class="ph ph-tree-evergreen text-lg flex-shrink-0"></i><span class="ml-3 text-sm truncate">Christmas</span></button>
+                        <button onclick="changeView('gifs-halloween')" id="nav-gifs-halloween" class="nav-btn w-full flex items-center p-2 rounded-lg text-gray-400 hover:text-white hover:bg-dark-700 transition-colors"><i class="ph ph-ghost text-lg flex-shrink-0"></i><span class="ml-3 text-sm truncate">Halloween</span></button>
+                        <button onclick="changeView('gifs-mixed')" id="nav-gifs-mixed" class="nav-btn w-full flex items-center p-2 rounded-lg text-gray-400 hover:text-white hover:bg-dark-700 transition-colors"><i class="ph ph-high-definition text-lg flex-shrink-0"></i><span class="ml-3 text-sm truncate">Mixed</span></button>
+                    </div>
+                </div>
+                <div class="w-full mt-2">
+                    <button onclick="toggleMenu('pcback')" class="w-full flex items-center p-2 lg:p-3 rounded-lg text-gray-300 hover:text-white hover:bg-dark-700 transition-colors group">
+                        <i class="ph ph-panorama text-xl lg:text-2xl group-hover:text-brand-500 transition-colors flex-shrink-0"></i>
+                        <span class="hidden lg:block ml-3 font-medium text-sm truncate">PCBACK</span>
+                        <i id="pcback-caret" class="ph ph-caret-down hidden lg:block ml-auto transition-transform duration-300 flex-shrink-0"></i>
+                    </button>
+                    <div id="pcback-submenu" class="submenu-transition hidden lg:flex flex-col space-y-1 mt-1 border-l-2 border-dark-700 ml-5 pl-2 w-full">
+                        <button onclick="changeView('pcback-normal')" id="nav-pcback-normal" class="nav-btn w-full flex items-center p-2 rounded-lg text-gray-400 hover:text-white hover:bg-dark-700 transition-colors"><i class="ph ph-image-square text-lg flex-shrink-0"></i><span class="ml-3 text-sm truncate">Pcback</span></button>
+                        <button onclick="changeView('pcback-animados')" id="nav-pcback-animados" class="nav-btn w-full flex items-center p-2 rounded-lg text-gray-400 hover:text-white hover:bg-dark-700 transition-colors"><i class="ph ph-play-circle text-lg flex-shrink-0"></i><span class="ml-3 text-sm truncate">Animados</span></button>
+                    </div>
+                </div>
+			    <button onclick="window.open('https://bydesign-xat.github.io/Promo/Playere.html', '_blank')" id="nav-player" class="nav-btn w-full flex items-center p-2 lg:p-3 rounded-lg text-gray-300 hover:text-white hover:bg-dark-700 transition-colors group mt-2">
+                    <i class="ph ph-music-notes text-xl lg:text-2xl group-hover:text-brand-500 transition-colors flex-shrink-0"></i>
+                    <span class="hidden lg:block ml-3 font-medium text-sm truncate">PLAYER</span>
+                </button>
+				<button onclick="changeView('fondo')" id="nav-fondo" class="nav-btn w-full flex items-center p-2 lg:p-3 rounded-lg text-gray-300 hover:text-white hover:bg-dark-700 transition-colors group mt-2">
+                    <i class="ph ph-image text-xl lg:text-2xl group-hover:text-brand-500 transition-colors flex-shrink-0"></i>
+                    <span class="hidden lg:block ml-3 font-medium text-sm truncate">BACKGROUND</span>
+                </button>
+			    <button onclick="changeView('xatspace')" id="nav-xatspace" class="nav-btn w-full flex items-center p-2 lg:p-3 rounded-lg text-gray-300 hover:text-white hover:bg-dark-700 transition-colors group mt-2">
+                    <i class="ph ph-planet text-xl lg:text-2xl group-hover:text-brand-500 transition-colors flex-shrink-0"></i>
+                    <span class="hidden lg:block ml-3 font-medium text-sm truncate">XATSPACE</span>
+                </button>
+            </nav>
+        </div>
+    </aside>
+
+    <main class="flex-1 overflow-y-auto relative flex flex-col w-full min-w-0" id="main-scroll-area">
+        <header class="h-20 border-b border-dark-700 flex items-center px-4 md:px-8 sticky top-0 bg-dark-900/90 backdrop-blur-md z-10 w-full flex-shrink-0">
+            <h1 id="page-title" class="text-xl md:text-2xl font-semibold text-white tracking-wide truncate w-full">Galerie</h1>
+        </header>
+        <div id="content-area" class="p-4 md:p-6 lg:p-8 w-full max-w-7xl mx-auto flex-1 min-w-0"></div>
+    </main>
+
+    <div id="lightbox" onclick="closeLightbox()" class="fixed inset-0 z-[100] hidden bg-black/95 backdrop-blur-sm flex items-center justify-center opacity-0 transition-opacity duration-300">
+        <button onclick="event.stopPropagation(); closeLightbox()" class="absolute top-16 md:top-20 right-4 lg:right-8 text-gray-400 hover:text-white transition-colors bg-dark-800 hover:bg-brand-600 p-2 lg:p-3 rounded-full shadow-lg z-50">
+            <i class="ph ph-x text-2xl lg:text-3xl"></i>
+        </button>
+        <button onclick="event.stopPropagation(); prevImage()" class="absolute left-2 sm:left-4 lg:left-8 text-gray-400 hover:text-white transition-colors bg-dark-800/80 hover:bg-brand-600 p-2 sm:p-3 lg:p-4 rounded-full shadow-lg z-50">
+            <i class="ph ph-caret-left text-2xl lg:text-4xl"></i>
+        </button>
+        <button onclick="event.stopPropagation(); nextImage()" class="absolute right-2 sm:right-4 lg:right-8 text-gray-400 hover:text-white transition-colors bg-dark-800/80 hover:bg-brand-600 p-2 sm:p-3 lg:p-4 rounded-full shadow-lg z-50">
+            <i class="ph ph-caret-right text-2xl lg:text-4xl"></i>
+        </button>
+        <div class="relative w-full max-w-[95vw] sm:max-w-[85vw] max-h-[85vh] flex flex-col items-center justify-center pointer-events-none">
+            <img id="lightbox-img" class="max-h-[80vh] max-w-full object-contain drop-shadow-2xl rounded-lg pointer-events-auto">
+            <div id="lightbox-caption" class="absolute -bottom-16 left-1/2 -translate-x-1/2 bg-brand-600 px-4 py-2 sm:px-6 sm:py-2 rounded-full text-white font-bold text-sm sm:text-base tracking-wide shadow-lg border border-brand-400 whitespace-nowrap"></div>
+        </div>
+    </div>
+
+    <script>
+
+        // ==========================================
+        // BASE DE DATOS DE LINKS: EDITA AQUI
+        // ==========================================
+        const categoriesData = {
+            'new': { marquee: "◦•●◉⭐🔔𝑮𝒊𝒇𝒔 New Style Exclusive🔔⭐◉●•◦", prefix: "New - ", items: [
+                { url: "https://xatimg.com/image/Fqi6FKBzepRK.gif" }, { url: "https://xatimg.com/image/X0W1Xq2zBbuT.gif" }, { url: "https://xatimg.com/image/ieVyPc8jeUOD.gif" }, { url: "https://xatimg.com/image/rMcUBX58ZIWe.gif" }, { url: "https://xatimg.com/image/BXcMhdZ9hpN0.gif" },
+                { url: "https://xatimg.com/image/wSEPWsJcD2T7.gif" }, { url: "https://xatimg.com/image/CGG0FTGZOdgB.gif" }, { url: "https://xatimg.com/image/R08LTEyMdDva.gif" }, { url: "https://xatimg.com/image/MZ6Ej0PEyuqS.gif" }, { url: "https://xatimg.com/image/QyH9e48T339B.gif" },
+                { url: "https://xatimg.com/image/9i2CHJQc5U3H.gif" }, { url: "https://xatimg.com/image/l9j5BtGzqvLq.gif" }, { url: "https://xatimg.com/image/a6NZqlwGsntG.gif" }, { url: "https://xatimg.com/image/j0bMliaMBH3B.gif" }, { url: "https://xatimg.com/image/3b0YuKLI0Id8.gif" },
+                { url: "https://xatimg.com/image/lHhGGIQznjuZ.gif" }, { url: "https://xatimg.com/image/hSsgiYVByGO4.gif" }, { url: "https://xatimg.com/image/XqwHk23g3FAn.gif" }, { url: "https://xatimg.com/image/2OU1KbdKK835.gif" }, { url: "https://xatimg.com/image/glkQAZbA2BZT.gif" },
+                { url: "https://xatimg.com/image/8IH3KzUkiJj0.gif" }, { url: "https://xatimg.com/image/jEDLKEFfVA7y.gif" }, { url: "https://xatimg.com/image/UKosLYcO3a8J.gif" }, { url: "https://xatimg.com/image/EXIpZPD684Ag.gif" }, { url: "https://xatimg.com/image/mrepN1XD4Wwt.gif" },
+                { url: "https://xatimg.com/image/2jjGD6yIKix6.gif" }, { url: "https://xatimg.com/image/X3cWWmQLD6ie.gif" }, { url: "https://xatimg.com/image/osupbJoXZLij.gif" }, { url: "https://xatimg.com/image/dZe2E3J8uCKp.gif" }, { url: "https://xatimg.com/image/B0XSt6Jn5mzU.gif" },
+                { url: "https://xatimg.com/image/hqDhr98j6p3e.gif" }, { url: "https://xatimg.com/image/vhhkJR2G3m7r.gif" }, { url: "https://xatimg.com/image/u1QX4pmPWZp6.gif" }, { url: "https://xatimg.com/image/fVgE4V2Jnw2i.gif" }, { url: "https://xatimg.com/image/2WzTJXMPdDuF.gif" },
+                { url: "https://xatimg.com/image/sUgWMs8ej5Rs.gif" }, { url: "https://xatimg.com/image/2RZw1SjnCJfb.gif" }, { url: "https://xatimg.com/image/RQADaPyFvchg.gif" }, { url: "https://xatimg.com/image/8xVoG8vBdKaV.gif" }, { url: "https://xatimg.com/image/O01r2RkNwzTJ.gif" },
+                { url: "https://xatimg.com/image/5O6sJz6bGe4j.gif" }, { url: "https://xatimg.com/image/xs8Wfln7lLYb.gif" }, { url: "https://xatimg.com/image/I0thXHW6uTSe.gif" }, { url: "https://xatimg.com/image/dl52bSXUcccw.gif" }, { url: "https://xatimg.com/image/sX6elGfwCrxZ.gif" },
+                { url: "https://xatimg.com/image/kdlS22FTRQW5.gif" }, { url: "https://xatimg.com/image/57c2RMOJBcvP.gif" }, { url: "https://xatimg.com/image/F59mp0Y762J2.gif" }, { url: "https://xatimg.com/image/rBY7CjeBzpdZ.gif" }, { url: "https://xatimg.com/image/Av8xTe2FfgP7.gif" },
+                { url: "https://xatimg.com/image/5fOWGNYwzkqQ.gif" }, { url: "https://xatimg.com/image/Hdsbk1yQjmc7.gif" }, { url: "https://xatimg.com/image/Wa70zoweuS3i.gif" }, { url: "https://xatimg.com/image/ni0Wz7Me671i.gif" }, { url: "https://xatimg.com/image/GJZIounJsCpP.gif" },
+                { url: "https://xatimg.com/image/eUJx64NljXv1.gif" }, { url: "https://xatimg.com/image/rbwVjytPYtDj.gif" }, { url: "https://xatimg.com/image/S5VN7EeTLXzv.gif" }, { url: "https://xatimg.com/image/LaFtMfPqpijG.gif" }, { url: "https://xatimg.com/image/U4Fsy6gQeVyz.gif" },
+                { url: "https://xatimg.com/image/OsCbMzmb6kXk.gif" }, { url: "https://xatimg.com/image/gB8T4wbAwEwA.gif" }, { url: "https://xatimg.com/image/KzBTn8ELWw9Q.gif" }, { url: "https://xatimg.com/image/ioywDGzENlnx.gif" }, { url: "https://xatimg.com/image/RKwVLd1bK4SE.gif" },
+                { url: "https://xatimg.com/image/XSQyuefs6oeE.gif" }, { url: "https://xatimg.com/image/I5FLYrY6iulp.gif" }, { url: "https://xatimg.com/image/kXIemNOmUR4m.gif" }, { url: "https://xatimg.com/image/aCz1v6p0Aa3o.gif" }, { url: "https://xatimg.com/image/DuBUOfjAlhEI.gif" },
+                { url: "https://xatimg.com/image/vumkfrnXt3Xj.gif" }, { url: "https://xatimg.com/image/WHY4GeAK4stQ.gif" }, { url: "https://xatimg.com/image/wazajvhrdhMI.gif" }, { url: "https://xatimg.com/image/crusbWZ3HURm.gif" }, { url: "https://xatimg.com/image/P2rk4gcAVdYZ.gif" },
+                { url: "https://xatimg.com/image/xjTzAx39C6kq.gif" }, { url: "https://xatimg.com/image/Xcxu3hTAaDrJ.gif" }, { url: "https://xatimg.com/image/5AKsD0c6k2fd.gif" }, { url: "https://xatimg.com/image/oAeeXVjGgQfk.gif" }, { url: "https://xatimg.com/image/tLAYcU2yhnH0.gif" },
+		        { url: "https://xatimg.com/image/kT5eboKobz1v.gif" }, { url: "https://xatimg.com/image/PUJJC2ug0xey.gif" }, { url: "https://xatimg.com/image/3S0CSbmANBDs.gif" }, { url: "https://xatimg.com/image/zQ5vGbES6bnW.gif" }, { url: "https://xatimg.com/image/hP2QXtHKGPMV.gif" },
+                { url: "https://xatimg.com/image/wLs4IPKNsMlw.gif" }, { url: "https://xatimg.com/image/hUBz90VeQlYR.gif" }, { url: "https://xatimg.com/image/B4FpLKJSgFQl.gif" }, { url: "https://xatimg.com/image/UYiw8jZFBuo7.gif" }, { url: "https://xatimg.com/image/6IO0dTY4OL2R.gif" },
+				{ url: "https://xatimg.com/image/MTeM4RWEjEFI.gif" }, { url: "https://xatimg.com/image/nsQAYY7eQFdx.gif" }, { url: "https://xatimg.com/image/irLPZygt10LX.gif" }, { url: "https://xatimg.com/image/UqWOu50NFzJs.gif" }, { url: "https://xatimg.com/image/WioLhAPPfsUz.gif" },
+                { url: "https://xatimg.com/image/hoDiHK1ys0Oi.gif" }, { url: "https://xatimg.com/image/YrxwcF3NW701.gif" }, { url: "https://xatimg.com/image/zo8BSVs9VkeM.gif" }, { url: "https://xatimg.com/image/SgwZbIOHflop.gif" }, { url: "https://xatimg.com/image/Q3jXJSNb51ZA.gif" },
+			    { url: "https://xatimg.com/image/RBKw7mct3leJ.gif" }, { url: "https://xatimg.com/image/nFM0Df2MxzEr.gif" }, { url: "https://xatimg.com/image/x9TifZhPwoZD.gif" }, { url: "https://xatimg.com/image/AVo7w4wKIEE4.gif" }, { url: "https://xatimg.com/image/q1HVTXYqTBxM.gif" },
+                { url: "https://xatimg.com/image/ZAc8NeawjT4y.gif" }, { url: "https://xatimg.com/image/bvHUJhf9kuW2.gif" }, { url: "https://xatimg.com/image/AhUSj6m37fT1.gif" }, { url: "https://xatimg.com/image/YXoxMQTxUTS8.gif" }, { url: "https://xatimg.com/image/Bsji90pkrvaU.gif" },
+			    { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+			    { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+            ]},
+            'girls': { marquee: "◦•●◉👑𝑮𝒊𝒇𝒔 for Girls👑◉●•◦", prefix: "Girls - ", items: [
+                { url: "https://xatimg.com/image/qZacKcxrGIGT.gif" }, { url: "https://xatimg.com/image/ROKpboRAVqFY.gif" }, { url: "https://xatimg.com/image/N2trLsizFp8z.gif" }, { url: "https://xatimg.com/image/gQQ7qclwqdfC.gif" }, { url: "https://xatimg.com/image/87Zdsg4nYJCv.gif" },
+                { url: "https://xatimg.com/image/Im5P8e2yFuls.gif" }, { url: "https://xatimg.com/image/zapBM8hTVY16.gif" }, { url: "https://xatimg.com/image/q2loGgoGEBVH.gif" }, { url: "https://xatimg.com/image/abhkmumhIe7v.gif" }, { url: "https://xatimg.com/image/4yaPvamURH6g.gif" },
+                { url: "https://xatimg.com/image/ElZrssmHNMKa.gif" }, { url: "https://xatimg.com/image/PENYhWOkohNM.gif" }, { url: "https://xatimg.com/image/vCBBBpQ400dE.gif" }, { url: "https://xatimg.com/image/ht7yvAlgVn2k.gif" }, { url: "https://xatimg.com/image/01IYt1HXEbTp.gif" },
+                { url: "https://xatimg.com/image/I5CIv37JZKTb.gif" }, { url: "https://xatimg.com/image/Ml0ZDFNu84PY.gif" }, { url: "https://xatimg.com/image/9tJaPa2Rnthb.gif" }, { url: "https://xatimg.com/image/LAOCkxlwzy6k.gif" }, { url: "https://xatimg.com/image/2lsNrMLqloHl.gif" },
+                { url: "https://xatimg.com/image/dW8UimZAD8g6.gif" }, { url: "https://xatimg.com/image/wMONX22j4ixs.gif" }, { url: "https://xatimg.com/image/Nf6FOnp2mL9J.gif" }, { url: "https://xatimg.com/image/YPy4674pwBRB.gif" }, { url: "https://xatimg.com/image/TefKRzLKDEB5.gif" },
+                { url: "https://xatimg.com/image/SOsQMjiOHtV0.gif" }, { url: "https://xatimg.com/image/Wx0n4cbIRupl.gif" }, { url: "https://xatimg.com/image/IzQ3UTTefBT2.gif" }, { url: "https://xatimg.com/image/TVxlmsuzNu5w.gif" }, { url: "https://xatimg.com/image/K6lPj8rmifts.gif" },
+                { url: "https://xatimg.com/image/j7AVChmRKKjZ.gif" }, { url: "https://xatimg.com/image/v2yYFrAjpMKe.gif" }, { url: "https://xatimg.com/image/SGgibozxLOn0.gif" }, { url: "https://xatimg.com/image/vuiYWXfuscZ9.gif" }, { url: "https://xatimg.com/image/5aoE9HyB1A1g.gif" },
+                { url: "https://xatimg.com/image/N6qeBujTb1KX.gif" }, { url: "https://xatimg.com/image/VnscqAOJNPID.gif" }, { url: "https://xatimg.com/image/9fAH7hFYiJBo.gif" }, { url: "https://xatimg.com/image/1RAj1swYNsGy.gif" }, { url: "https://xatimg.com/image/k6l5tgigny6g.gif" },
+                { url: "https://xatimg.com/image/W9IrQpv1Iezt.gif" }, { url: "https://xatimg.com/image/EYojsRVvG3Hu.gif" }, { url: "https://xatimg.com/image/j0SoYNLh3T4Y.gif" }, { url: "https://xatimg.com/image/twOnr7u8sMHD.gif" }, { url: "https://xatimg.com/image/97DRlW8g8OYO.gif" },
+                { url: "https://xatimg.com/image/nVCfvE5PLcPu.gif" }, { url: "https://xatimg.com/image/6FssyTUmkbTk.gif" }, { url: "https://xatimg.com/image/yjrg7qGoak3g.gif" }, { url: "https://xatimg.com/image/YowoFpz0P2Zs.gif" }, { url: "https://xatimg.com/image/XPSu8fwW8r5E.gif" },
+                { url: "https://xatimg.com/image/ZgMei8Wa4DGn.gif" }, { url: "https://xatimg.com/image/OHJvV6BlgcJ9.gif" }, { url: "https://xatimg.com/image/veje1gPeKliD.gif" }, { url: "https://xatimg.com/image/fzbmL7XdhPyJ.gif" }, { url: "https://xatimg.com/image/2Ryi37PafxGp.gif" },
+                { url: "https://xatimg.com/image/29NCWP2Osdpr.gif" }, { url: "https://xatimg.com/image/EzJY95wVcnXA.gif" }, { url: "https://xatimg.com/image/6XrERM1fZLaH.gif" }, { url: "https://xatimg.com/image/6fxIjBIFYjif.gif" }, { url: "https://xatimg.com/image/jsN5ruk0cHdN.gif" },
+                { url: "https://xatimg.com/image/uqsPSDERQrKQ.gif" }, { url: "https://xatimg.com/image/qVmBGbxXahQg.gif" }, { url: "https://xatimg.com/image/0gIhkHWXnSkf.gif" }, { url: "https://xatimg.com/image/00HxrGu4UhFC.gif" }, { url: "https://xatimg.com/image/w54eb4AVotv1.gif" },
+                { url: "https://xatimg.com/image/OmnbswW4rYFi.gif" }, { url: "https://xatimg.com/image/TsE2Pp7euci8.gif" }, { url: "https://xatimg.com/image/UE5JGJdtJKU8.gif" }, { url: "https://xatimg.com/image/3j3U1XkVhsLp.gif" }, { url: "https://xatimg.com/image/GBhnian94sUg.gif" },
+                { url: "https://xatimg.com/image/pU3M7Q3ipOz4.gif" }, { url: "https://xatimg.com/image/9rTVx8pl4gqf.gif" }, { url: "https://xatimg.com/image/IK7kqpvxRaqZ.gif" }, { url: "https://xatimg.com/image/IK7kqpvxRaqZ.gif" }, { url: "https://xatimg.com/image/EhRu62HoPWNJ.gif" },
+                { url: "https://xatimg.com/image/7TtPDKoaQhb6.gif" }, { url: "https://xatimg.com/image/lSp54loCoOuN.gif" }, { url: "https://xatimg.com/image/WIU9fVfdnApH.gif" }, { url: "https://xatimg.com/image/63u7lTL0eyOB.gif" }, { url: "https://xatimg.com/image/N39jZrAgoH1D.gif" },
+                { url: "https://xatimg.com/image/8efGJc0PqNIj.gif" }, { url: "https://xatimg.com/image/CiR7ImBbbSX7.gif" }, { url: "https://xatimg.com/image/NXSLiWM4w8Sh.gif" }, { url: "https://xatimg.com/image/Y181E7r329kF.gif" }, { url: "https://xatimg.com/image/ZVanHfw9pa0F.gif" },
+                { url: "https://xatimg.com/image/6dyIAeIWzbuP.gif" }, { url: "https://xatimg.com/image/D1Z4BIH0Xjw2.gif" }, { url: "https://xatimg.com/image/ZYLdZLQTYg4W.gif" }, { url: "https://xatimg.com/image/YqdQOpV1DSVk.gif" }, { url: "https://xatimg.com/image/gxvynnrBOBbx.gif" },
+                { url: "https://xatimg.com/image/Zndt6V474owA.gif" }, { url: "https://xatimg.com/image/PVYjbYdBJiPs.gif" }, { url: "https://xatimg.com/image/GgiIzpP6FpAH.gif" }, { url: "https://xatimg.com/image/kbJLM6eLO0he.gif" }, { url: "https://xatimg.com/image/epAEoFPnj2H3.gif" },
+                { url: "https://xatimg.com/image/d60Ln9fOiwQX.gif" }, { url: "https://xatimg.com/image/ttc6kpiQfAIV.gif" }, { url: "https://xatimg.com/image/kUytirjRZJYa.gif" }, { url: "https://xatimg.com/image/E7RPYqQlJRlu.gif" }, { url: "https://xatimg.com/image/adogSyugF8Ku.gif" },
+                { url: "https://xatimg.com/image/A0XcNgpZCgUs.gif" }, { url: "https://xatimg.com/image/4uzqaHNdSVTV.gif" }, { url: "https://xatimg.com/image/5sRNn4ItDbLx.gif" }, { url: "https://xatimg.com/image/aYhOPqDPEnxr.gif" }, { url: "https://xatimg.com/image/Qjs6hddB6Mgw.gif" },
+                { url: "https://xatimg.com/image/0xpUcmwdsmW0.gif" }, { url: "https://xatimg.com/image/0xpUcmwdsmW0.gif" }, { url: "https://xatimg.com/image/TGaYHOrH4Z5V.gif" }, { url: "https://xatimg.com/image/JkeSfhdgFpch.gif" }, { url: "https://xatimg.com/image/GuS8r9XfvY3E.gif" },
+                { url: "https://xatimg.com/image/uib0MY2YpZhj.gif" }, { url: "https://xatimg.com/image/nQKk1yYpTwRc.gif" }, { url: "https://xatimg.com/image/UqSTlUYAYmzx.gif" }, { url: "https://xatimg.com/image/NIvDaRq6uhYa.gif" }, { url: "https://xatimg.com/image/muu6VZHGVCoy.gif" },
+                { url: "https://xatimg.com/image/cyJKAi0UPQJ8.gif" }, { url: "https://xatimg.com/image/hDcUHseJyMBR.gif" }, { url: "https://xatimg.com/image/SDYAx4IXBP1f.gif" }, { url: "https://xatimg.com/image/HbEA1SMYxwl9.gif" }, { url: "https://xatimg.com/image/2DMbtuLRZxpC.gif" },
+                { url: "https://xatimg.com/image/f6joFtU3kIDK.gif" }, { url: "https://xatimg.com/image/XIXbLpPMXjBz.gif" }, { url: "https://xatimg.com/image/toISSM43IPwE.gif" }, { url: "https://xatimg.com/image/U75ipPoVIb4d.gif" }, { url: "https://xatimg.com/image/Wzpya4yFdqfb.gif" },
+                { url: "https://xatimg.com/image/ccNEBl5rwYFD.gif" }, { url: "https://xatimg.com/image/d4uuDVnPcWB2.gif" }, { url: "https://xatimg.com/image/mtqAl7xzjd8q.gif" }, { url: "https://xatimg.com/image/mtqAl7xzjd8q.gif" }, { url: "https://xatimg.com/image/EVG643rVkO2j.gif" },
+                { url: "https://xatimg.com/image/1twNTDKphr2u.gif" }, { url: "https://xatimg.com/image/PB66sCzMQpZp.gif" }, { url: "https://xatimg.com/image/Ke9TGKQFPBpT.gif" }, { url: "https://xatimg.com/image/PyRZ7BZNDNpZ.gif" }, { url: "https://xatimg.com/image/lHHoAMzwrI5Z.gif" },
+                { url: "https://xatimg.com/image/BpsOn3C636vb.gif" }, { url: "https://xatimg.com/image/AWYNPFb9mAyM.gif" }, { url: "https://xatimg.com/image/W5xPQnSrKPdE.gif" }, { url: "https://xatimg.com/image/IWddFjQwIHb0.gif" }, { url: "https://xatimg.com/image/LJnQvKgKZ97u.gif" },
+                { url: "https://xatimg.com/image/M1iBZYTEB1Wn.gif" }, { url: "https://xatimg.com/image/DHhaCbtUXf2j.gif" }, { url: "https://xatimg.com/image/cH7Uk2iZSOeL.gif" }, { url: "https://xatimg.com/image/440nVK70Ydlv.gif" }, { url: "https://xatimg.com/image/3fkLeDnIrFD0.gif" },
+                { url: "https://xatimg.com/image/6NTFVkUBAzxG.gif" }, { url: "https://xatimg.com/image/AEbLtzi7AZKp.gif" }, { url: "https://xatimg.com/image/e1o6gSmXUcNH.gif" }, { url: "https://xatimg.com/image/UXgGK373JZ0u.gif" }, { url: "https://xatimg.com/image/QKIIeUjvbeER.gif" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }
+            ]},
+            'boys': { marquee: "◦•●◉⚽𝑮𝒊𝒇𝒔 for Boys⚽◉●•◦", prefix: "Boys - ", items: [
+                { url: "https://xatimg.com/image/QsVj9p4EEB8x.gif" }, { url: "https://xatimg.com/image/wBP9u4cZWqTA.gif" }, { url: "https://xatimg.com/image/ww6TDEr93KEA.gif" }, { url: "https://xatimg.com/image/SrS2iaVinkrF.gif" }, { url: "https://xatimg.com/image/ASIGdQxTEYz2.gif" },
+                { url: "https://xatimg.com/image/khqJsObyjyJT.gif" }, { url: "https://xatimg.com/image/XuC9HNAaSjoR.gif" }, { url: "https://xatimg.com/image/TL2gwEXqYRmK.gif" }, { url: "https://xatimg.com/image/n479hfPRGAux.gif" }, { url: "https://xatimg.com/image/hcNHApgSgbif.gif" },
+                { url: "https://xatimg.com/image/qJ5xmcFIfvOX.gif" }, { url: "https://xatimg.com/image/papD8e5gG0IT.gif" }, { url: "https://xatimg.com/image/ISyznEWINvYo.gif" }, { url: "https://xatimg.com/image/xkrbwdX0zs9n.gif" }, { url: "https://xatimg.com/image/4mGPNNXN1mhV.gif" },
+                { url: "https://xatimg.com/image/2DrvcobNmZAA.gif" }, { url: "https://xatimg.com/image/RKBvYt832q9a.gif" }, { url: "https://xatimg.com/image/R02Bt6xlqCVQ.gif" }, { url: "https://xatimg.com/image/GBihqhjaZeU0.gif" }, { url: "https://xatimg.com/image/d23GuIw1K1d1.gif" },
+                { url: "https://xatimg.com/image/VgicUVvnjIXj.gif" }, { url: "https://xatimg.com/image/5fcLK7KDduwk.gif" }, { url: "https://xatimg.com/image/RST3YtYez8Bj.gif" }, { url: "https://xatimg.com/image/aD6atemOEyOv.gif" }, { url: "https://xatimg.com/image/lyydHWJlT3gs.gif" },
+                { url: "https://xatimg.com/image/GZ4ffb2wXY1V.gif" }, { url: "https://xatimg.com/image/jCegCchWtUlJ.gif" }, { url: "https://xatimg.com/image/4JwnNN1CVfom.gif" }, { url: "https://xatimg.com/image/D8SkwNRaR4zk.gif" }, { url: "https://xatimg.com/image/Hbysdl7yvSeM.gif" },
+                { url: "https://xatimg.com/image/01ib6krzsxnw.gif" }, { url: "https://xatimg.com/image/q7Xzox71ytxc.gif" }, { url: "https://xatimg.com/image/FJ4GlR9uizNd.gif" }, { url: "https://xatimg.com/image/HKOqw7dVcUvH.gif" }, { url: "https://xatimg.com/image/U4HUWBGtGhYG.gif" },
+                { url: "https://xatimg.com/image/Vy0vnsqUCRZn.gif" }, { url: "https://xatimg.com/image/57kp0cmkzkoV.gif" }, { url: "https://xatimg.com/image/jci8k77n2Nuz.gif" }, { url: "https://xatimg.com/image/X00favODr0pr.gif" }, { url: "https://xatimg.com/image/dgzoWkFTXfTV.gif" },
+                { url: "https://xatimg.com/image/kdbFnqzOeA6Q.gif" }, { url: "https://xatimg.com/image/9SI7K5ccfBBo.gif" }, { url: "https://xatimg.com/image/MEfuNa5hSSEQ.gif" }, { url: "https://xatimg.com/image/QM1k9u9E6SYP.gif" }, { url: "https://xatimg.com/image/nRtNhoWyYeMA.gif" },
+                { url: "https://xatimg.com/image/2F55yyWJGGPE.gif" }, { url: "https://xatimg.com/image/u9gh4zis9XS8.gif" }, { url: "https://xatimg.com/image/MIazWVuAJYSO.gif" }, { url: "https://xatimg.com/image/WfX32jnNzHVL.gif" }, { url: "https://xatimg.com/image/qSmqZfG4Jm6b.gif" },
+                { url: "https://xatimg.com/image/ovYVTSf3pWGI.gif" }, { url: "https://xatimg.com/image/08cwpx8O6pRF.gif" }, { url: "https://xatimg.com/image/7olrzWYgaG33.gif" }, { url: "https://xatimg.com/image/lpSmevm5CANV.gif" }, { url: "https://xatimg.com/image/P58rrkck0nps.gif" },
+                { url: "https://xatimg.com/image/JzB0lj5qeWiO.gif" }, { url: "https://xatimg.com/image/xNkc55rOKjeD.gif" }, { url: "https://xatimg.com/image/DYGDvaXRWYd5.gif" }, { url: "https://xatimg.com/image/JpQ8syvKilFM.gif" }, { url: "https://xatimg.com/image/gf5yb9iT9y7z.gif" },
+                { url: "https://xatimg.com/image/w0T5JhJ0R8ui.gif" }, { url: "https://xatimg.com/image/NX1Aiek69eui.gif" }, { url: "https://xatimg.com/image/ird8OIvGLPhD.gif" }, { url: "https://xatimg.com/image/9vP1XfT9VFET.gif" }, { url: "https://xatimg.com/image/1fx13LDZKMEB.gif" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }
+            ]},
+            'dj': { marquee: " ◦•●◉🎧𝑮𝒊𝒇𝒔 for DJ🎧◉●•◦", prefix: "DJ - ", items: [
+                { url: "https://xatimg.com/image/LSiUdQb5ZprG.gif" }, { url: "https://xatimg.com/image/lXdgx1Zp229K.gif" }, { url: "https://xatimg.com/image/i8ApK4svFV79.gif" }, { url: "https://xatimg.com/image/wFbzihTSBfz4.gif" }, { url: "https://xatimg.com/image/sdJDFNdUC2jS.gif" },
+                { url: "https://xatimg.com/image/ySJpAslwDuWQ.gif" }, { url: "https://xatimg.com/image/lrLfMX6KEdoJ.gif" }, { url: "https://xatimg.com/image/HH4rbL913uz3.gif" }, { url: "https://xatimg.com/image/JKs2CK60xzu9.gif" }, { url: "https://xatimg.com/image/JWc524VKxLun.gif" },
+                { url: "https://xatimg.com/image/YhaRcvz8kS23.gif" }, { url: "https://xatimg.com/image/aA3m3Dqdxjhq.gif" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+				{ url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+				{ url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }
+
+            ]},
+            'lovers': { marquee: "◦•●◉❤️𝑮𝒊𝒇𝒔 for Lovers❤️◉●•◦", prefix: "Love - ", items: [
+                { url: "https://xatimg.com/image/hohBsX2fnHAR.gif" }, { url: "https://xatimg.com/image/zMQGtWZE6S5W.gif" }, { url: "https://xatimg.com/image/9dZ5tJvekbDa.gif" }, { url: "https://xatimg.com/image/S5aCJIbSbUP0.gif" }, { url: "https://xatimg.com/image/rp0S7UWrGHfO.gif" },
+                { url: "https://xatimg.com/image/0geGyEgmuS10.gif" }, { url: "https://xatimg.com/image/jHmGBBlLOKvU.gif" }, { url: "https://xatimg.com/image/cqhJl6OnARgg.gif" }, { url: "https://xatimg.com/image/nfTD4DHbZWL2.gif" }, { url: "https://xatimg.com/image/BqMRL6WS5nAX.gif" },
+                { url: "https://xatimg.com/image/yP4yTrGgF1WM.gif" }, { url: "https://xatimg.com/image/5jXoh22aDtju.gif" }, { url: "https://xatimg.com/image/8E6A2XP87Q1b.gif" }, { url: "https://xatimg.com/image/HRC7hN5uDf2V.gif" }, { url: "https://xatimg.com/image/aKvAwShhYILC.gif" },
+                { url: "https://xatimg.com/image/QFSdgpLyosTf.gif" }, { url: "https://xatimg.com/image/VfwKCwHN5M0z.gif" }, { url: "https://xatimg.com/image/OISoYqsLvrxi.gif" }, { url: "https://xatimg.com/image/k4k6bbzMz9or.gif" }, { url: "https://xatimg.com/image/8rsUqSdiVYso.gif" },
+                { url: "https://xatimg.com/image/dBW448MvdXiS.gif" }, { url: "https://xatimg.com/image/jRQw9lszL33o.gif" }, { url: "https://xatimg.com/image/1unYkMdPejsz.gif" }, { url: "https://xatimg.com/image/VRfU8azDaJVF.gif" }, { url: "https://xatimg.com/image/41pW05aVJmZg.gif" },
+                { url: "https://xatimg.com/image/Xt1KWdNpRdQf.gif" }, { url: "https://xatimg.com/image/keRZoCaqQ7FV.gif" }, { url: "https://xatimg.com/image/uRbmHEt69waM.gif" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }
+            ]},
+            'christmas': { marquee: "◦•●◉🎅🏻𝑮𝒊𝒇𝒔 for Christmas🎅🏻◉●•◦", prefix: "Santa-", items: [
+                { url: "https://xatimg.com/image/v4JfieTLmS6A.gif" }, { url: "https://xatimg.com/image/MKikE57DmPvw.gif" }, { url: "https://xatimg.com/image/TSt6FsaT3E6J.gif" }, { url: "https://xatimg.com/image/gXeSyhv9qoWh.gif" }, { url: "https://xatimg.com/image/HfVsdnuPgfYb.gif" },
+                { url: "https://xatimg.com/image/0MYbVQQ1LIbD.gif" }, { url: "https://xatimg.com/image/0MYbVQQ1LIbD.gif" }, { url: "https://xatimg.com/image/xUUc0YaG8ri9.gif" }, { url: "https://xatimg.com/image/V0qZzqTcNmVb.gif" }, { url: "https://xatimg.com/image/OWH0XjnlDcX2.gif" },
+                { url: "https://xatimg.com/image/VfPC5523hHBf.gif" }, { url: "https://xatimg.com/image/R2rwbaOxSsnp.gif" }, { url: "https://xatimg.com/image/UF4BbYD4W9bW.gif" }, { url: "https://xatimg.com/image/WV9Hi5r0xNd0.gif" }, { url: "https://xatimg.com/image/6kLjO4jH4J8h.gif" },
+                { url: "https://xatimg.com/image/X8ViFb1y0ck0.gif" }, { url: "https://xatimg.com/image/qTCXAJBnYLhJ.gif" }, { url: "https://xatimg.com/image/TAuImlX0Wy81.gif" }, { url: "https://xatimg.com/image/EepeF83JkR3E.gif" }, { url: "https://xatimg.com/image/ECg5eFC1K2Qx.gif" },
+                { url: "https://xatimg.com/image/Xj6PlrQb1fCG.gif" }, { url: "https://xatimg.com/image/K6wP8rp3g1k6.gif" }, { url: "https://xatimg.com/image/eYi4uaHMKY8K.gif" }, { url: "https://xatimg.com/image/znqQYdXgJOdU.gif" }, { url: "https://xatimg.com/image/rYxxZnca4xJg.gif" },
+                { url: "https://xatimg.com/image/H4bCHeiHcXOe.gif" }, { url: "https://xatimg.com/image/JDHtMArhzUGn.gif" }, { url: "https://xatimg.com/image/e0pu606SD48o.gif" }, { url: "https://xatimg.com/image/CgsEltuz4FN4.gif" }, { url: "https://xatimg.com/image/tuX4xnHAqJmw.gif" },
+                { url: "https://xatimg.com/image/uFJVsHZvhskx.gif" }, { url: "https://xatimg.com/image/0I1ieNE19V0T.gif" }, { url: "https://xatimg.com/image/4k4Hl5NWyAyV.gif" }, { url: "https://xatimg.com/image/BnTD2YdhMD8I.gif" }, { url: "https://xatimg.com/image/QYbd7W64lmxz.gif" }, 
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }
+            ]},
+            'halloween': { marquee: "◦•●◉🤡𝑮𝒊𝒇𝒔 for Halloween🤡◉●•◦", prefix: "Hall-", items: [
+                { url: "https://xatimg.com/image/i5JVkKIfFm2V.gif" }, { url: "https://xatimg.com/image/GuPvnXkjXdm3.gif" }, { url: "https://xatimg.com/image/kuvgttN5H3qZ.gif" }, { url: "https://xatimg.com/image/RVS3qLt1KRPS.gif" }, { url: "https://xatimg.com/image/pBKAhnGHUEoQ.gif" },
+                { url: "https://xatimg.com/image/gkYBy5BebljN.gif" }, { url: "https://xatimg.com/image/E9ZANTqgNQ6E.gif" }, { url: "https://xatimg.com/image/fTsmEBzPXNTO.gif" }, { url: "https://xatimg.com/image/u3FLddI3Xhby.gif" }, { url: "https://xatimg.com/image/Md5qG4RVNBUR.gif" },
+                { url: "https://xatimg.com/image/C4WT9VxOahfN.gif" }, { url: "https://xatimg.com/image/gEL0JN7TEsMx.gif" }, { url: "https://xatimg.com/image/kjuKihUh2iIE.gif" }, { url: "https://xatimg.com/image/9h9Z0rIO1Dy4.gif" }, { url: "https://xatimg.com/image/qpTLXorvGoAE.gif" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }
+            ]},
+            'mixed': { marquee: "◦•●◉🏆𝑮𝒊𝒇𝒔 Mixed🏆◉●•", prefix: "Mix-A-", items: [
+                { url: "https://xatimg.com/image/nGMUWCg2Fxxd.gif" }, { url: "https://xatimg.com/image/uPC9pMIwTNop.gif" }, { url: "https://xatimg.com/image/9XSrX0F2Gyx7.gif" }, { url: "https://xatimg.com/image/g1zidy1idauW.gif" }, { url: "https://xatimg.com/image/MYChyn3wLcd9.gif" },
+                { url: "https://xatimg.com/image/n0KBDHZQ1Za3.gif" }, { url: "https://xatimg.com/image/5MznkV0GrKJ9.gif" }, { url: "https://xatimg.com/image/GFtYZkuhzXCz.gif" }, { url: "https://xatimg.com/image/RjdLaFrDLDsm.gif" }, { url: "https://xatimg.com/image/basc0xtDXDBn.gif" },
+                { url: "https://xatimg.com/image/HnKfUomyYCXh.gif" }, { url: "https://xatimg.com/image/FpQe2TrIvTdn.gif" }, { url: "https://xatimg.com/image/9jpp1u4GJ44G.gif" }, { url: "https://xatimg.com/image/Al8RsUSj8hve.gif" }, { url: "https://xatimg.com/image/hXx7akbqdoJ2.gif" },
+                { url: "https://xatimg.com/image/x2b4gakhCTxz.gif" }, { url: "https://xatimg.com/image/X9k3D9xScla8.gif" }, { url: "https://xatimg.com/image/J9t7qjV1yZcr.gif" }, { url: "https://xatimg.com/image/UbJQ8c88QEI9.gif" }, { url: "https://xatimg.com/image/ogTL368R4IGW.gif" },
+                { url: "https://xatimg.com/image/pP0CxyioS6bf.gif" }, { url: "https://xatimg.com/image/Ljwiu3ngo46D.gif" }, { url: "https://xatimg.com/image/UsprJDJ3DO1E.gif" }, { url: "https://xatimg.com/image/ieKpb3ERcJrs.gif" }, { url: "https://xatimg.com/image/3DWvgUt4jmOc.gif" },
+                { url: "https://xatimg.com/image/uvneCPfQPsQ0.gif" }, { url: "https://xatimg.com/image/gaCiAulMQ7G6.gif" }, { url: "https://xatimg.com/image/uQccoALDVVeQ.gif" }, { url: "https://xatimg.com/image/TFzbzgz7LLWg.gif" }, { url: "https://xatimg.com/image/lcVH0bn7JI05.gif" },
+                { url: "https://xatimg.com/image/Bxm9TKrc6GFu.gif" }, { url: "https://xatimg.com/image/PHOZAM6RWPe0.gif" }, { url: "https://xatimg.com/image/lVlmI3RgCwpr.gif" }, { url: "https://xatimg.com/image/epPUcEaSgiaG.gif" }, { url: "https://xatimg.com/image/vJsUN0VRLiiG.gif" },
+                { url: "https://xatimg.com/image/tdPsVGHsQrMJ.gif" }, { url: "https://xatimg.com/image/UlxSsXcBm49u.gif" }, { url: "https://xatimg.com/image/5bsMBRudGuF5.gif" }, { url: "https://xatimg.com/image/5SD5hBuLAg95.gif" }, { url: "https://xatimg.com/image/E3GLOPMeNBL9.gif" },
+                { url: "https://xatimg.com/image/ablTYu0Nms0H.gif" }, { url: "https://xatimg.com/image/7pDxfQWrnfrS.gif" }, { url: "https://xatimg.com/image/RTQUYeM6mAbZ.gif" }, { url: "https://xatimg.com/image/9Sq9Y04mHFWX.gif" }, { url: "https://xatimg.com/image/DM8c7QR0fd4s.gif" },
+                { url: "https://xatimg.com/image/aNuzydFUnUMC.gif" }, { url: "https://xatimg.com/image/SbcbLuG3bo2j.gif" }, { url: "https://xatimg.com/image/T60WdfTYTUjd.gif" }, { url: "https://xatimg.com/image/jN9KI735VjNf.gif" }, { url: "https://xatimg.com/image/18JoODdCshHJ.gif" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }
+            ]},
+            'pcback-normal': { marquee: "🖥️ PCBACK 🖥️", prefix: "Model-", items: [
+                { url: "https://xatimg.com/image/hidSvzK5v7qT.png" }, { url: "https://xatimg.com/image/7wJa6IuUSOBi.png" }, { url: "https://xatimg.com/image/To3170iKY9SH.png" }, { url: "https://xatimg.com/image/QpA8U2k7MEPJ.png" }, { url: "https://xatimg.com/image/IYwF1D00TwiK.png" },
+				{ url: "https://xatimg.com/image/UxAvNq64Cr85.png" }, { url: "https://xatimg.com/image/uy0MaAXWwdBg.png" }, { url: "https://xatimg.com/image/TPJUb5cXIla3.png" }, { url: "https://xatimg.com/image/zaMRA10OO6wH.png" }, { url: "https://xatimg.com/image/aBUIhadO5iDI.png" },
+                { url: "https://xatimg.com/image/RBoW5Yzow09P.png" }, { url: "https://xatimg.com/image/iDzRi2PEHz3a.png" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, 
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, 
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, 
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+            ]},
+            'pcback-animados': { marquee: "🖥️ PCBACK ANIMADOS 🖥️", prefix: "PCA-", items: [
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, 
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, 
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+            ]},
+            'fondo': { marquee: "🖼️ BACKGROUND 🖼️", prefix: "Nr-", items: [
+                { url: "https://xatimg.com/image/ytCNSu1DgGd3.png" }, { url: "https://xatimg.com/image/VoKnh7Je5R1S.png" }, { url: "https://xatimg.com/image/g4j9EO4e2LTu.png" }, { url: "https://xatimg.com/image/S8IfpzbA3Q3g.png" }, { url: "https://xatimg.com/image/2mmFqW21whYw.jpg" },
+				{ url: "https://xatimg.com/image/FN2w7oIuZFCr.png" }, { url: "https://xatimg.com/image/xi554OaHf0Fo.png" }, { url: "https://xatimg.com/image/xTcmhSXfLS8L.png" }, { url: "https://xatimg.com/image/Ky9mFOhkx8yN.png" }, { url: "https://xatimg.com/image/ogKwtCJnLsiK.png" },
+				{ url: "https://xatimg.com/image/MpOjnQksgxws.png" }, { url: "https://xatimg.com/image/pJ51DMCAtOf7.png" }, { url: "https://xatimg.com/image/bZ2RNRPAT5F7.png" }, { url: "https://xatimg.com/image/2qwld85jJgH5.png" }, { url: "https://xatimg.com/image/VDoakGycnPz4.png" }, 
+				{ url: "https://xatimg.com/image/u2UDiml84ljF.png" }, { url: "https://xatimg.com/image/fVNS3RHCKhxy.png" }, { url: "https://xatimg.com/image/7cLcFvjxHqhF.png" }, { url: "https://xatimg.com/image/c15UxMztYZQA.png" }, { url: "https://xatimg.com/image/3yvMgSdV6baw.png" }, 
+				{ url: "https://xatimg.com/image/1LJn3V8MK8ef.png" }, { url: "https://xatimg.com/image/9qMHvWpXmvPn.png" }, { url: "https://xatimg.com/image/nvo63fJB0Ufb.png" }, { url: "https://xatimg.com/image/gK78SnlQyX1d.png" }, { url: "https://xatimg.com/image/fLiqNc3acB1E.png" }, 
+                { url: "https://xatimg.com/image/01cJJNYlFhGj.png" }, { url: "https://xatimg.com/image/X2u8Bt82BOrt.png" }, { url: "https://xatimg.com/image/nuLVBIMocZd9.jpg" }, { url: "https://xatimg.com/image/bXSz4eZd9veX.png" }, { url: "https://xatimg.com/image/dVZ0sL12PmHd.jpg" }, 
+				{ url: "https://xatimg.com/image/8if3R7tp6LHo.png" }, { url: "https://xatimg.com/image/8NCu2cWJD7YS.jpg" }, { url: "https://xatimg.com/image/6VDOBG1CPfK8.jpg" }, { url: "https://xatimg.com/image/n9BLNCRgSPn0.jpg" }, { url: "https://xatimg.com/image/KULxosci3DrN.jpg" },
+				{ url: "https://xatimg.com/image/fR8oJhS4RL8Q.png" }, { url: "https://xatimg.com/image/oWljttYWfXM0.png" }, { url: "https://xatimg.com/image/u0ylrgbF0Svu.png" }, { url: "https://xatimg.com/image/njbyxeq3hsze.jpg" }, { url: "https://xatimg.com/image/LQlZVdExBlFr.png" }, 
+				{ url: "https://xatimg.com/image/H1swvTAA3oRx.png" }, { url: "https://xatimg.com/image/DhkMNYhvn9cs.png" }, { url: "https://xatimg.com/image/CueavfDeRGpJ.png" }, { url: "https://xatimg.com/image/r79ots2Hmw7h.png" }, { url: "https://xatimg.com/image/sPmCbYdRMBSh.png" }, 
+				{ url: "https://xatimg.com/image/GsiDuv0Y1ttM.jpg" }, { url: "https://xatimg.com/image/kI5Y5UkfJTXV.png" }, { url: "https://xatimg.com/image/ozY5QncM2Sx2.png" }, { url: "https://xatimg.com/image/cMzLujoUkaBv.png" }, { url: "https://xatimg.com/image/QAzqDL6kpd5o.png" }, 
+				{ url: "https://xatimg.com/image/PEEoGNnTbDsK.png" }, { url: "https://xatimg.com/image/SSE9KVDBuXAS.png" }, { url: "https://xatimg.com/image/H4Z3IxznVznk.png" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, 
+				{ url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, 
+				{ url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, 
+				{ url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }
+            ]},
+			'Player': { marquee: "🔊 PLAYER 🔊", prefix: "NR -", items: [
+                { url: "https://xatimg.com/image/w5CZUXhKfbMu.png", link: "https://www.google.ro" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, 
+				{ url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, 
+				{ url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, 
+				{ url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, 
+				{ url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" },
+                { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, 
+				{ url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }, { url: "inserte link aquí" }
+            ]},
+			'xatspace': { marquee: "🖥️ XATSPACE 🖥️", prefix: "Model-", items: [
+                { url: "https://xatimg.com/image/w5CZUXhKfbMu.png", link: "https://iraked.github.io/XatSpace/Moonlight.html" }, { image: "https://link-imagine.jpg", url: "https://site.com" }, { image: "https://link-imagine.jpg", url: "https://site.com" },
+				{ image: "https://link-imagine.jpg", url: "https://site.com" }, { image: "https://link-imagine.jpg", url: "https://site.com" }, { image: "https://link-imagine.jpg", url: "https://site.com" },
+           
+
+
+		   ]},
+        };
+
+        const viewHome = `<div class="flex flex-col w-full"><div class="bg-dark-800 rounded-2xl border border-dark-700 shadow-lg overflow-hidden card-hover mb-4 md:mb-6"><div class="p-4 md:p-6 pb-4 border-b border-dark-700 flex justify-between items-center bg-dark-700/30"><div><h2 class="text-xl md:text-2xl font-bold text-white mb-1">GIFS</h2></div><i class="ph ph-tray-arrow-down text-3xl md:text-4xl text-brand-500"></i></div><div class="p-4 md:p-5 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 md:gap-3"><button onclick="changeView('gifs-new')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/3b0YuKLI0Id8.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-sparkle text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">New Style</span></div></button><button onclick="changeView('gifs-girls')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/zapBM8hTVY16.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-crown text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">Girls</span></div></button><button onclick="changeView('gifs-boys')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/Vy0vnsqUCRZn.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-soccer-ball text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">Boys</span></div></button><button onclick="changeView('gifs-dj')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/lXdgx1Zp229K.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-headphones text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">DJ</span></div></button><button onclick="changeView('gifs-lovers')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/8rsUqSdiVYso.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-heart text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">Lovers</span></div></button><button onclick="changeView('gifs-christmas')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/0MYbVQQ1LIbD.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-tree-evergreen text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">Christmas</span></div></button><button onclick="changeView('gifs-halloween')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/fTsmEBzPXNTO.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-ghost text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">Halloween</span></div></button><button onclick="changeView('gifs-mixed')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/FpQe2TrIvTdn.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-trophy text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">Mixed</span></div></button></div></div>
+		<div class="space-y-6">
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 w-full"><div class="bg-dark-800 rounded-2xl border border-dark-700 overflow-hidden card-hover cursor-pointer relative shadow-lg group h-40 md:h-48" onclick="changeView('pcback-normal')"><div class="absolute inset-0 flex"><div class="w-1/2 h-full"><img src="https://xatimg.com/image/zaMRA10OO6wH.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div><div class="w-1/2 h-full"><img src="https://xatimg.com/image/hidSvzK5v7qT.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div></div><div class="absolute inset-0 bg-gradient-to-t from-dark-800 via-dark-800/40 to-transparent pointer-events-none"></div><div class="absolute bottom-0 left-0 p-4 md:p-6 z-10 w-full"><h2 class="text-xl md:text-2xl font-bold text-white drop-shadow-md truncate">PCBACK</h2></div></div><div class="bg-dark-800 rounded-2xl border border-dark-700 overflow-hidden card-hover cursor-pointer relative shadow-lg group h-40 md:h-48" onclick="changeView('pcback-animados', '_blank')"><div class="absolute inset-0 flex"><div class="w-1/2 h-full"><img src="https://xatimg.com/image/HhEJbDe2nkuW.gif" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div><div class="w-1/2 h-full"><img src="https://xatimg.com/image/dsMlZNLDiPXb.gif" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div></div><div class="absolute inset-0 bg-gradient-to-t from-dark-800 via-dark-800/40 to-transparent pointer-events-none"></div><div class="absolute bottom-0 left-0 p-4 md:p-6 z-10 w-full"><h2 class="text-xl md:text-2xl font-bold text-white drop-shadow-md truncate">PCBACK ANIMADOS</h2></div></div></div>
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 w-full"><div class="bg-dark-800 rounded-2xl border border-dark-700 overflow-hidden card-hover cursor-pointer relative shadow-lg group h-40 md:h-48"  onclick="changeView('fondo')"><div class="absolute inset-0 flex"><div class="w-1/2 h-full"><img src="https://xatimg.com/image/QK832BiWwXfz.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div><div class="w-1/2 h-full"><img src="https://xatimg.com/image/6pxj7kCeJqWc.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div></div><div class="absolute inset-0 bg-gradient-to-t from-dark-800 via-dark-800/40 to-transparent pointer-events-none"></div><div class="absolute bottom-0 left-0 p-4 md:p-6 z-10 w-full"><h2 class="text-xl md:text-2xl font-bold text-white drop-shadow-md truncate">BACKGROUND</h2></div></div><div class="bg-dark-800 rounded-2xl border border-dark-700 overflow-hidden card-hover cursor-pointer relative shadow-lg group h-40 md:h-48" onclick="window.open('https://bydesign-xat.github.io/Promo/Playere.html', '_blank')"><div class="absolute inset-0 flex"><div class="w-1/2 h-full"><img src="https://xatimg.com/image/KFqAKApUsFhz.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div><div class="w-1/2 h-full"><img src="https://xatimg.com/image/Klv3341n3BAG.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div></div><div class="absolute inset-0 bg-gradient-to-t from-dark-800 via-dark-800/40 to-transparent pointer-events-none"></div><div class="absolute bottom-0 left-0 p-4 md:p-6 z-10 w-full"><h2 class="text-xl md:text-2xl font-bold text-white drop-shadow-md truncate">PLAYERE HTML</h2></div></div></div>
+		<div class="flex justify-center w-full mt-4 md:mt-6"><div class="w-full md:w-1/2 bg-dark-800 rounded-2xl border border-dark-700 overflow-hidden card-hover cursor-pointer relative shadow-lg group h-40 md:h-48" onclick="changeView('xatspace')"><div class="absolute inset-0 flex"><div class="w-1/2 h-full"><img src="https://xatimg.com/image/Qj1aQre0WKcc.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div><div class="w-1/2 h-full"><img src="https://xatimg.com/image/6pxj7kCeJqWc.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div></div><div class="absolute inset-0 bg-gradient-to-t from-dark-800 via-dark-800/40 to-transparent pointer-events-none"></div><div class="absolute bottom-0 left-0 p-4 md:p-6 z-10 w-full"><h2 class="text-xl md:text-2xl font-bold text-white drop-shadow-md truncate">XATSPACE</h2></div></div></div></div>`;
+
+        const contentArea = document.getElementById('content-area');
+        const pageTitle = document.getElementById('page-title');
+        let currentLightboxImages = [];
+        let currentLightboxIndex = 0;
+
+        function toggleMenu(id){const m=document.getElementById(id+'-submenu');const c=document.getElementById(id+'-caret');if(m.classList.contains('submenu-open')){m.classList.remove('submenu-open');c.classList.remove('rotate-180');}else{m.classList.add('submenu-open');c.classList.add('rotate-180');}}
+        function openMenuIfClosed(id){const m=document.getElementById(id+'-submenu');const c=document.getElementById(id+'-caret');if(!m.classList.contains('submenu-open')){m.classList.add('submenu-open');c.classList.add('rotate-180');}}
+        function updateActiveNav(id){document.querySelectorAll('.nav-btn').forEach(b=>{b.classList.remove('bg-dark-700','text-white');b.classList.add('text-gray-300');});const a=document.getElementById(`nav-${id}`);if(a){a.classList.add('bg-dark-700','text-white');a.classList.remove('text-gray-300');}}
+
+function initLazyLoad(){
+
+    const imgs = document.querySelectorAll('.lazy-image');
+
+    if(!('IntersectionObserver' in window)){
+        imgs.forEach(i => {
+            i.src = i.getAttribute('data-src');
+            i.classList.remove('opacity-0');
+        });
+        return;
+    }
+
+    const obs = new IntersectionObserver((entries, observer) => {
+
+        entries.forEach(entry => {
+
+            if(entry.isIntersecting){
+
+                const img = entry.target;
+
+                img.src = img.getAttribute('data-src');
+
+                img.onload = () => {
+                    img.classList.remove('opacity-0');
+                    img.classList.add('opacity-100');
+                };
+
+                observer.unobserve(img);
+            }
+
+        });
+
+    }, {
+        rootMargin: "300px 0px",
+        threshold: 0.01
+    });
+
+    imgs.forEach(img => obs.observe(img));
+
+    // PRELOAD GIFS
+    const preloadImages = [];
+
+    imgs.forEach(img => {
+
+        const src = img.getAttribute('data-src');
+
+        if(src){
+
+            const preload = new Image();
+
+            preload.src = src;
+
+            preloadImages.push(preload);
+        }
+
+    });
+
+}
+
+        function generateGallery(k){
+            const c=categoriesData[k];if(!c)return'';
+            const g=['pcback-normal','pcback-animados','fondo','xatspace'].includes(k);
+            const cl=g?"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full":"grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 md:gap-5 w-full";
+            let h=`<div class="mb-12 w-full"><div class="flex items-center mb-6 md:mb-8"><div class="h-6 md:h-8 w-1.5 md:w-2 bg-brand-500 rounded-full mr-3 md:mr-4 shadow-[0_0_10px_rgba(59,130,246,0.6)]"></div><h2 class="text-lg md:text-2xl font-display text-white tracking-wide truncate">${c.marquee}</h2></div><div class="${cl}">`;
+            const s="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E";
+            for(let i=0;i<c.items.length;i++){
+                let u=String(c.items[i].url||"").trim();let m=(u==="inserte link aquí"||u==="");
+                let o=(!m&&g)?`onclick="openLightbox('${k}',${i})"`:"";let cc=(!m&&g)?"cursor-pointer":(m?"cursor-default":"cursor-pointer");
+                if(g){
+                    h+=`<div ${o} class="bg-dark-800 border border-dark-700 shadow-md rounded-xl p-2 md:p-3 flex flex-col items-center justify-center h-48 sm:h-56 md:h-64 hover:border-brand-500 hover:bg-dark-700 transition-all ${cc} group relative overflow-hidden"><span class="absolute top-2 left-2 md:top-3 md:left-3 bg-dark-900/90 px-1.5 py-0.5 md:px-2 md:py-1 rounded text-[10px] md:text-xs font-bold text-gray-400 group-hover:text-brand-400 transition-colors z-10 shadow-md">${c.prefix}${i+1}</span>`;
+                    if(m){h+=`<div class="w-full h-full flex items-center justify-center font-display text-3xl md:text-5xl text-dark-600 font-bold opacity-30 group-hover:opacity-100 transition-opacity">${i+1}</div>`;}
+                    else{h+=`<div class="w-full h-full flex items-center justify-center p-1 md:p-2 relative"><img data-src="${u}" src="${s}" draggable="false" class="lazy-image max-w-full max-h-full object-contain drop-shadow-lg opacity-0 transition-opacity duration-500" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div style="display:none;" class="w-full h-full items-center justify-center font-display text-3xl md:text-5xl text-dark-600 font-bold opacity-30 group-hover:opacity-100">${i+1}</div><div class="absolute inset-0 bg-brand-500/10 opacity-0 group-hover:opacity-100 transition-opacity rounded-xl flex items-center justify-center pointer-events-none"><i class="ph ph-arrows-out text-4xl md:text-5xl text-white drop-shadow-lg scale-50 group-hover:scale-100 transition-transform duration-300"></i></div></div>`;}
+                }else{
+                    h+=`<div class="bg-dark-800 border border-dark-700 shadow-md rounded-xl p-2 md:p-3 flex flex-col items-center justify-center h-32 md:h-40 hover:border-brand-500 hover:bg-dark-700 transition-all cursor-pointer group"><span class="text-[10px] md:text-xs font-bold text-gray-500 mb-1 md:mb-2 group-hover:text-brand-400 transition-colors">${c.prefix}${i+1}</span>`;
+                    if(m){h+=`<div class="w-full flex-1 flex items-center justify-center font-display text-2xl md:text-4xl text-dark-600 font-bold opacity-30 group-hover:opacity-100 transition-opacity">${i+1}</div>`;}
+                    else{h+=`<img data-src="${u}" src="${s}" draggable="false" class="lazy-image max-h-16 md:max-h-24 w-full object-contain drop-shadow-lg opacity-0 transition-opacity duration-500" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div style="display:none;" class="w-full flex-1 items-center justify-center font-display text-2xl md:text-4xl text-dark-600 font-bold opacity-30 group-hover:opacity-100">${i+1}</div>`;}
+                }
+                h+=`</div>`;
+            }
+            h+=`</div></div>`;return h;
+        }
+
+        function openLightbox(k,o){
+            const c=categoriesData[k];
+            currentLightboxImages=c.items.map((i,x)=>({url:i.url,num:x+1,prefix:c.prefix})).filter(i=>i.url&&i.url!=="inserte link aquí");
+            currentLightboxIndex=currentLightboxImages.findIndex(i=>i.num===(o+1));
+            if(currentLightboxIndex===-1)return;
+            showLightboxImage();
+            const l=document.getElementById('lightbox');l.classList.remove('hidden');
+            setTimeout(()=>l.classList.remove('opacity-0'),10);
+        }
+
+        function closeLightbox(){const l=document.getElementById('lightbox');l.classList.add('opacity-0');setTimeout(()=>l.classList.add('hidden'),300);}
+        function nextImage(){if(currentLightboxImages.length===0)return;currentLightboxIndex=(currentLightboxIndex+1)%currentLightboxImages.length;showLightboxImage();}
+        function prevImage(){if(currentLightboxImages.length===0)return;currentLightboxIndex=(currentLightboxIndex-1+currentLightboxImages.length)%currentLightboxImages.length;showLightboxImage();}
+        function showLightboxImage(){const c=currentLightboxImages[currentLightboxIndex];document.getElementById('lightbox-img').src=c.url;document.getElementById('lightbox-caption').textContent=`${c.prefix}${c.num}`;}
+
+        function changeView(v){
+            updateActiveNav(v);contentArea.style.opacity=0;
+            setTimeout(()=>{
+                if(v==='home'){pageTitle.textContent="Galerie";contentArea.innerHTML=viewHome;const m1=document.getElementById('gifs-submenu');if(m1&&m1.classList.contains('submenu-open'))toggleMenu('gifs');const m2=document.getElementById('pcback-submenu');if(m2&&m2.classList.contains('submenu-open'))toggleMenu('pcback');}
+                else if(v.startsWith('gifs-')){openMenuIfClosed('gifs');const k=v.replace('gifs-','');const c=categoriesData[k];const t=c.marquee.replace(/[^a-zA-Z\s\-]/g,'').trim();pageTitle.innerHTML=`Galerie <span class="text-gradient font-display tracking-widest ml-1 md:ml-2">${t}</span>`;contentArea.innerHTML=generateGallery(k);initLazyLoad();}
+                else if(v.startsWith('pcback-')){openMenuIfClosed('pcback');const c=categoriesData[v];const t=c.marquee.replace(/[^a-zA-Z\s\-]/g,'').trim();pageTitle.innerHTML=`Galerie<span class="text-gradient font-display tracking-widest ml-1 md:ml-2">${t}</span>`;contentArea.innerHTML=generateGallery(v);initLazyLoad();}
+                else if(v==='fondo'){const c=categoriesData[v];const t=c.marquee.replace(/[^a-zA-Z\s\-]/g,'').trim();pageTitle.innerHTML=`Galerie <span class="text-gradient font-display tracking-widest ml-1 md:ml-2">${t}</span>`;contentArea.innerHTML=generateGallery(v);initLazyLoad();}
+                else if(v==='xatspace'){const c = categoriesData[v];const t = c.marquee.replace(/[^a-zA-Z\s\-]/g,'').trim();pageTitle.innerHTML =`Galerie <span class="text-gradient font-display tracking-widest ml-1 md:ml-2">${t}</span>`;contentArea.innerHTML = generateGallery(v);initLazyLoad();}
+                else if(v === 'Player'){
+
+				
+				
+    const c = categoriesData[v];
+    const t = c.marquee.replace(/[^a-zA-Z\s\-]/g,'').trim();
+    pageTitle.innerHTML = `Galerie <span class="text-gradient font-display tracking-widest ml-1 md:ml-2">${t}</span>`;
+    contentArea.innerHTML = generateGallery(v);
+    initLazyLoad();
+}
+				contentArea.style.opacity=1;contentArea.style.transition='opacity 0.3s ease-in-out';
+            },150);
+        }
+
+        document.addEventListener('DOMContentLoaded',()=>{
+            changeView('home');
+            (function(){const f=document.createElement('div');f.className='w-full py-4 md:py-6 text-center text-gray-700 text-[10px] md:text-xs font-semibold tracking-widest bg-dark-900 border-t border-dark-800 mt-auto select-none';f.innerText=atob('Q29weXJpZ2h0IC0gQnlEZXNpZ24gfCB4RGVzaWdueCAoMTUxNTE0NzQ0Nyk=');document.getElementById('main-scroll-area').appendChild(f);})();
+        });
+		
+img.onclick = () => openLightbox(item.url);
+
+img.ondblclick = () => {
+    if (item.link) {
+        window.open(item.link, "_blank");
+    }
+};
+
+items.forEach(item => {
+  document.body.innerHTML += `
+    <a href="${item.url}">
+      <img src="${item.image}" alt="">
+    </a>
+  `;
+});
+
+</script>
+</body>
+</html>
