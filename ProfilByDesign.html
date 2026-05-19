@@ -7,11 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Agbalumo&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-  <!-- BLOCK RIGHT CLICK -->
-        <script type="text/javascript">
-        document.onkeydown = function(){return false};
-        document.oncontextmenu = function(){return false}
-        </script>
+	
     <script>
         tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','sans-serif'],display:['Agbalumo','cursive']},colors:{dark:{900:'#18181b',800:'#27272a',700:'#3f3f46',600:'#52525b'},brand:{400:'#60a5fa',500:'#3b82f6',600:'#2563eb'}}}}};
     </script>
@@ -533,23 +529,32 @@ items.forEach(item => {
 });
 
 
-// --- PROTECT SCRIPT ---
 
 
-document.addEventListener("contextmenu", e => e.preventDefault());
+</script>
+<script>
+document.addEventListener('keydown', function(e) {
 
-document.onkeydown = function(e) {
+  // Blochează F12
+  if (e.key === 'F12') {
+    e.preventDefault();
+  }
 
-if(e.keyCode == 123) return false; // F12
+  // Blochează Ctrl+U
+  if (e.ctrlKey && e.key.toLowerCase() === 'u') {
+    e.preventDefault();
+  }
 
-if(e.ctrlKey && e.shiftKey && e.keyCode == 73) return false; // CTRL+SHIFT+I
+  // Blochează Ctrl+Shift+I
+  if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'i') {
+    e.preventDefault();
+  }
 
-if(e.ctrlKey && e.shiftKey && e.keyCode == 74) return false; // CTRL+SHIFT+J
+});
 
-if(e.ctrlKey && e.keyCode == 85) return false; // CTRL+U
-
-};
-
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
 </script>
 </body>
 </html>
