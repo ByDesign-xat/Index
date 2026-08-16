@@ -42,6 +42,8 @@ justify-content:center;
 z-index:999999;
 ">
 
+
+
   <div style="
   background:#27272a;
   padding:30px;
@@ -54,16 +56,12 @@ z-index:999999;
     <h2 style="color:white;margin-bottom:15px;">🔐 Protected Access 🔐</h2>
 	<h6 style="color:white;margin-bottom:15px; font-size:10px;">Ask for the access password</h6>
     
-    <input id="password" type="password" placeholder="Password..."
-      style="
-      width:100%;
-      padding:10px;
-      border-radius:8px;
-      border:none;
-      outline:none;
-      margin-bottom:15px;
-      text-align:center;
-      ">
+    <div style="position:relative;width:100%;margin-bottom:15px;">
+      <input id="password" type="password" placeholder="Password..." autofocus
+        style="width:100%;box-sizing:border-box;padding:10px 42px 10px 10px;border-radius:8px;border:none;outline:none;text-align:center;color:#27272A;">
+      <button type="button" onclick="togglePasswordVisibility('password', this)" aria-label="Show password"
+        style="position:absolute;right:8px;top:50%;transform:translateY(-50%);border:none;background:transparent;color:#71717a;cursor:pointer;font-size:18px;padding:4px;">👁</button>
+    </div>
 
     <button onclick="checkPassword()"
       style="
@@ -84,7 +82,51 @@ z-index:999999;
   </div>
 </div>
 
+<!-- MODAL PAROLE PENTRU ELEMENTELE DIN MENIU -->
+<div id="menu-password-modal" style="
+    position:fixed; inset:0; background:rgba(0,0,0,0.75); display:none;
+    align-items:center; justify-content:center; z-index:1000000;
+    backdrop-filter:blur(4px);
+">
+  <div style="background:#27272a; padding:25px; border-radius:15px; text-align:center; width:300px; box-shadow:0 0 25px rgba(0,0,0,.7);">
+    <h3 id="menu-password-title" style="color:white;margin:0 0 10px;font-size:18px;">🔐 Protected Access</h3>
+    <p style="color:#a1a1aa;font-size:11px;margin:0 0 15px;">Private Access 🛡️</p>
+	<p style="color:#a1a1aa;font-size:11px;margin:0 0 15px;">Request access 🔑</p>
+    <div style="position:relative;width:100%;margin-bottom:10px;">
+      <input id="menu-password-input" type="password" placeholder="Password..." autocomplete="off"
+        onkeydown="handleMenuPasswordKey(event)"
+        style="width:100%;box-sizing:border-box;padding:10px 42px 10px 10px;border-radius:8px;border:none;outline:none;text-align:center;color:#27272A;">
+      <button type="button" onclick="togglePasswordVisibility('menu-password-input', this)" aria-label="Show password"
+        style="position:absolute;right:8px;top:50%;transform:translateY(-50%);border:none;background:transparent;color:#71717a;cursor:pointer;font-size:18px;padding:4px;">👁</button>
+    </div>
+    <button onclick="submitMenuPassword()" style="width:100%;padding:10px;border:none;border-radius:8px;background:#3b82f6;color:white;font-weight:bold;cursor:pointer;">Login</button>
+    <button onclick="closeMenuPassword()" style="width:100%;padding:8px;border:none;border-radius:8px;background:transparent;color:#a1a1aa;cursor:pointer;margin-top:5px;">Cancel</button>
+    <p id="menu-password-error" style="color:#ef4444;margin:8px 0 0;font-size:12px;min-height:15px;"></p>
+  </div>
+</div>
+
 <script>
+function togglePasswordVisibility(inputId, button) {
+    const input = document.getElementById(inputId);
+    if (input.type === 'password') {
+        input.type = 'text';
+        button.textContent = '🙈';
+        button.setAttribute('aria-label', 'Hide password');
+    } else {
+        input.type = 'password';
+        button.textContent = '👁';
+        button.setAttribute('aria-label', 'Show password');
+    }
+}
+
+function focusMainPassword() {
+    const input = document.getElementById("password");
+    if (input) {
+        input.focus();
+        input.select();
+    }
+}
+
 function checkPassword() {
     const pass = document.getElementById("password").value;
 
@@ -98,17 +140,121 @@ function checkPassword() {
     }
 }
 
-// ENTER pentru Login
-document.getElementById("password").addEventListener("keydown", function(event) {
-    if (event.key === "Enter") {
+// ==========================================
+// PAROLE SEPARATE PENTRU ELEMENTELE DIN MENIU
+// SCHIMBĂ PAROLELE AICI
+// ==========================================
+const menuPasswords = {
+    player: '30303',
+    xatspace: '20202',
+    simulator: '40404'
+};
+
+const menuNames = {
+    player: 'PLAYER',
+    xatspace: 'XATSPACE',
+    simulator: 'SIMULATOR PLAYER'
+};
+
+const menuUnlocked = {};
+let pendingMenuItem = null;
+
+function requestMenuAccess(item) {
+    if (menuUnlocked[item]) {
+        openMenuItem(item);
+        return;
+    }
+
+    pendingMenuItem = item;
+    document.getElementById('menu-password-title').innerText = '🔐 ' + menuNames[item] +  ' 🔐' ;
+    document.getElementById('menu-password-input').value = '';
+    document.getElementById('menu-password-error').innerText = '';
+    document.getElementById('menu-password-modal').style.display = 'flex';
+
+    setTimeout(() => {
+        document.getElementById('menu-password-input').focus();
+    }, 50);
+}
+
+function submitMenuPassword() {
+    const input = document.getElementById('menu-password-input');
+    const error = document.getElementById('menu-password-error');
+
+    if (pendingMenuItem && input.value === menuPasswords[pendingMenuItem]) {
+        menuUnlocked[pendingMenuItem] = true;
+        const item = pendingMenuItem;
+        closeMenuPassword();
+        openMenuItem(item);
+    } else {
+        error.innerText = 'Wrong password!';
+        input.select();
+    }
+}
+
+function closeMenuPassword() {
+    document.getElementById('menu-password-modal').style.display = 'none';
+    pendingMenuItem = null;
+}
+
+// Focus automat pe parola principală când pagina este încă blocată
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(focusMainPassword, 100);
+});
+window.addEventListener('load', function() {
+    setTimeout(focusMainPassword, 100);
+});
+
+// Enter pentru parola principală
+document.getElementById('password').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault();
         checkPassword();
     }
 });
 
-// Selectează automat câmpul de parolă la deschiderea paginii
-window.addEventListener("load", function() {
-    document.getElementById("password").focus();
-});
+function handleMenuPasswordKey(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        event.stopPropagation();
+        submitMenuPassword();
+        return false;
+    }
+
+    if (event.key === 'Escape') {
+        event.preventDefault();
+        event.stopPropagation();
+        closeMenuPassword();
+        return false;
+    }
+}
+
+// Backup: Enter / Escape functionează chiar dacă focusul nu mai este pe câmp.
+window.addEventListener('keydown', function(event) {
+    const modal = document.getElementById('menu-password-modal');
+    if (!modal || modal.style.display !== 'flex') return;
+
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        submitMenuPassword();
+    } else if (event.key === 'Escape') {
+        event.preventDefault();
+        closeMenuPassword();
+    }
+}, true);
+
+function openMenuItem(item) {
+    switch (item) {
+        case 'player':
+            window.open('https://bydesign-xat.github.io/Promo/Playere.html', '_blank');
+            break;
+        case 'xatspace':
+            window.open('https://linktr.ee/ByDesignxat', '_blank');
+            break;
+        case 'simulator':
+            window.open('https://bydesign-xat.github.io/Promo/Simulator.html', '_blank');
+            break;
+    }
+}
 </script>
 
     <aside class="w-20 lg:w-64 flex-shrink-0 bg-dark-800 border-r border-dark-700 flex flex-col h-full z-20 shadow-xl overflow-hidden">
@@ -158,21 +304,24 @@ window.addEventListener("load", function() {
                         <button onclick="changeView('pcback-animados')" id="nav-pcback-animados" class="nav-btn w-full flex items-center p-2 rounded-lg text-gray-400 hover:text-white hover:bg-dark-700 transition-colors"><i class="ph ph-play-circle text-lg flex-shrink-0"></i><span class="ml-3 text-sm truncate">Animated</span></button>
                     </div>
                 </div>
-			    <button onclick="window.open('https://bydesign-xat.github.io/Promo/Playere.html', '_blank')" id="nav-player" class="nav-btn w-full flex items-center p-2 lg:p-3 rounded-lg text-gray-300 hover:text-white hover:bg-dark-700 transition-colors group mt-2">
-                    <i class="ph ph-music-notes text-xl lg:text-2xl group-hover:text-brand-500 transition-colors flex-shrink-0"></i>
-                    <span class="hidden lg:block ml-3 font-medium text-sm truncate">PLAYER</span>
-                </button>
 				<button onclick="changeView('fondo')" id="nav-fondo" class="nav-btn w-full flex items-center p-2 lg:p-3 rounded-lg text-gray-300 hover:text-white hover:bg-dark-700 transition-colors group mt-2">
                     <i class="ph ph-image text-xl lg:text-2xl group-hover:text-brand-500 transition-colors flex-shrink-0"></i>
                     <span class="hidden lg:block ml-3 font-medium text-sm truncate">BACKGROUND</span>
                 </button>
-			    <button onclick="window.open('https://linktr.ee/ByDesignxat', '_blank')" id="nav-xatspace" class="nav-btn w-full flex items-center p-2 lg:p-3 rounded-lg text-gray-300 hover:text-white hover:bg-dark-700 transition-colors group mt-2">
+			    <button onclick="requestMenuAccess('xatspace')" id="nav-xatspace" class="nav-btn w-full flex items-center p-2 lg:p-3 rounded-lg text-gray-300 hover:text-white hover:bg-dark-700 transition-colors group mt-2">
                     <i class="ph ph-planet text-xl lg:text-2xl group-hover:text-brand-500 transition-colors flex-shrink-0"></i>
                     <span class="hidden lg:block ml-3 font-medium text-sm truncate">XATSPACE</span>
+					<span style="margin-left: 8px;">🔐</span>
                 </button>
-				<button onclick="window.open('https://bydesign-xat.github.io/Promo/Simulator.html', '_blank')" id="nav-simulator" class="nav-btn w-full flex items-center p-2 lg:p-3 rounded-lg text-gray-300 hover:text-white hover:bg-dark-700 transition-colors group mt-2">
+			    <button onclick="requestMenuAccess('player')" id="nav-player" class="nav-btn w-full flex items-center p-2 lg:p-3 rounded-lg text-gray-300 hover:text-white hover:bg-dark-700 transition-colors group mt-2">
+                    <i class="ph ph-music-notes text-xl lg:text-2xl group-hover:text-brand-500 transition-colors flex-shrink-0"></i>
+                    <span class="hidden lg:block ml-3 font-medium text-sm truncate">PLAYER</span>
+					<span style="margin-left: 8px;">🔐</span>
+                </button>
+				<button onclick="requestMenuAccess('simulator')" id=id="nav-simulator" class="nav-btn w-full flex items-center p-2 lg:p-3 rounded-lg text-gray-300 hover:text-white hover:bg-dark-700 transition-colors group mt-2">
                     <i class="ph ph-puzzle-piece text-xl lg:text-2xl group-hover:text-brand-500 transition-colors flex-shrink-0"></i>
                     <span class="hidden lg:block ml-3 font-medium text-sm truncate">SIMULATOR PLAYER</span>
+					<span style="margin-left: 8px;">🔐</span>
                 </button>
             </nav>
         </div>
@@ -394,8 +543,8 @@ window.addEventListener("load", function() {
         const viewHome = `<div class="flex flex-col w-full"><div class="bg-dark-800 rounded-2xl border border-dark-700 shadow-lg overflow-hidden card-hover mb-4 md:mb-6"><div class="p-4 md:p-6 pb-4 border-b border-dark-700 flex justify-between items-center bg-dark-700/30"><div><h2 class="text-xl md:text-2xl font-bold text-white mb-1">GIFS</h2></div><i class="ph ph-tray-arrow-down text-3xl md:text-4xl text-brand-500"></i></div><div class="p-4 md:p-5 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 md:gap-3"><button onclick="changeView('gifs-new')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/3b0YuKLI0Id8.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-sparkle text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">New Style</span></div></button><button onclick="changeView('gifs-girls')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/zapBM8hTVY16.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-crown text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">Girls</span></div></button><button onclick="changeView('gifs-boys')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/Vy0vnsqUCRZn.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-soccer-ball text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">Boys</span></div></button><button onclick="changeView('gifs-dj')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/lXdgx1Zp229K.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-headphones text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">DJ</span></div></button><button onclick="changeView('gifs-lovers')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/8rsUqSdiVYso.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-heart text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">Lovers</span></div></button><button onclick="changeView('gifs-christmas')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/0MYbVQQ1LIbD.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-tree-evergreen text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">Christmas</span></div></button><button onclick="changeView('gifs-halloween')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/fTsmEBzPXNTO.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-ghost text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">Halloween</span></div></button><button onclick="changeView('gifs-mixed')" class="relative flex flex-col items-center justify-center p-3 md:p-4 rounded-xl border border-dark-700 hover:border-brand-500 overflow-hidden group h-20 md:h-24 bg-dark-900"><img src="https://xatimg.com/image/FpQe2TrIvTdn.gif" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-50 transition-opacity" draggable="false"><div class="relative z-10 flex flex-col items-center"><i class="ph ph-trophy text-2xl md:text-3xl mb-1 md:mb-2 text-gray-300 group-hover:text-white"></i><span class="text-[10px] md:text-xs font-semibold text-gray-300 group-hover:text-white drop-shadow-md truncate">Mixed</span></div></button></div></div>
 		<div class="space-y-6">
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 w-full"><div class="bg-dark-800 rounded-2xl border border-dark-700 overflow-hidden card-hover cursor-pointer relative shadow-lg group h-40 md:h-48" onclick="changeView('pcback-normal')"><div class="absolute inset-0 flex"><div class="w-1/2 h-full"><img src="https://xatimg.com/image/zaMRA10OO6wH.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div><div class="w-1/2 h-full"><img src="https://xatimg.com/image/hidSvzK5v7qT.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div></div><div class="absolute inset-0 bg-gradient-to-t from-dark-800 via-dark-800/40 to-transparent pointer-events-none"></div><div class="absolute bottom-0 left-0 p-4 md:p-6 z-10 w-full"><h2 class="text-xl md:text-2xl font-bold text-white drop-shadow-md truncate">PCBACK</h2></div></div><div class="bg-dark-800 rounded-2xl border border-dark-700 overflow-hidden card-hover cursor-pointer relative shadow-lg group h-40 md:h-48" onclick="changeView('pcback-animados', '_blank')"><div class="absolute inset-0 flex"><div class="w-1/2 h-full"><img src="https://xatimg.com/image/Vw1PtNnQVbVu.gif" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div><div class="w-1/2 h-full"><img src="https://xatimg.com/image/Xsn4rDrTIxyx.gif" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div></div><div class="absolute inset-0 bg-gradient-to-t from-dark-800 via-dark-800/40 to-transparent pointer-events-none"></div><div class="absolute bottom-0 left-0 p-4 md:p-6 z-10 w-full"><h2 class="text-xl md:text-2xl font-bold text-white drop-shadow-md truncate">PCBACK ANIMADOS</h2></div></div></div>
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 w-full"><div class="bg-dark-800 rounded-2xl border border-dark-700 overflow-hidden card-hover cursor-pointer relative shadow-lg group h-40 md:h-48"  onclick="changeView('fondo')"><div class="absolute inset-0 flex"><div class="w-1/2 h-full"><img src="https://xatimg.com/image/QK832BiWwXfz.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div><div class="w-1/2 h-full"><img src="https://xatimg.com/image/6pxj7kCeJqWc.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div></div><div class="absolute inset-0 bg-gradient-to-t from-dark-800 via-dark-800/40 to-transparent pointer-events-none"></div><div class="absolute bottom-0 left-0 p-4 md:p-6 z-10 w-full"><h2 class="text-xl md:text-2xl font-bold text-white drop-shadow-md truncate">BACKGROUND</h2></div></div><div class="bg-dark-800 rounded-2xl border border-dark-700 overflow-hidden card-hover cursor-pointer relative shadow-lg group h-40 md:h-48" onclick="window.open('https://bydesign-xat.github.io/Promo/Playere.html', '_blank')"><div class="absolute inset-0 flex"><div class="w-1/2 h-full"><img src="https://xatimg.com/image/KFqAKApUsFhz.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div><div class="w-1/2 h-full"><img src="https://xatimg.com/image/Klv3341n3BAG.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div></div><div class="absolute inset-0 bg-gradient-to-t from-dark-800 via-dark-800/40 to-transparent pointer-events-none"></div><div class="absolute bottom-0 left-0 p-4 md:p-6 z-10 w-full"><h2 class="text-xl md:text-2xl font-bold text-white drop-shadow-md truncate">PLAYERE HTML</h2></div></div></div>
-		<div class="flex justify-center w-full mt-4 md:mt-6"><div class="w-full md:w-1/2 bg-dark-800 rounded-2xl border border-dark-700 overflow-hidden card-hover cursor-pointer relative shadow-lg group h-40 md:h-48" onclick="window.open('https://linktr.ee/ByDesignxat', '_blank')"><div class="absolute inset-0 flex"><div class="w-1/2 h-full"><img src="https://xatimg.com/image/Qj1aQre0WKcc.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div><div class="w-1/2 h-full"><img src="https://xatimg.com/image/P4urQew46Bud.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div></div><div class="absolute inset-0 bg-gradient-to-t from-dark-800 via-dark-800/40 to-transparent pointer-events-none"></div><div class="absolute bottom-0 left-0 p-4 md:p-6 z-10 w-full"><h2 class="text-xl md:text-2xl font-bold text-white drop-shadow-md truncate">XATSPACE</h2></div></div></div></div>`;
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 w-full"><div class="bg-dark-800 rounded-2xl border border-dark-700 overflow-hidden card-hover cursor-pointer relative shadow-lg group h-40 md:h-48" onclick="changeView('fondo')"><div class="absolute inset-0 flex"><div class="w-1/2 h-full"><img src="https://xatimg.com/image/QK832BiWwXfz.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div><div class="w-1/2 h-full"><img src="https://xatimg.com/image/6pxj7kCeJqWc.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div></div><div class="absolute inset-0 bg-gradient-to-t from-dark-800 via-dark-800/40 to-transparent pointer-events-none"></div><div class="absolute bottom-0 left-0 p-4 md:p-6 z-10 w-full"><h2 class="text-xl md:text-2xl font-bold text-white drop-shadow-md truncate">BACKGROUND</h2></div></div><div class="bg-dark-800 rounded-2xl border border-dark-700 overflow-hidden card-hover cursor-pointer relative shadow-lg group h-40 md:h-48" onclick="requestMenuAccess('player')"><div class="absolute inset-0 flex"><div class="w-1/2 h-full"><img src="https://xatimg.com/image/KFqAKApUsFhz.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div><div class="w-1/2 h-full"><img src="https://xatimg.com/image/Klv3341n3BAG.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div></div><div class="absolute inset-0 bg-gradient-to-t from-dark-800 via-dark-800/40 to-transparent pointer-events-none"></div><div class="absolute bottom-0 left-0 p-4 md:p-6 z-10 w-full"><h2 class="text-xl md:text-2xl font-bold text-white drop-shadow-md truncate">PLAYERE HTML</h2></div></div></div>
+		<div class="flex justify-center w-full mt-4 md:mt-6"><div class="w-full md:w-1/2 bg-dark-800 rounded-2xl border border-dark-700 overflow-hidden card-hover cursor-pointer relative shadow-lg group h-40 md:h-48" onclick="requestMenuAccess('xatspace')"><div class="absolute inset-0 flex"><div class="w-1/2 h-full"><img src="https://xatimg.com/image/Qj1aQre0WKcc.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div><div class="w-1/2 h-full"><img src="https://xatimg.com/image/P4urQew46Bud.png" class="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity" draggable="false"></div></div><div class="absolute inset-0 bg-gradient-to-t from-dark-800 via-dark-800/40 to-transparent pointer-events-none"></div><div class="absolute bottom-0 left-0 p-4 md:p-6 z-10 w-full"><h2 class="text-xl md:text-2xl font-bold text-white drop-shadow-md truncate">XATSPACE</h2></div></div></div></div>`;
 
         const contentArea = document.getElementById('content-area');
         const pageTitle = document.getElementById('page-title');
