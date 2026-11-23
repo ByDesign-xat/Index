@@ -1,0 +1,1003 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="⭐CANALE GENERALE⭐" tvg-logo="https://www.flagcolorcodes.com/data/flag-of-romania.png️" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",▁ ▂ ▄ ▅ ▆⚙️Generale⚙️▆ ▅ ▄ ▂ ▁
+77/index.m3u8
+#EXTINF:-1 tvg-id="protv.ro" tvg-name="Pro TV FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_bb6291ad6bc6441dafddbbe27a376a3c~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Pro TV FHD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-id="protv.ro" tvg-name="Pro TV HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_bb6291ad6bc6441dafddbbe27a376a3c~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Pro TV HD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv/live_hd?offsetSeconds=0
+#EXTINF:-1 tvg-id="protv.ro" tvg-name="Pro TV SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_970d6e6bb8bb46debe4a632426299a46~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Pro TV SD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv/live_hq?offsetSeconds=0
+#EXTINF:-1 tvg-id="protv.ro" tvg-name="Pro TV 4K (UHD)" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Pro TV 4K (UHD)
+
+#EXTINF:-1 tvg-id="Antena1.ro" tvg-name="Antena 1 FHD" tvg-logo="https://assets.antenaplay.ro/2023/08/17/s7ORLTEcvXhoMzR9L22V.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Antena 1 FHD
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi01/live2_aws4_sdi01_5000k.m3u8
+#EXTINF:-1 tvg-id="Antena1.ro" tvg-name="Antena 1 HD" tvg-logo="https://assets.antenaplay.ro/2023/08/17/s7ORLTEcvXhoMzR9L22V.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Antena 1 HD
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi01/live2_aws4_sdi01_2600k.m3u8
+#EXTINF:-1 tvg-id="Antena1.ro" tvg-name="Antena 1 SD" tvg-logo="https://assets.antenaplay.ro/2023/08/17/s7ORLTEcvXhoMzR9L22V.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Antena 1 SD
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi01/live2_aws4_sdi01_1400k.m3u8
+#EXTINF:-1 tvg-id="Antena3.ro" tvg-name="Antena 3 FHD" tvg-logo="https://assets.antenaplay.ro/2023/04/13/1aJdsf9lZT4qUWnGKSFU.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Antena 3 FHD
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi02/live2_aws4_sdi02_5000k.m3u8
+#EXTINF:-1 tvg-id="Antena3.ro" tvg-name="Antena 3 HD" tvg-logo="https://assets.antenaplay.ro/2023/04/13/1aJdsf9lZT4qUWnGKSFU.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Antena 3 HD
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi02/live2_aws4_sdi02_2600k.m3u8
+#EXTINF:-1 tvg-id="Antena3.ro" tvg-name="Antena 3 SD" tvg-logo="https://assets.antenaplay.ro/2023/04/13/1aJdsf9lZT4qUWnGKSFU.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Antena 3 SD
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi02/live2_aws4_sdi02_1400k.m3u8
+#EXTINF:-1 tvg-id="antenastars.ro" tvg-name="Antena Stars FHD" tvg-logo="https://assets.antenaplay.ro/2023/04/13/IWpDQmhS6PNCVf496ri5.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Antena Stars FHD
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi10/live2_aws4_sdi10_5000k.m3u8
+#EXTINF:-1 tvg-id="antenastars.ro" tvg-name="Antena Stars HD" tvg-logo="https://assets.antenaplay.ro/2023/04/13/IWpDQmhS6PNCVf496ri5.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Antena Stars HD
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi10/live2_aws4_sdi10_2600k.m3u8
+#EXTINF:-1 tvg-id="antenastars.ro" tvg-name="Antena Stars SD" tvg-logo="https://assets.antenaplay.ro/2023/04/13/IWpDQmhS6PNCVf496ri5.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Antena Stars SD
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi10/live2_aws4_sdi10_1400k.m3u8
+#EXTINF:-1 tvg-id="antenastars.ro" tvg-name="ANTENA STARS 4K (UHD)" tvg-logo="https://assets.antenaplay.ro/2023/04/13/IWpDQmhS6PNCVf496ri5.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",ANTENA STARS 4K (UHD)
+
+#EXTINF:-1 tvg-id="PROCINEMA.ro" tvg-name="Pro Cinema FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_3729f1f411814edcb85c6afc3407d093~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Pro Cinema FHD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-procinema/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-id="PROCINEMA.ro" tvg-name="Pro Cinema HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_3729f1f411814edcb85c6afc3407d093~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Pro Cinema HD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-procinema/live_hd?offsetSeconds=0
+#EXTINF:-1 tvg-id="PROCINEMA.ro" tvg-name="Pro Cinema SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_3729f1f411814edcb85c6afc3407d093~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Pro Cinema SD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-procinema/live_hq?offsetSeconds=0
+#EXTINF:-1 tvg-id="protvinternational.ro" tvg-name="Pro Tv International FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_165edd91a7cb447e8f0145366f8e3d75~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Pro Tv International FHD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-international/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-id="protvinternational.ro" tvg-name="Pro Tv International HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_165edd91a7cb447e8f0145366f8e3d75~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Pro Tv International HD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-international/live_hd?offsetSeconds=0
+#EXTINF:-1 tvg-id="protvinternational.ro" tvg-name="Pro Tv International SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_165edd91a7cb447e8f0145366f8e3d75~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Pro Tv International SD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-international/live_hq?offsetSeconds=0
+#EXTINF:-1 tvg-id="AntenaInternational.ro" tvg-logo="https://assets.antenaplay.ro/2023/04/13/82E0r0vDICUdf04h87WJ.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Antena International FHD
+
+#EXTINF:-1 tvg-id="AntenaInternational.ro" tvg-logo="https://assets.antenaplay.ro/2023/04/13/82E0r0vDICUdf04h87WJ.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Antena International HD
+https://live77cdn2.antenaplay.ro/live2_sdi06/live2_sdi06_3000k.m3u8
+#EXTINF:-1 tvg-id="AntenaInternational.ro" tvg-logo="https://assets.antenaplay.ro/2023/04/13/82E0r0vDICUdf04h87WJ.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Antena International SD
+https://live77cdn2.antenaplay.ro/live2_sdi06/live2_sdi06_1400k.m3u8
+
+#EXTINF:-1 tvg-id="HappyTV.ro" tvg-name="Happy Channel FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_48c251a70ff643419e17c9f2a1679778~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Happy Channel FHD
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi12/live2_aws4_sdi12_5000k.m3u8
+#EXTINF:-1 tvg-id="HappyTV.ro" tvg-name="Happy Channel HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_48c251a70ff643419e17c9f2a1679778~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Happy Channel HD
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi12/live2_aws4_sdi12_2600k.m3u8
+#EXTINF:-1 tvg-id="HappyChannel.ro" tvg-name="Happy Channel SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_48c251a70ff643419e17c9f2a1679778~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Happy Channel SD
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi12/live2_aws4_sdi12_1400k.m3u8
+#EXTINF:-1 tvg-id="proarena.ro" tvg-name="PRO Arena FHD" tvg-logo="https://cmero-ott-images-avod.ssl.cdn.cra.cz/rxn/q80/f608ec30-0903-4c29-8f1a-993774bc2341?default=a98e1d43-6160-4ef5-af4e-.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRO Arena FHD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-prox/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-id="proarena.ro" tvg-name="PRO Arena HD" tvg-logo="https://cmero-ott-images-avod.ssl.cdn.cra.cz/rxn/q80/f608ec30-0903-4c29-8f1a-993774bc2341?default=a98e1d43-6160-4ef5-af4e-.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRO Arena HD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-prox/live_hd?offsetSeconds=0
+#EXTINF:-1 tvg-id="proarena.ro" tvg-name="PRO Arena SD" tvg-logo="https://cmero-ott-images-avod.ssl.cdn.cra.cz/rxn/q80/f608ec30-0903-4c29-8f1a-993774bc2341?default=a98e1d43-6160-4ef5-af4e-.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRO Arena SD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-prox/live_hq?offsetSeconds=0
+#EXTINF:-1 tvg-id="acasa.ro" tvg-name="Acasa TV FHD" tvg-logo="https://cmero-ott-images-avod.ssl.cdn.cra.cz/rxn/q80/b95fd533-04be-425e-9b58-62112b361559?default=a98e1d43-6160-4ef5-af4e-4bd9479900e2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Acasa TV FHD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-pro2/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-id="acasa.ro" tvg-name="Acasa TV HD" tvg-logo="https://cmero-ott-images-avod.ssl.cdn.cra.cz/rxn/q80/b95fd533-04be-425e-9b58-62112b361559?default=a98e1d43-6160-4ef5-af4e-4bd9479900e2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Acasa TV HD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-pro2/live_hd?offsetSeconds=0
+#EXTINF:-1 tvg-id="acasa.ro" tvg-name="Acasa TV SD" tvg-logo="https://cmero-ott-images-avod.ssl.cdn.cra.cz/rxn/q80/b95fd533-04be-425e-9b58-62112b361559?default=a98e1d43-6160-4ef5-af4e-4bd9479900e2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Acasa TV SD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-pro2/live_hq?offsetSeconds=0
+#EXTINF:-1 tvg-id="acasagold.ro" tvg-name="ACASA GOLD FHD" tvg-logo="https://cmero-ott-images-avod.ssl.cdn.cra.cz/rxn/q80/4f1dc2ac-d2a8-44f1-93c9-d601c6c3f6d1?default=a98e1d43-6160-4ef5-af4e-4bd9479900e2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Acasa Gold FHD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-progold/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-id="acasagold.ro" tvg-name="ACASA GOLD HD" tvg-logo="https://cmero-ott-images-avod.ssl.cdn.cra.cz/rxn/q80/4f1dc2ac-d2a8-44f1-93c9-d601c6c3f6d1?default=a98e1d43-6160-4ef5-af4e-4bd9479900e2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Acasa Gold HD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-progold/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-id="acasagold.ro" tvg-name="Acasa Gold SD" tvg-logo="https://cmero-ott-images-avod.ssl.cdn.cra.cz/rxn/q80/4f1dc2ac-d2a8-44f1-93c9-d601c6c3f6d1?default=a98e1d43-6160-4ef5-af4e-4bd9479900e2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Acasa Gold SD
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-progold/live_hq?offsetSeconds=0
+
+#EXTINF:-1 tvg-id="KanalD.ro" tvg-name="Kanal D FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_c980d53ded45439db5e447c73041952e~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Kanal D FHD
+http://89.44.231.115:7000/kanaldhd
+#EXTINF:-1 tvg-id="KanalD.ro" tvg-name="Kanal D HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_c980d53ded45439db5e447c73041952e~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Kanal D HD
+
+#EXTINF:-1 tvg-id="KanalD.ro" tvg-name="Kanal D SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_8567b6d66739463aa4b183f062088624~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Kanal D SD
+https://stream1.kanald.ro/iphone/knd-live.m3u8
+#EXTINF:-1 tvg-id="KanalD2.ro" tvg-name="Kanal D2 FHD" tvg-logo="https://kanald2.ro/img/kanald2/kanald2-logo.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Kanal D2 FHD
+
+#EXTINF:-1 tvg-id="KanalD2.ro" tvg-name="Kanal D2 HD" tvg-logo="https://kanald2.ro/img/kanald2/kanald2-logo.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Kanal D2 HD
+
+#EXTINF:-1 tvg-id="KanalD2.ro" tvg-name="KANAL D2 4K (UHD)" tvg-logo="https://kanald2.ro/img/kanald2/kanald2-logo.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",KANAL D2 4K (UHD)
+
+#EXTINF:-1 tvg-id="kanald2.ro" tvg-name="Kanal D2 SD" tvg-logo=https://i.postimg.cc/7YPWGnz5/kanal-d2.png"" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Kanal D2 SD
+https://stream2.kanald.ro/iphone/knd2-live.m3u8
+#EXTINF:-1 tvg-id="nationaltv.ro" tvg-name="National TV" tvg-logo="https://static.wixstatic.com/media/0e2b3e_ac38eab6094e4421bad5f364bc020f58~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",National TV
+https://hls01ns.antenaplay.ro/hls/national-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="primatv.ro" tvg-name="Prima TV FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_8b5830cb1ced43e1835aa5acfadd9904~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima TV FHD
+
+#EXTINF:-1 tvg-id="primatv.ro" tvg-name="Prima TV HD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima TV HD
+
+#EXTINF:-1 tvg-id="primatv.ro" tvg-name="Prima TV SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_99173f9c2d2440abba7c7e1edf9ef676~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima TV SD
+http://89.44.231.115:7000/primatv
+http://89.44.231.73:7000/primatv
+#EXTINF:-1 tvg-id="primanews.ro" tvg-name="PRIMA NEWS FHD" tvg-logo="https://primanews.ro/assets/imgs/logo-primanews.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA NEWS FHD
+
+#EXTINF:-1 tvg-id="primanews.ro" tvg-name="PRIMA NEWS HD" tvg-logo="https://primanews.ro/assets/imgs/logo-primanews.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA NEWS HD
+https://hls02ns.antenaplay.ro/hls/prima-news-hd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="PRIMA COMEDY" tvg-logo="https://bmcmedia.org:2083/images/z0Jls3khql2x0Wmk_HIuLR2-XEaM32A8zEDQ6osA1QSoptCp52YT2EdJja5Sa2nK.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA COMEDY
+
+#EXTINF:-1 tvg-id="" tvg-name="PRIMA FOOD&TRAVEL FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA FOOD&TRAVEL FHD
+
+#EXTINF:-1 tvg-id="" tvg-name="PRIMA HISTORY SD" tvg-logo="https://bmcmedia.org:2083/images/z0Jls3khql2x0Wmk_HIuLTvC2iaIX5E-nOOzGHucXkX1WkllBovw-O6YC3LuBEqQ.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA HISTORY SD
+
+#EXTINF:-1 tvg-id="B1TV.ro" tvg-name="B1 TV FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_2ef6b99b848d4cc7a5838ff9ff439ca4~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",B1 TV FHD
+
+#EXTINF:-1 tvg-id="B1TV.ro" tvg-name="B1 TV HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_2ef6b99b848d4cc7a5838ff9ff439ca4~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",B1 TV HD
+https://hls02ns.antenaplay.ro/hls/b1-tv-hd/index.m3u8
+#EXTINF:-1 tvg-id="B1TV.ro" tvg-name="B1 TV " tvg-logo="https://static.wixstatic.com/media/0e2b3e_2ef6b99b848d4cc7a5838ff9ff439ca4~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",B1 TV SD
+
+#EXTINF:-1 tvg-id="tvr1.ro" tvg-name="TVR 1 2k" tvg-logo="https://static.wixstatic.com/media/0e2b3e_7a1688b813504882af9eaef97de810a1~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR 1 2k
+
+#EXTINF:-1 tvg-id="tvr1.ro" tvg-name="TVR 1 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_7a1688b813504882af9eaef97de810a1~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR 1 FHD
+https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/chunklist_b5050000.m3u8
+#EXTINF:-1 tvg-id="tvr1.ro" tvg-name="TVR 1 HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_7a1688b813504882af9eaef97de810a1~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR 1 HD
+https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/chunklist_b3000000.m3u8
+#EXTINF:-1 tvg-id="tvr1.ro" tvg-name="TVR 1 SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_1bdec049f9ee46ceb238b73803b089bb~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR 1 SD
+https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/chunklist_b1600000.m3u8
+#EXTINF:-1 tvg-id="tvr2.ro" tvg-name="TVR 2 2k" tvg-logo="https://static.wixstatic.com/media/0e2b3e_38c08c769af94717a7c696f4be2abf54~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR 2 2k
+
+#EXTINF:-1 tvg-id="tvr2.ro" tvg-name="TVR 2 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_38c08c769af94717a7c696f4be2abf54~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR 2 FHD
+https://tvr-2.lg.mncdn.com/tvr2/smil:tvr2.smil/chunklist_b2250000.m3u8
+#EXTINF:-1 tvg-id="tvr2.ro" tvg-name="TVR 2 HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_38c08c769af94717a7c696f4be2abf54~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR 2 HD
+https://tvr-2.lg.mncdn.com/tvr2/smil:tvr2.smil/chunklist_b1550000.m3u8
+#EXTINF:-1 tvg-id="tvr2.ro" tvg-name="TVR 2 SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_8e460c22e20840deaa593c5ee2b084a9~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR 2 SD
+https://tvr-2.lg.mncdn.com/tvr2/smil:tvr2.smil/chunklist_b1250000.m3u8
+#EXTINF:-1 tvg-id="tvr3.ro" tvg-name="TVR 3 2k" tvg-logo="https://static.wixstatic.com/media/0e2b3e_17ab168185734b07b800411768824c58~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR 3 2k
+
+#EXTINF:-1 tvg-id="tvr3.ro" tvg-name="TVR 3 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_17ab168185734b07b800411768824c58~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR 3 FHD
+https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/chunklist_b2300000.m3u8
+#EXTINF:-1 tvg-id="tvr3.ro" tvg-name="TVR 3 HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_17ab168185734b07b800411768824c58~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR 3 HD
+https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/chunklist_b1600000.m3u8
+#EXTINF:-1 tvg-id="tvr3.ro" tvg-name="TVR 3 SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_17ab168185734b07b800411768824c58~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR 3 SD
+https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/chunklist_b1300000.m3u8
+#EXTINF:-1 tvg-id="tvrinternational.ro" tvg-name="TVR International FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_f6565b5b0042478f8edf87972d29c73d~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR International FHD
+https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/chunklist_b3750000.m3u8
+#EXTINF:-1 tvg-id="tvrinternational.ro" tvg-name="TVR International HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_f6565b5b0042478f8edf87972d29c73d~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR International HD
+https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/chunklist_b1600000.m3u8
+#EXTINF:-1 tvg-id="tvrinternational.ro" tvg-name="TVR International SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_f6565b5b0042478f8edf87972d29c73d~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR International SD
+https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/chunklist_b1350000.m3u8
+#EXTINF:-1 tvg-id="tvrcultural.ro" tvg-name="TVR CULTURAL FHD" tvg-logo="http://cultural.tvr.ro/img-canal/logo-cultural.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR CULTURAL FHD
+https://tvr-cultural.lg.mncdn.com/tvrcultural/smil:tvrcultural.smil/chunklist_b3000000.m3u8
+#EXTINF:-1 tvg-id="tvrcultural.ro" tvg-name="TVR CULTURAL HD" tvg-logo="http://cultural.tvr.ro/img-canal/logo-cultural.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR CULTURAL HD
+https://tvr-cultural.lg.mncdn.com/tvrcultural/smil:tvrcultural.smil/chunklist_b1550000.m3u8
+#EXTINF:-1 tvg-id="tvrcultural.ro" tvg-name="TVR CULTURAL SD" tvg-logo="http://cultural.tvr.ro/img-canal/logo-cultural.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR CULTURAL SD
+https://tvr-cultural.lg.mncdn.com/tvrcultural/smil:tvrcultural.smil/chunklist_b1300000.m3u8
+#EXTINF:-1 tvg-id="tvrinfo.ro" tvg-name="TVR INFO FHD" tvg-logo="https://i.postimg.cc/63Yg1W8b/TVR-Info-2008.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR INFO FHD
+https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/chunklist_b4900000.m3u8
+#EXTINF:-1 tvg-id="tvrinfo.ro" tvg-name="TVR INFO HD" tvg-logo="https://i.postimg.cc/63Yg1W8b/TVR-Info-2008.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR INFO HD
+https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/chunklist_b3000000.m3u8
+#EXTINF:-1 tvg-id="tvrinfo.ro" tvg-name="TVR INFO SD" tvg-logo="https://i.postimg.cc/63Yg1W8b/TVR-Info-2008.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR INFO SD
+https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/chunklist_b1600000.m3u8
+#EXTINF:-1 tvg-id="TVRCraiova.ro" tvg-name="TVR CRAIOVA FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR CRAIOVA FHD
+https://tvr-craiova.lg.mncdn.com/tvrcraiova/smil:tvrcraiova.smil/chunklist_b2300000.m3u8
+#EXTINF:-1 tvg-id="TVRCraiova.ro" tvg-name="TVR CRAIOVA SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR CRAIOVA SD
+https://tvr-craiova.lg.mncdn.com/tvrcraiova/smil:tvrcraiova.smil/chunklist_b1250000.m3u8
+#EXTINF:-1 tvg-id="TVRCluj.ro" tvg-name="TVR Craiova FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR CLUJ FHD
+https://tvr-cluj.lg.mncdn.com/tvrcluj/smil:tvrcluj.smil/chunklist_b2300000.m3u8
+#EXTINF:-1 tvg-id="TVRCluj.ro" tvg-name="TVR Craiova SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR CLUJ SD
+https://tvr-cluj.lg.mncdn.com/tvrcluj/smil:tvrcluj.smil/chunklist_b1250000.m3u8
+#EXTINF:-1 tvg-id="TVRTimisoara.ro" tvg-name="TVR TIMISOARA FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR TIMISOARA FHD
+https://tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil:tvrtimisoara.smil/chunklist_b2300000.m3u8
+#EXTINF:-1 tvg-id="TVRTimisoara.ro" tvg-name="TVR TIMISOARA SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR TIMISOARA SD
+https://tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil:tvrtimisoara.smil/chunklist_b1250000.m3u8
+#EXTINF:-1 tvg-id="TVRTarguMures.ro" tvg-name="TVR TG.MURES FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR TG.MURES FHD
+https://tvr-tgmures.lg.mncdn.com/tvrtgmures/smil:tvrtgmures.smil/chunklist_b2200000.m3u8
+#EXTINF:-1 tvg-id="TVRTarguMures.ro" tvg-name="TVR TG.MURES SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR TG.MURES SD
+https://tvr-tgmures.lg.mncdn.com/tvrtgmures/smil:tvrtgmures.smil/chunklist_b1250000.m3u8
+#EXTINF:-1 tvg-id="TVRMoldova.ro" tvg-name="TVR TG.MURES FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR MOLDOVA FHD
+https://tvr-moldova.lg.mncdn.com/tvrmoldova/smil:tvrmoldova.smil/chunklist_b3250000.m3u8
+#EXTINF:-1 tvg-id="TVRMoldova.ro" tvg-name="TVR TG.MURES SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR MOLDOVA SD
+https://tvr-moldova.lg.mncdn.com/tvrmoldova/smil:tvrmoldova.smil/chunklist_b1350000.m3u8
+
+........................................................................................
+#EXTINF:-1 tvg-id="" tvg-name="⭐LIVE STREAMING⭐" tvg-logo="📺" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",▁ ▂ ▄ ▅ ▆📺 Antena Play 📺▆ ▅ ▄ ▂ ▁
+77/index.m3u8
+#EXTINF:-1 tvg-id="Mireasa.ro" tvg-name="LIVE MIREASA 1" tvg-logo="https://i.imgur.com/tgbX7cH.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",LIVE MIREASA 1
+https://live77cdn2.antenaplay.ro/live2_mireasaunu/live2_mireasaunu.m3u8
+#EXTINF:-1 tvg-id="MireasaPlus.ro" tvg-name="LIVE MIREASA 2" tvg-logo="https://i.imgur.com/tgbX7cH.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",LIVE MIREASA 2
+https://live77cdn2.antenaplay.ro/live2_mireasadoi/live2_mireasadoi.m3u8
+#EXTINF:-1 tvg-id="MireasaExtra.ro" tvg-name="Mireasa Extra" tvg-logo="https://assets.antenaplay.ro/2023/04/13/D00QDBpcUqFub2Hgh11C.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Mireasa Extra
+https://stream1.antenaplay.ro/live/MireasaExtra/playlist.m3u8
+#EXTINF:-1 tvg-id="ComedyPlay.ro" tvg-name="Comedy Play" tvg-logo="https://assets.antenaplay.ro/2023/04/13/AUZDYJFeAKhziBVlUWTK.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Comedy Play
+https://stream1.antenaplay.ro/live/ComedyPlay/playlist.m3u8
+#EXTINF:-1 tvg-id="InPuiiMei.ro" tvg-name="In Puii Mei" tvg-logo="https://assets.antenaplay.ro/2026/05/07/aUyRzOHx0tkHM6SXjA9K.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",In Puii Mei
+https://live77cdn2.antenaplay.ro/live2_fast/ch7/stream.m3u8
+#EXTINF:-1 tvg-id="iUmor.ro" tvg-name="iUmor" tvg-logo="https://assets.antenaplay.ro/2026/05/07/pB32HtJzC1i0xlH75Rb0.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",iUmor
+https://live77cdn2.antenaplay.ro/live2_fast/ch2/stream.m3u8
+#EXTINF:-1 tvg-id="iUmor.ro" tvg-name="iRoast" tvg-logo="https://assets.antenaplay.ro/2026/05/07/1CKR5EoJo1qeSZCe9lkT.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",iRoast
+https://live77cdn2.antenaplay.ro/live2_fast/ch3/stream.m3u8
+#EXTINF:-1 tvg-id="Insulanonstop.ro" tvg-name="Insula non stop" tvg-logo="https://assets.antenaplay.ro/2026/08/20/DlZIyQ0kSAH3YYj30Ovi.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Insula Non-Stop
+https://live77cdn2.antenaplay.ro/live2_sdi05/live2_sdi05_3000k.m3u8
+#EXTINF:-1 tvg-id="AsiaExpressNonStop.ro" tvg-name="Asia Express NonStop" tvg-logo="https://assets.antenaplay.ro/2026/08/20/DlZIyQ0kSAH3YYj30Ovi.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Asia Express NonStop
+https://live77cdn2.antenaplay.ro/live2_sport05/live2_sport05.m3u8
+#EXTINF:-1 tvg-id="AsiaExpressNonStop.ro" tvg-name="Ana, Mi-ai fost scrisa in ADN" tvg-logo="https://assets.antenaplay.ro/2026/10/27/oDTW2ttE9pSScNLbzd3r.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Ana, Mi-ai fost scrisa in ADN
+https://live77cdn2.antenaplay.ro/live2_sdi16/live2_sdi16.m3u8
+#EXTINF:-1 tvg-id="AntenaMonden.ro" tvg-name="Antena Monden" tvg-logo="https://assets.antenaplay.ro/2023/04/13/MrwirFrMppGIcWVNzlGK.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Antena Monden
+https://stream1.antenaplay.ro/live/AntenaMonden/playlist.m3u8
+#EXTINF:-1 tvg-id="MireasaExtra.ro" tvg-name="Acces Direct" tvg-logo="https://assets.antenaplay.ro/2026/05/07/BBOXtLtkSKfKAK5pSBag.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Acces Direct
+https://live77cdn2.antenaplay.ro/live2_fast/ch6/stream.m3u8
+#EXTINF:-1 tvg-id="HelloTaste.ro" tvg-name="Hello Taste" tvg-logo="https://assets.antenaplay.ro/2023/04/13/fKKHBhi4gMsJkN7brGxm.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Hello Taste
+https://live77cdn2.antenaplay.ro/live2_fast/ch5/stream.m3u8
+#EXTINF:-1 tvg-id="DeParintiro.ro" tvg-name="DeParinti.ro" tvg-logo="https://assets.antenaplay.ro/2023/11/21/EO57SfnF8caVPEaQFs4Z.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DeParinti.ro
+https://live77cdn2.antenaplay.ro/live2_fast/ch4/stream.m3u8
+#EXTINF:-1 tvg-id="MediCOOLTV.ro" tvg-name="MediCOOL TV" tvg-logo="https://assets.antenaplay.ro/2023/05/23/oygxpHGNZjc8Wpmwm4cd.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",MediCOOL TV
+https://live77cdn2.antenaplay.ro/live2_fast/ch1/stream.m3u8
+
+.......................................................................................
+#EXTINF:-1 tvg-id="" tvg-name="⭐CANALE STIRI⭐" tvg-logo="📝" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",▁ ▂ ▄ ▅ ▆📝CANALE STIRI📝▆ ▅ ▄ ▂ ▁
+77/index.m3u8
+#EXTINF:-1 tvg-id="ProbashiTVNews.ca" tvg-name="Pro Tv News FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_ac757172ff0947e5afbf4e972b4852bc~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Pro Tv News FHD
+https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist/rum/live_fullhd.m3u8?offsetSeconds=0&url=0
+#EXTINF:-1 tvg-id="ProbashiTVNews.ca" tvg-name="Pro Tv News HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_ac757172ff0947e5afbf4e972b4852bc~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Pro Tv News HD
+https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist/rum/live_hd.m3u8?offsetSeconds=0&url=0
+#EXTINF:-1 tvg-id="ProbashiTVNews.ca" tvg-name="Pro Tv News sd" tvg-logo="https://static.wixstatic.com/media/0e2b3e_ac757172ff0947e5afbf4e972b4852bc~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Pro Tv News SD
+https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist/rum/live_lq.m3u8?offsetSeconds=0&url=0
+#EXTINF:-1 tvg-id="Digi24.ro" tvg-name="DIGI 24 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_14799f5a7792456094e44267d841da70~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI 24 FHD
+http://89.44.231.115:7000/digi24hd
+#EXTINF:-1 tvg-id="Digi24.ro" tvg-name="Digi 24 HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_14799f5a7792456094e44267d841da70~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Digi 24 HD
+https://edge-ar.rcs-rds.ro/digi24ar/hd.m3u8
+#EXTINF:-1 tvg-id="Digi24.ro" tvg-name="Digi 24 SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_14799f5a7792456094e44267d841da70~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Digi 24 SD
+https://edge-ar.rcs-rds.ro/digi24ar/hq.m3u8
+
+#EXTINF:-1 tvg-id="national24plus.ro" tvg-name="National 24 Plus FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/5b/Na%C8%9Bional_24_Plus_%282011-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",National 24 Plus FHD
+
+#EXTINF:-1 tvg-id="national24plus.ro" tvg-name="National 24 Plus HD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/5b/Na%C8%9Bional_24_Plus_%282011-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",National 24 Plus HD
+
+#EXTINF:-1 tvg-id="national24plus.ro" tvg-name="National 24 Plus SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/5b/Na%C8%9Bional_24_Plus_%282011-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",National 24 Plus SD
+https://hls01ns.antenaplay.ro/hls/n24-plus-sd/index.m3u8
+#EXTINF:-1 tvg-id="romaniatv.ro" tvg-name="ROMANIA TV FHD" tvg-logo="https://i.postimg.cc/WzYxPQmM/da8cnbb-0ad80553-1e80-4299-a41e-febd3204e8c9-removebg-preview.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",ROMANIA TV FHD
+
+#EXTINF:-1 tvg-id="romaniatv.ro" tvg-name="Romania TV SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_dc693819dccb45ddb870db9767b802ee~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Romania TV SD
+https://hls01ns.antenaplay.ro/hls/romania-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="NasulTV.ro" tvg-name="Nasul TV" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/4/4f/Na%C8%99ul_TV_%282012-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Nasul TV
+https://live.nasul.tv/live/stream.m3u8
+#EXTINF:-1 tvg-id="realitateaplus.ro" tvg-name="Realitatea Plus FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_72e0222dd3214202bc52092bf0971555~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Realitatea Plus FHD
+
+#EXTINF:-1 tvg-id="realitateaplus.ro" tvg-name="Realitatea Plus HD" tvg-logo="https://assets.antenaplay.ro/2024/06/04/ULmSJdvoTiHdUgVT5DSj.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Realitatea Plus HD
+https://stream.realitatea.net/realitatea/plus_md/ts:playlist.m3u8
+#EXTINF:-1 tvg-id="realitateaplus.ro" tvg-name="Realitatea Plus SD" tvg-logo="https://assets.antenaplay.ro/2024/06/04/ULmSJdvoTiHdUgVT5DSj.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Realitatea Plus SD
+https://hls01ns.antenaplay.ro/hls/realitatea-plus-sd/index.m3u8
+#EXTINF:-1 tvg-id="Euronews.ro" tvg-name="EURONEWS ROMANIA FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/7/7a/Euronews_%282023-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",EURONEWS ROMANIA FHD
+
+#EXTINF:-1 tvg-id="Euronews.ro" tvg-name="EURONEWS ROMANIA SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/7/7a/Euronews_%282023-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",EURONEWS ROMANIA SD
+https://hls02ns.antenaplay.ro/hls/euronews-ro-sd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TELE 7 ABC RO" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TELE 7 ABC RO
+
+#EXTINF:-1 tvg-id="ROTVValencia.es" tvg-name="ROTV Valencia" tvg-logo="https://i.ibb.co/KpdXCzHR/0TDn-VQ4.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",ROTV Valencia
+https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8
+#EXTINF:-1 tvg-id="TVAS.ro" tvg-name="TV AS" tvg-logo="https://assets.antenaplay.ro/2024/06/04/THPSQnpuUfbRhfhOA5vZ.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TV AS
+https://hls01ns.antenaplay.ro/hls/tv-as-sd/index.m3u8
+#EXTINF:-1 tvg-id="SensTV.ro" tvg-name="SensTV" tvg-logo="https://senstv.ro/wp-content/uploads/2023/12/sigla-12.10.2023-crop-300x92.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",SensTV
+https://live.senstv.ro/live/senstv_1080p/playlist.m3u8
+.............................................................................................................
+#EXTINF:-1 tvg-id="" tvg-name="⭐CANALE SPORTIVE (ROMANIA)⭐" tvg-logo="⚽️" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",▁ ▂ ▄ ▅ ▆⚽️ CANALE SPORTIVE ⚽️▆ ▅ ▄ ▂ ▁
+77/index.m3u8
+#EXTINF:-1 tvg-id="FIFAU-17WorldCup1AntenaPlay.ro" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FIFA U-17 World Cup 1 AntenaPlay
+https://live77cdn2.antenaplay.ro/live2_sport07/live2_sport07.m3u8
+#EXTINF:-1 tvg-id="FIFAU-17WorldCup2AntenaPlay.ro" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FIFA U-17 World Cup 2 AntenaPlay
+https://live77cdn2.antenaplay.ro/live2_sdi09/live2_sdi09.m3u8
+#EXTINF:-1 tvg-id="FIFAU-17WorldCup3AntenaPlay.ro" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FIFA U-17 World Cup 3 AntenaPlay
+https://live77cdn2.antenaplay.ro/live2_sdi03/live2_sdi03.m3u8
+#EXTINF:-1 tvg-id="NBAAntenaPlay.ro" tvg-name="NBA AntenaPlay" tvg-logo="https://assets.antenaplay.ro/2024/10/25/HmBMStln2f1qwN0tAXpG.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",NBA AntenaPlay
+https://live77cdn2.antenaplay.ro/live2_sdi09/live2_sdi09.m3u8
+#EXTINF:-1 tvg-id="NHLAntenaPlay.ro" tvg-name="NHL AntenaPlay" tvg-logo="https://assets.antenaplay.ro/2024/10/25/SN0nevshXwKDcZ2Tw1jm.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",NHL AntenaPlay
+https://live77cdn2.antenaplay.ro/live2_srt9/live2_srt9_3000k.m3u8
+#EXTINF:-1 tvg-id="Formula1AntenaPlay.ro" tvg-name="Formula 1 AntenaPlay" tvg-logo="https://assets.antenaplay.ro/2024/02/23/XUKfJwir4MxNeP4nHtG7.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Formula 1 AntenaPlay
+https://live77cdn2.antenaplay.ro/live2_sport07/live2_sport07.m3u8
+#EXTINF:-1 tvg-id="Formula1AntenaPlay.ro" tvg-name="Tenis Masa AntenaPlay" tvg-logo="https://assets.antenaplay.ro/2024/02/23/XUKfJwir4MxNeP4nHtG7.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Tenis Masa AntenaPlay
+https://live77cdn2.antenaplay.ro/live2_srt/live2_srt.m3u8
+#EXTINF:-1 tvg-id="VoyoEvents.ro" tvg-name="Voyo Sport 1" tvg-logo="https://cdn.aptoide.com/imgs/d/d/5/dd59c35107c2f9509547b60213f6ec59_icon.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Voyo Events 1
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus5/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-id="VoyoSport1.ro" tvg-name="Voyo Sport 1" tvg-logo="https://cdn.aptoide.com/imgs/d/d/5/dd59c35107c2f9509547b60213f6ec59_icon.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Voyo Events 2
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus1/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-id="VoyoSport1.ro" tvg-name="Voyo Sport 1" tvg-logo="https://cdn.aptoide.com/imgs/d/d/5/dd59c35107c2f9509547b60213f6ec59_icon.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Voyo Events 3
+
+
+#EXTINF:-1 tvg-id="digisport1.ro" tvg-name="Digi Sport 1 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_82fb036b0744495997cdc491ac34b8a7~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Digi Sport 1 FHD
+http://ua.online24.pm/play/11068/747C36CA0A3B034/video.m3u8
+#EXTINF:-1 tvg-id="digisport1.ro" tvg-name="DIGI SPORT 1 HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_82fb036b0744495997cdc491ac34b8a7~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 1 HD
+http://91.201.172.14:35005
+#EXTINF:-1 tvg-id="digisport1.ro" tvg-name="DIGI SPORT 1 SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_353a02b12dea4fdeb128d63b82f31938~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 1 SD
+http://z2gep0yj.tvclub.xyz/iptv/GKTT8YW6E9SFM2/2523/index.m3u8
+#EXTINF:-1 tvg-id="digisport1.ro" tvg-name="Digi Sport 1 4K (UHD)" tvg-logo="https://static.wixstatic.com/media/0e2b3e_8746980a74fc44c68551f737fcc66142~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Digi Sport 1 4K (UHD)
+
+#EXTINF:-1 tvg-id="digisport2.ro" tvg-name="DIGI SPORT 2 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_e3ffbe60d95749aba47c1610c735eaf0~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 2 FHD
+http://91.201.172.14:35006
+#EXTINF:-1 tvg-id="digisport2.ro" tvg-name="DIGI SPORT 2 HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_e3ffbe60d95749aba47c1610c735eaf0~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 2 HD
+http://ua.online24.pm/play/11069/747C36CA0A3B034/video.m3u8
+#EXTINF:-1 tvg-id="digisport2.ro" tvg-name="DIGI SPORT 2 SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_f94ad20ec697442fbc4d5c4c437e61c7~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 2 SD
+http://z2gep0yj.tvclub.xyz/iptv/GKTT8YW6E9SFM2/2522/index.m3u8
+#EXTINF:-1 tvg-id="digisport2.ro" tvg-name="Digi Sport 2 4K (UHD)" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Digi Sport 2 4K (UHD)
+
+#EXTINF:-1 tvg-id="digisport3.ro" tvg-name="DIGI SPORT 3 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_9038acb21c03440fb732577f67f401f8~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 3 FHD
+
+#EXTINF:-1 tvg-id="digisport3.ro" tvg-name="DIGI SPORT 3 HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_9038acb21c03440fb732577f67f401f8~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 3 HD
+
+#EXTINF:-1 tvg-id="digisport3.ro" tvg-name="DIGI SPORT 3 SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_6b6f4d2d431e4ce1881f65c308270c09~mv2.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 3 SD
+http://z2gep0yj.tvclub.xyz/iptv/GKTT8YW6E9SFM2/2524/index.m3u8
+#EXTINF:-1 tvg-id="digisport3.ro" tvg-name="Digi Sport 3 4K (UHD)" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Digi Sport 3 4K (UHD)
+
+#EXTINF:-1 tvg-id="digisport4.ro" tvg-name="DIGI SPORT 4 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_1dc1050622f0426ea5142ad40d9c1ca6~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 4 FHD
+http://z2gep0yj.tvclub.xyz/iptv/GKTT8YW6E9SFM2/2538/index.m3u8
+#EXTINF:-1 tvg-id="digisport4.ro" tvg-name="DIGI SPORT 4 HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_1dc1050622f0426ea5142ad40d9c1ca6~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 4 HD
+
+#EXTINF:-1 tvg-id="digisport4.ro" tvg-name="DIGI SPORT 4 SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_f6bb104e1b204d1e98f4814ceff31000~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 4 SD
+
+#EXTINF:-1 tvg-id="digisport4.ro" tvg-name="Digi Sport 4 4K (UHD)" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Digi Sport 4 4K (UHD)
+
+#EXTINF:-1 tvg-id="Prima4k.ro" tvg-name="Prima 4K" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/f/f6/Prima_4K_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima 4K
+
+#EXTINF:-1 tvg-id="primasport1.ro" tvg-name="Prima Sport 1 FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima Sport 1 FHD
+
+#EXTINF:-1 tvg-id="primasport1.ro" tvg-name="Prima Sport 1 HD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima Sport 1 HD
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fpuki1%2Fusergendx6kal0r2bsm-got.htm
+#EXTINF:-1 tvg-id="primasport1.ro" tvg-name="Prima Sport 1 SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/52/Prima_Sport_1_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima Sport 1 SD
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Firon1.xn--x2rw19a.space%2Fpuk1%2Fusergenrx0cir27aq-got.htm
+#EXTINF:-1 tvg-id="primasport2.ro" tvg-name="Prima Sport 2 FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima Sport 2 FHD
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fpuki2%2Fusergendxpk2s6utg0l-got.htm
+#EXTINF:-1 tvg-id="primasport2.ro" tvg-name="Prima Sport 2 SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/a/a9/Prima_Sport_2_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima Sport 2 SD
+
+#EXTINF:-1 tvg-id="primasport3.ro" tvg-name="PRIMA SPORT 3 FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA SPORT 3 FHD
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Firon1.xn--x2rw19a.space%2Fpuk3%2Fusergenrx4t0l8sybkr-got.htm
+#EXTINF:-1 tvg-id="" tvg-name="PRIMA SPORT 3 SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA SPORT 3 SD
+
+#EXTINF:-1 tvg-id="PrimaSport4.ro" tvg-name="PRIMA SPORT 4 FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/a/a3/Prima_Sport_4_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA SPORT 4 FHD
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fpuk4%2Fusergendx3j2x4tqrnd-got.htm
+#EXTINF:-1 tvg-id="PrimaSport5.ro" tvg-name="PRIMA SPORT 5 FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/f/f2/Prima_Sport_5_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA SPORT 5 FHD
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fpuk5%2Fusergen0grnd8l2y6gw-got.htm
+#EXTINF:-1 tvg-id="orangesport1.ro" tvg-name="Orange Sport 1 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_33138b17984644feb8cb462a8f928192~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Orange Sport 1 FHD
+
+#EXTINF:-1 tvg-id="orangesport1.ro" tvg-name="Orange Sport 1 HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_33138b17984644feb8cb462a8f928192~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Orange Sport 1 HD
+
+#EXTINF:-1 tvg-id="orangesport1.ro" tvg-name="Orange Sport 1 SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_c73ef7fedf4e490cb9d51894d1732e96~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Orange Sport 1 SD
+
+#EXTINF:-1 tvg-id="orangesport2.ro" tvg-name="Orange Sport 2 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_ab833f6af4d44e4bb75fe934c0244aa4~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Orange Sport 2 FHD
+
+#EXTINF:-1 tvg-id="orangesport2.ro" tvg-name="Orange Sport 2 HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_ab833f6af4d44e4bb75fe934c0244aa4~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Orange Sport 2 HD
+
+#EXTINF:-1 tvg-id="orangesport2.ro" tvg-name="Orange Sport 2 SD" tvg-logo="https://static.wixstatic.com/shapes/0e2b3e_33e387dec5f0460aa6bea0365bc53657.svg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Orange Sport 2 SD
+
+#EXTINF:-1 tvg-id="orangesport3.ro" tvg-name="Orange Sport 3 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_c863735f53974360aa1ae9e698c6baf8~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Orange Sport 3 FHD
+
+#EXTINF:-1 tvg-id="orangesport3.ro" tvg-name="Orange Sport 3 HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_c863735f53974360aa1ae9e698c6baf8~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Orange Sport 3 HD
+
+#EXTINF:-1 tvg-id="orangesport3.ro" tvg-name="Orange Sport 3 SD" tvg-logo="https://static.wixstatic.com/shapes/0e2b3e_b885c71667dd4923a1fe2d0658cf7a4a.svg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Orange Sport 3 SD
+
+#EXTINF:-1 tvg-id="orangesport4.ro" tvg-name="Orange Sport 4 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_bd788c8369054efcb6edc16691874117~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Orange Sport 4 FHD
+
+#EXTINF:-1 tvg-id="orangesport4.ro" tvg-name="Orange Sport 4 HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_bd788c8369054efcb6edc16691874117~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Orange Sport 4 HD
+
+#EXTINF:-1 tvg-id="orangesport4.ro" tvg-name="Orange Sport 4 SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_ba51ff06f01445f5a122146731ba02f4~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Orange Sport 4 SD
+
+#EXTINF:-1 tvg-id="" tvg-name="Sport Extra FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/f/fa/Sport_Extra_%282020-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Sport Extra FHD
+
+#EXTINF:-1 tvg-id="Eurosport4k.ro" tvg-name="Eurosport 4K (UHD)" tvg-logo="https://static.wixstatic.com/media/0e2b3e_529bced067504b1cb0a95420fdbf92d5~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Eurosport 4K (UHD)
+
+#EXTINF:-1 tvg-id="Eurosport1.ro" tvg-name="Eurosport 1 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_2951ff6091b34c60b4ce1c951be65ac6~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Eurosport 1 FHD
+http://89.44.231.115:7000/eurosport
+http://89.44.229.22:7000/eurosport
+#EXTINF:-1 tvg-id="Eurosport1.ro" tvg-name="Eurosport 1 SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_2951ff6091b34c60b4ce1c951be65ac6~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Eurosport 1 SD
+
+#EXTINF:-1 tvg-id="Eurosport2.ro" tvg-name="Eurosport 2 FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/0/03/Eurosport_2_HD_%282011-2015%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Eurosport 2 FHD
+
+#EXTINF:-1 tvg-id="Eurosport2.ro" tvg-name="Eurosport 2 SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/52/Eurosport_2_%282011-2015%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Eurosport 2 SD
+http://89.44.231.115:7000/eurosport2
+http://89.44.229.22:7000/eurosport2
+#EXTINF:-1 tvg-id="AntenaSport.ro" tvg-name="AntenaSport" tvg-logo="https://assets.antenaplay.ro/2024/01/19/mwwUJ1mM52o5p6Wx3H5Z.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",AntenaSport
+https://stream1.antenaplay.ro/as/AS.ro/playlist.m3u8
+#EXTINF:-1 tvg-id="FightBox.nl@HD" tvg-name="Fight Box FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/57/Fightbox_%282013-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Fight Box FHD
+
+#EXTINF:-1 tvg-id="FightBox.nl@HD" tvg-name="Fight Box HD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/57/Fightbox_%282013-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Fight Box HD
+https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
+#EXTINF:-1 tvg-id="Sport.Extra.ro" tvg-name="Sport Extra HD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/f/fa/Sport_Extra_%282020-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Sport Extra HD
+http://ua.online24.pm/play/11158/747C36CA0A3B034/video.m3u8
+#EXTINF:-1 tvg-id="TVRSport.ro" tvg-name="TVR SPORT FHD" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/TVR_Sport_Logo_2023.svg/1920px-TVR_Sport_Logo_2023.svg.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR SPORT FHD
+https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/chunklist_b3400000.m3u8
+#EXTINF:-1 tvg-id="TVRSport.ro" tvg-name="TVR SPORT HD" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/TVR_Sport_Logo_2023.svg/1920px-TVR_Sport_Logo_2023.svg.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR SPORT HD
+https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/chunklist_b1700000.m3u8
+#EXTINF:-1 tvg-id="TVRSport.ro" tvg-name="TVR SPORT SD" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/TVR_Sport_Logo_2023.svg/1920px-TVR_Sport_Logo_2023.svg.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR SPORT SD
+https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/chunklist_b1350000.m3u8
+
+...................................................................................................................................................
+#EXTINF:-1 tvg-id="" tvg-name="⭐CANALE MUZICA⭐" tvg-logo="🎧" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",▁ ▂ ▄ ▅ ▆🎧 CANALE MUZICA 🎧▆ ▅ ▄ ▂ ▁
+77/index.m3u8
+#EXTINF:-1 tvg-id="kisstv.ro" tvg-name="KISS TV FHD" tvg-logo="https://assets.antenaplay.ro/2024/06/04/pUhvcqn8tEfeKGwK7zXK.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",KISS TV FHD
+https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131.m3u8
+#EXTINF:-1 tvg-id="kisstv.ro" tvg-name="KISS TV SD" tvg-logo="https://assets.antenaplay.ro/2024/06/04/pUhvcqn8tEfeKGwK7zXK.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",KISS TV SD
+https://hls02ns.antenaplay.ro/hls/kiss-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="MagicTV.ro" tvg-name="Magic TV HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fd/Magic_TV_2019_slogan.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Magic TV HD
+https://tv.broadcasting.ro/magictv/925f90db-5c88-4190-a53d-5163cdffe6f4.m3u8
+#EXTINF:-1 tvg-id="MagicTV.ro" tvg-name="Magic TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fd/Magic_TV_2019_slogan.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Magic TV
+https://hls02ns.antenaplay.ro/hls/magic-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="RadioZU.ro" tvg-name="ZU TV FHD" tvg-logo="https://assets.antenaplay.ro/2023/06/15/vEUptMUgIdeDGjMsx7bR.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",ZU TV FHD
+https://stream1.antenaplay.ro/zurtv/zurtv/chunklist.m3u8
+#EXTINF:-1 tvg-id="BoomTV.ro" tvg-name="Boom TV HD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/c/c2/Boom_TV_%282024-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Boom TV HD
+https://live.radioboom.ro/live-tv/live.m3u8
+#EXTINF:-1 tvg-id="ImpactTV.ro@HD" tvg-logo="https://tvimpact.ro/impact-logo.png" http-referrer="https://tvimpact.ro/" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Impact TV
+#EXTVLCOPT:http-referrer=https://tvimpact.ro/
+https://live.tvimpact.ro:8088/hevc/index.m3u8
+#EXTINF:-1 tvg-id="TequilaMusicTV.ro" tvg-name="Tequila Music TV" tvg-logo="https://tequilamusic.net/imagini/tv-logo.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Tequila Music TV
+https://stream.tequilamusic.net/hls/tequila_tv.m3u8
+#EXTM3U x-tvg-url="https://virtualtv.ddns.net/epg.xml"
+#EXTINF:-1 tvg-id="virtualtv" tvg-name="Virtual TV" tvg-logo="https://xatimg.com/image/gaDK3fBseh49.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Virtual TV
+https://virtualtv.ddns.net/hls/VirtualTv.m3u8
+#EXTINF:-1 tvg-id="PartyMix.ro" tvg-name="PartyMix FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/4/47/Party_Mix_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PartyMix FHD
+
+#EXTINF:-1 tvg-id="PartyMix.ro" tvg-name="PartyMix HD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/4/47/Party_Mix_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PartyMix HD
+https://hls02ns.antenaplay.ro/hls/party-mix-hd/index.m3u8
+EXTINF:-1 tvg-id="PartyMix.ro" tvg-name="PartyMix" tvg-logo="https://assets.antenaplay.ro/2026/03/10/RoacUpEwSo07gLmSmrLv.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PartyMix
+
+#EXTINF:-1 tvg-id="TarafTV.ro" tvg-name="Taraf TV SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/3/3b/Taraf_TV_%282017-2021%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Taraf TV SD
+https://hls02ns.antenaplay.ro/hls/taraf-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="TarafTV.ro" tvg-name="Taraf TV SD" tvg-logo="https://assets.antenaplay.ro/2024/06/04/8H4jdj1IWn4amFbpBiVT.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Taraf TV SD
+
+#EXTINF:-1 tvg-id="BalcanMusic.ro" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ac/Balcan_Music_TV_osb.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Balcan Music
+
+
+#EXTINF:-1 tvg-id="ImpactTVManele.ro" tvg-logo="https://i.ibb.co/d0ZBx1Qy/FHHIM3r.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Impact TV Manele
+https://online.tvimpact.live/hls/impact_tv.m3u8
+#EXTINF:-1 tvg-id="ImpactTVDance.ro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Impact-tv-dance.ro.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Impact TV Dance
+https://online.tvimpact.live/hls/dancetv.m3u8
+#EXTINF:-1 tvg-id="ImpactTV2.ro@HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwL2-8r1l1NDdmA6jkZYvHxPFrsIA7a8m-XdSpwC6Z&s=10" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Impact TV 2
+https://online.tvimpact.live/hls/impact_tv2.m3u8
+#EXTINF:-1 tvg-id="utv.ro" tvg-name="UTV FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",UTV FHD
+
+#EXTINF:-1 tvg-id="" tvg-name="U TV SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",U TV SD
+
+#EXTINF:-1 tvg-id="AtomicTV.ro" tvg-name="Atomic TV" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/b/bc/Atomic_TV_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Atomic TV HD
+https://hls02ns.antenaplay.ro/hls/atomic-hd/index.m3u8
+#EXTINF:-1 tvg-id="AtomicAcademyTV.ro" tvg-name="Atomic Academy TV" tvg-logo="https://atomicacademytv.ro/wp-content/uploads/2022/11/Atomic-Academy-Tv-sigla-WEB.gif" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Atomic Academy TV
+https://hls02ns.antenaplay.ro/hls/atomic-academy-sd/index.m3u8
+#EXTINF:-1 tvg-id="RockTV.ro" tvg-name="Rock TV HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/Rock_TV.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Rock TV HD
+https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
+
+#EXTINF:-1 tvg-id="MusicChannel.ro" tvg-name="Music Channel SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/1/16/Music_Channel_%282016-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Music Channel SD
+http://193.33.39.108:9014/play/a01e
+http://193.33.39.108:9022/play/a00l
+#EXTINF:-1 tvg-id="Tele7music.ro" tvg-name="U TV SD" tvg-logo="https://tele7music.ro/wp-content/uploads/2022/11/logo-music7abc-alb-500-300x247.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Tele 7 Music
+https://live.tele7music.ro/hls/stream/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="MOOZ Hits" tvg-logo="https://cdn.gamma.app/tfnglu66dwji8hw/11d5a6b134f849678f69c8d196e940df/original/mooz-hits.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",MOOZ Hits
+
+#EXTINF:-1 tvg-id="Zecetv.ro" tvg-name="ZECE TV" tvg-logo="https://zecetv.ro/brand/logo-transparent.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",ZECE TV
+https://zecetv.ilink.ro:8088/hls/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MTV DANCE FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",MTV DANCE FHD
+
+#EXTINF:-1 tvg-id="RadioFxNet.ro" tvg-name="Radio Fx Net" tvg-logo="https://radiofxnet.ro/wp-content/uploads/2021/03/cropped-cropped-cropped-Radio_FX_Net_logo-1-1.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Radio Fx Net
+https://streamlov.alsolnet.com/radiofxnet/live/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MTV Hits SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",MTV Hits SD
+
+#EXTINF:-1 tvg-id="BalkanikaTV.bg" tvg-name="Balkanika TV HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/Balkanika_Music_Television_logo.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Balkanika TV HD (Bulgaria)
+http://85.14.32.26:8800/udp/239.100.10.20:5000
+#EXTINF:-1 tvg-id="PlanetaTV.bg" tvg-name="Planeta HD" tvg-logo="https://static.wikia.nocookie.net/the-fake-logos-of-the-world/images/2/22/Planeta_hd_Screen_bug_logo_2024.png/revision/latest/scale-to-width-down/1000?cb=20241027225346&path-prefix=bg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Planeta HD (Bulgaria)
+http://213.91.179.28:8000/play/a03t
+#EXTINF:-1 tvg-id="Planeta4K.bg" tvg-name="Planeta 4k" tvg-logo="https://static.wikia.nocookie.net/the-fake-logos-of-the-world/images/6/69/Planeta_4k_Screen_Logo_2024.png/revision/latest/scale-to-width-down/1000?cb=20241020221649&path-prefix=bg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Planeta 4k (Bulgaria)
+http://85.14.32.26:8800/udp/239.100.10.229:5000
+#EXTINF:-1 tvg-id="AlbKanaleMusicTV.al" tvg-name="Alb Music TV (Albania)" tvg-logo="https://albportal.net/images/image.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Alb Music TV (Albania)
+https://albportal.net/albkanalemusic.m3u8
+#EXTINF:-1 tvg-id="Mezzo.ro" tvg-name="Mezzo TV SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/7/77/Mezzo_%282003-2008%2C_cerni_fon%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Mezzo TV SD
+
+#EXTINF:-1 tvg-id="supertv.ro" tvg-name="Super TV HD" tvg-logo="https://supertv.ro/wp-content/uploads/2023/12/cropped-avatars-UhBq7o6ByUgvq9rC-rcvn6Q-t240x240.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Super TV HD
+http://iptv.supertv.ro:8000/play/a001/index.m3u8
+#EXTINF:-1 tvg-id="supertv.ro" tvg-name="Super TV" tvg-logo="https://supertv.ro/wp-content/uploads/2023/12/cropped-avatars-UhBq7o6ByUgvq9rC-rcvn6Q-t240x240.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Super TV
+
+#EXTINF:-1 tvg-id="DeejayTV.it" tvg-name="Deejay TV FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmKr9EQfHpXtt70W05Nk7Oxhs4C4g8fWb25fvfJop-CQ&s.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Deejay TV FHD
+https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b3247616.m3u8
+#EXTINF:-1 tvg-id="DeejayTV.it" tvg-name="Deejay TV HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmKr9EQfHpXtt70W05Nk7Oxhs4C4g8fWb25fvfJop-CQ&s.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Deejay TV HD
+https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b2428000.m3u8
+#EXTINF:-1 tvg-id="DeejayTV.it" tvg-name="Deejay TV SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmKr9EQfHpXtt70W05Nk7Oxhs4C4g8fWb25fvfJop-CQ&s.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Deejay TV SD
+https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/chunklist_b1728000.m3u8
+#EXTINF:-1 tvg-id="DanceHits80.ru" tvg-logo="https://i.ibb.co/CKSjFZ4X/images-q-tbn-ANd9-Gc-ST05dkt-Ogs24-AZQhb8-Gwf7-Ho5-Ezt-LRR0-Vhc-Gw-Je-EEE5-Q-s.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DanceHits80
+http://dancehits80.denvs.ru:8080/index.m3u8
+
+#EXTINF:-1 tvg-id="TVRFolclor.ro" tvg-name="TVR Folclor FHD" tvg-logo="http://folclor.tvr.ro/img-canal/logo_stations_folclor.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR Folclor FHD
+https://tvr-folclor.lg.mncdn.com/tvrfolclor/smil:tvrfolclor.smil/chunklist_b3000000.m3u8
+#EXTINF:-1 tvg-id="TVRFolclor.ro" tvg-name="TVR Folclor HD" tvg-logo="http://folclor.tvr.ro/img-canal/logo_stations_folclor.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR Folclor HD
+https://tvr-folclor.lg.mncdn.com/tvrfolclor/smil:tvrfolclor.smil/chunklist_b1650000.m3u8
+#EXTINF:-1 tvg-id="TVRFolclor.ro" tvg-name="TVR Folclor SD" tvg-logo="http://folclor.tvr.ro/img-canal/logo_stations_folclor.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TVR Folclor SD
+https://tvr-folclor.lg.mncdn.com/tvrfolclor/smil:tvrfolclor.smil/chunklist_b1300000.m3u8
+#EXTINF:-1 tvg-id="EtnoTV.ro" tvg-name="Etno TV FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/c/c8/Etno_TV_%282021-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Etno TV FHD
+
+#EXTINF:-1 tvg-id="EtnoTV.ro" tvg-name="Etno TV SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/c/c8/Etno_TV_%282021-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Etno TV SD
+https://hls02ns.antenaplay.ro/hls/etno-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Favorit TV SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/6/60/Favorit_%282004-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Favorit TV SD
+https://hls02ns.antenaplay.ro/hls/favorit-sd/index.m3u8
+#EXTINF:-1 tvg-id="HoraTV.ro" tvg-name="Hora TV SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Hora TV SD
+
+#EXTINF:-1 tvg-id="EMITV.ro@HD" tvg-name="Emi TV SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/c/c5/Emi_TV_%282020-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Emi TV FHD
+https://astra.emitv.ro/hls/emi/index.m3u8
+#EXTINF:-1 tvg-id="EMITV.ro" tvg-name="Emi TV SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/c/c5/Emi_TV_%282020-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Emi TV SD
+https://hls01ns.antenaplay.ro/hls/emi-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="TraditionalTV.ro" tvg-name="Traditional TV" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/0/01/Tradi%C8%9Bional_TV_%282016-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Traditional TV
+https://hls01ns.antenaplay.ro/hls/traditional-tv-hd/index.m3u8
+#EXTINF:-1 tvg-id="OrizontTV.ro" tvg-name="Orizont TV" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/b/bc/Orizont.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Orizont TV
+https://hls01ns.antenaplay.ro/hls/orizont-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="BusuiocTV.md" tvg-name="Busuioc Tv" tvg-logo="https://busuioctv.md/wp-content/uploads/2016/10/Login-Logo.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Busuioc Tv
+https://live.busuioctv.md/hls/busuioctv/index.m3u8
+#EXTINF:-1 tvg-id="NorocTV.md" tvg-name="Noroc Tv" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/09/Noroc_TV.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Noroc Tv
+https://media.noroc.tv/noroc/bitrate_1080p.m3u8
+#EXTINF:-1 tvg-id="BanatTV.ro" tvg-name="Banat TV" tvg-logo="https://www.btv.ro/wp-content/uploads/banat-TV.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Banat TV
+https://www.btv.ro/hls/banat-tv.m3u8
+#EXTINF:-1 tvg-id="TVAS.ro" tvg-name="TV AS" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/4/49/TV_AS_%282015-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TV AS
+https://hls01ns.antenaplay.ro/hls/tv-as-sd/index.m3u8
+#EXTINF:0 tvg-country="RO" tvg-name="Tezaur Tv" tvg-logo="https://tezaurtv.md/wp-content/uploads/2021/12/Tezaur-logo-pentru-site-alfa.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Tezaur Tv
+http://tezaur.mlbfan.org/tezaur/index.m3u8
+#EXTINF:-1 tvg-id="FashionTV.uk" tvg-name="Fashion FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/9/9c/Fashion_TV_%282001-2007%2C_tre%C4%8Di_variant%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Fashion TV FHD
+
+#EXTINF:-1 tvg-id="FashionBox.ro" tvg-name="Fashionbox FHD" tvg-logo="https://static.wikia.nocookie.net/logaekranowe/images/f/f9/Fashionbox-hd-int.png/revision/latest?cb=20250323100242&path-prefix=pl" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Fashionbox FHD
+
+#EXTINF:-1 tvg-id="" tvg-name="Simfonica TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5a/Simfonica_TV_osb.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Simfonica TV
+
+
+#EXTINF:-1 tvg-id="" tvg-name="⭐CANALE SPORTIVE (ROMANIA)⭐" tvg-logo="🎬" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",▁ ▂ ▄ ▅ ▆🎬 CANALE FILME 🎬▆ ▅ ▄ ▂ ▁
+77/index.m3u8
+#EXTINF:-1 tvg-id="TimelessDiziChannel.ro" tvg-name="Dizi Channel" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/9/95/Dizi_%282020-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Dizi Channel
+https://nosignal1.antenaplay.ro/hls/dzi-int-hd/index.m3u8
+#EXTINF:-1 tvg-id="amc.ro" tvg-name="AMC FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",AMC FHD
+
+#EXTINF:-1 tvg-id="CinemaratonPlus.ro" tvg-name="Cinemaraton Plus FHD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ec/Cinemaraton_Plus.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Cinemaraton Plus FHD
+
+#EXTINF:-1 tvg-id="CinemaratonPlus.ro" tvg-name="Cinemaraton Plus HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ec/Cinemaraton_Plus.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Cinemaraton Plus HD
+https://hls02ns.antenaplay.ro/hls/cinemaraton-plus-hd/index.m3u8
+#EXTINF:-1 tvg-id="CinemaratonPlus.ro" tvg-name="Cinemaraton Plus SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ec/Cinemaraton_Plus.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Cinemaraton Plus SD
+
+#EXTINF:-1 tvg-id="epicdrama.ro" tvg-name="EPIC DRAMA FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",EPIC DRAMA FHD
+
+#EXTINF:-1 tvg-id="" tvg-name="EPIC DRAMA SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",EPIC DRAMA SD
+
+#EXTINF:-1 tvg-id="DivaUniversal.ro" tvg-name="DIVA TV FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/8/8b/Diva_%282014-.n.v.%2C_belo%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIVA TV FHD
+
+#EXTINF:-1 tvg-id="DivaUniversal.ro" tvg-name="DIVA TV SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/8/8b/Diva_%282014-.n.v.%2C_belo%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIVA TV SD
+https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/46
+#EXTINF:-1 tvg-id="tdc.ro" tvg-name="Timeless Drama Channel HD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Timeless Drama Channel HD
+
+#EXTINF:-1 tvg-id="NostalgiaTV.ro" tvg-name="Nostalgia TV FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/6/66/Nostalgia_TV_%282024-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Nostalgia TV FHD
+
+#EXTINF:-1 tvg-id="NostalgiaTV.ro" tvg-name="Nostalgia TV HD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/6/66/Nostalgia_TV_%282024-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Nostalgia TV HD
+https://hls02ns.antenaplay.ro/hls/nostalgia-hd/index.m3u8
+#EXTINF:-1 tvg-id="tdc.ro" tvg-name="TDC FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TDC FHD
+
+#EXTINF:-1 tvg-id="CineWow.ro" tvg-name="CineWow HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a8/CineWow.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",CineWow FHD
+
+#EXTINF:-1 tvg-id="CineWow.ro" tvg-name="CineWow" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a8/CineWow.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",CineWow
+https://hls01ns.antenaplay.ro/hls/cinewow-sd/index.m3u8
+#EXTINF:-1 tvg-id="cinemax.ro" tvg-name="CINEMAX 1 FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",CINEMAX 1 FHD
+
+#EXTINF:-1 tvg-id="cinemax.ro" tvg-name="Cinemax HD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/6/6f/Cinemax_%282016-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Cinemax
+http://193.33.39.108:9019/play/a00s
+#EXTINF:-1 tvg-id="cinemax2.ro" tvg-name="CINEMAX 2 FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",CINEMAX 2 FHD
+
+#EXTINF:-1 tvg-id="cinemax2.ro" tvg-name="Cinemax 2 SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Cinemax 2 SD
+
+#EXTINF:-1 tvg-id="comedycentral.ro" tvg-name="Comedy Central SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Comedy Central SD
+
+#EXTINF:-1 tvg-id="bollywoodtvfilm.ro" tvg-name="Bollywood FILM SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Bollywood FILM SD
+
+#EXTINF:-1 tvg-id="tv1000.ro" tvg-name="TV 1000 HD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TV 1000 HD
+
+#EXTINF:-1 tvg-id="tv1000.ro" tvg-name="TV 1000 SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TV 1000 SD
+
+#EXTINF:-1 tvg-id="axn.ro" tvg-name="AXN  FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/1/15/AXN_HD_%282015-.n.v.%2C_belo%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",AXN  FHD
+
+#EXTINF:-1 tvg-id="axn.ro" tvg-name="AXN SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/5e/AXN_%282016-.n.v.%2C_belo%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",AXN SD
+
+#EXTINF:-1 tvg-id="axnwhite.ro" tvg-name="AXN White HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/AXN_White_HD.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",AXN White HD
+
+#EXTINF:-1 tvg-id="axnwhite.ro" tvg-name="AXN White SD" tvg-logo="http://demo.kvarta.net:8021/admin/logo/axnwhite.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",AXN White SD
+http://193.33.39.108:9007/play/a01j
+#EXTINF:-1 tvg-id="axnblack.ro" tvg-name="AXN BLACK SD" tvg-logo="https://tvo-48-26.e.blueonline.tv/scale/tvsmart/assets/backoffice/channel/e2a467ed-aceb-4bba-a263-5fdd9a63df79/logo/srqf9g96U32LD6svXh74SQ4lB4cCtWAfBHBVmDYr.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",AXN BLACK SD
+http://193.33.39.108:9007/play/a01k
+#EXTINF:-1 tvg-id="axnspin.ro" tvg-name="AXN Spin SD" tvg-logo="http://vsvgroup.co.uk/wp-content/uploads/2019/12/AXN_Spin-e1577020762883.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",AXN Spin SD
+
+#EXTINF:-1 tvg-id="amc.ro" tvg-name="AMC SD" tvg-logo="hhttps://static.wikia.nocookie.net/tvfanon6528/images/a/a3/AMC_%282016-2019%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",AMC HD
+
+#EXTINF:-1 tvg-id="" tvg-name="FILM MANIA FHD" tvg-logo="https://bmcmedia.org:2083/images/z0Jls3khql2x0Wmk_HIuLcsA686E8tCwokTCS7EPpxDWzV4F7DA6-wz0IHQlMksW.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FILM MANIA FHD
+
+#EXTINF:-1 tvg-id="WarnerTV.ro" tvg-name="WARNER TV FHD" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/960px-Warner2018LA.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",WARNER TV FHD
+
+#EXTINF:-1 tvg-id="" tvg-name="WARNER TV SD" tvg-logo="https://bmcmedia.org:2083/images/z0Jls3khql2x0Wmk_HIuLaxG5Amn-uEtQQwRMEzxYEPbe0QFP_9ORRZ-1EHHMRss.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",WARNER TV SD
+
+#EXTINF:-1 tvg-id="" tvg-name="Film Now HD" tvg-logo="http://vsvgroup.co.uk/wp-content/uploads/2019/09/filmnow-e1577019755686.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Film Now HD
+
+#EXTINF:-1 tvg-id="" tvg-name="Film NOW SD" tvg-logo="http://vsvgroup.co.uk/wp-content/uploads/2019/09/filmnow-e1577019755686.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Film NOW SD
+
+
+#EXTINF:-1 tvg-id="FilmCafe.ro" tvg-name="Film Cafe FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/2/25/Filmcafe_%282015-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Film Cafe FHD
+
+#EXTINF:-1 tvg-id="FilmCafe.ro" tvg-name="Film Cafe SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Film Cafe SD
+
+#EXTINF:-1 tvg-id="FilmBox.ro" tvg-name="FILMBOX+ one" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/0/01/Filmbox%2B_One_%282026-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FILMBOX+ one
+https://nosignal1.antenaplay.ro/hls/fb-one-sd/index.m3u8
+#EXTINF:-1 tvg-id="FilmboxPremium.ro" tvg-name="FILMBOX+ hits" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/4/4d/Filmbox%2B_Hits_%282026-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FILMBOX+ hits
+https://nosignal1.antenaplay.ro/hls/fb-hits-sd/index.m3u8
+#EXTINF:-1 tvg-id="FilmboxStars.ro" tvg-name="FILMBOX+ love&crime" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/a/ae/Filmbox%2B_Love_%26_Crime_%282026-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FILMBOX+ love&crime
+https://nosignal1.antenaplay.ro/hls/fb-love-and-crime-sd/index.m3u8
+#EXTINF:-1 tvg-id="filmboxfamily.ro" tvg-name="Filmbox+ Comedy" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/f/f9/Filmbox%2B_Comedy_%282026-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Filmbox+ Comedy
+https://nosignal1.antenaplay.ro/hls/fb-comedy-hd/index.m3u8
+#EXTINF:-1 tvg-id="FilmboxArthouse.ro" tvg-name="Filmbox+ Emotion" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/a/af/Filmbox%2B_Emotion_%282026-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Filmbox+ Emotion
+
+#EXTINF:-1 tvg-id="FilmboxArthouse.ro" tvg-name="FILMBOX+ Festival" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/f/fc/Filmbox%2B_Festival_%282026-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FILMBOX+ Festival
+https://nosignal1.antenaplay.ro/hls/fb-festival-hd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Prime Film Now+" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prime Film Now+
+
+#EXTINF:-1 tvg-id="BollywoodFilm.ro" tvg-name="Bollywood Film" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/8/8a/Bollywood_Film_%282018-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Bollywood Film
+
+#EXTINF:-1 tvg-id="BollywoodClassic.ro" tvg-name="Bollywood Classic FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/e/e4/Bollywood_Clasic_%282018-.n.v.%2C_zlatni_bukvi%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Bollywood Classic FHD
+
+#EXTINF:-1 tvg-id="BollywoodClassic.ro" tvg-name="Bollywood Classic SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/e/e4/Bollywood_Clasic_%282018-.n.v.%2C_zlatni_bukvi%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Bollywood Classic
+https://hls02ns.antenaplay.ro/hls/bollywood-sd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="DIGI FILM ᶠᴴᴰ" tvg-logo="https://i.postimg.cc/VsnYkk14/2560px-Digi-Film-logo-svg.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI FILM ᶠᴴᴰ
+
+#EXTINF:-1 tvg-id="" tvg-name="DIGI MOVIES ᶠᴴᴰ" tvg-logo="https://i.postimg.cc/cC71TjQG/digi-movies-final.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI MOVIES ᶠᴴᴰ
+
+#EXTINF:-1 tvg-id="" tvg-name="HBO FHD" tvg-logo="http://vsvgroup.co.uk/wp-content/uploads/2019/09/1200px-HBO_HD-e1577015933768.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",HBO FHD
+
+#EXTINF:-1 tvg-id="hbo.ro" tvg-name="HBO SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",HBO SD
+
+#EXTINF:-1 tvg-id="hbo2.ro" tvg-name="HBO 2 FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",HBO 2 FHD
+
+#EXTINF:-1 tvg-id="hbo2.ro" tvg-name="HBO 2 SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/f/f6/HBO_2_%282016-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",HBO 2 SD
+http://193.33.39.108:9019/play/a00p
+
+.........................................................................................................
+#EXTINF:-1 tvg-id="" tvg-name="⭐CANALE DOCUMENTARE⭐" tvg-logo="🌎" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",▁ ▂ ▄ ▅ ▆🌎 CANALE DOCUMENTARE 🌎▆ ▅ ▄ ▂ ▁
+77/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="INFO PESCAR ᶠᴴᴰ" tvg-logo="https://i.postimg.cc/sDRfFg9d/unnamed.jpg" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",INFO PESCAR ᶠᴴᴰ
+
+#EXTINF:-1 tvg-id="DiscoveryChannel.ro" tvg-name="DISCOVERY CHANNEL FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/6/69/Discovery_%282019-.n.v.%2C_belo%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DISCOVERY CHANNEL FHD
+
+#EXTINF:-1 tvg-id="DiscoveryChannel.ro" tvg-name="DISCOVERY CHANNEL SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/6/69/Discovery_%282019-.n.v.%2C_belo%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DISCOVERY CHANNEL SD
+
+#EXTINF:-1 tvg-id="discoveryid.ro" tvg-name="Discovery ID Xtra FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Discovery ID Xtra FHD
+
+#EXTINF:-1 tvg-id="" tvg-name="Discovery ID Xtra SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Discovery ID Xtra SD
+
+#EXTINF:-1 tvg-id="LoveNature.ro" tvg-name="LOVE NATURE 4K" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/4/49/Love_Nature_4K_%282018-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",LOVE NATURE 4K
+
+#EXTINF:-1 tvg-id="LoveNature.ro" tvg-name="Love Nature SD" tvg-logo="https://blueantmedia.com/wp-content/uploads/2025/02/LoveNature2024_Logo_Coral-300x119.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Love Nature
+http://193.33.39.108:9005/play/a01s
+#EXTINF:-1 tvg-id="Cinethronix.ro" tvg-name="Cinethronix FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/c/c9/Cinethronix_%282016-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Cinethronix FHD
+
+#EXTINF:-1 tvg-id="eentertainment.ro" tvg-name="E! Entertainment FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",E! Entertainment FHD
+
+#EXTINF:-1 tvg-id="eentertainment.ro" tvg-name="E! Entertainment SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",E! Entertainment SD
+
+#EXTINF:-1 tvg-id="animalplanet.ro" tvg-name="Animal Planet FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/f/f4/Animal_Planet_HD_%282018-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Animal Planet FHD
+
+#EXTINF:-1 tvg-id="animalplanet.ro" tvg-name="Animal Planet SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Animal Planet SD
+
+#EXTINF:-1 tvg-id="natgeo.ro" tvg-name="NATIONAL GEOGRAPHIC FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",NATIONAL GEOGRAPHIC FHD
+
+#EXTINF:-1 tvg-id="natgeo.ro" tvg-name="NATIONAL GEOGRAPHIC SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",NATIONAL GEOGRAPHIC SD
+
+#EXTINF:-1 tvg-id="" tvg-name="NATIONAL GEOGRAPHIC EXTRA HD" tvg-logo="https://i.postimg.cc/8Pjw5QQm/2000px-National-Geographic-Logo-svg.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",NATIONAL GEOGRAPHIC EXTRA HD
+
+#EXTINF:-1 tvg-id="natgeowild.ro" tvg-name="Nat Geo Wild FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Nat Geo Wild FHD
+
+#EXTINF:-1 tvg-id="natgeowild.ro" tvg-name="Nat Geo Wild SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Nat Geo Wild SD
+
+#EXTINF:-1 tvg-id="natgeopeople.ro" tvg-name="NAT GEO PEOPLE  SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",NAT GEO PEOPLE  SD
+
+#EXTINF:-1 tvg-id="EpicDrama.ro" tvg-name="Viasat Epic Drama" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/2/23/Viasat_Epic_Drama_%282026-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Viasat Epic Drama
+http://193.33.39.108:9017/play/a01l
+#EXTINF:-1 tvg-id="viasathistory.ro" tvg-name="Viasat History" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/1/1d/Viasat_History_%282026-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Viasat History
+http://193.33.39.108:9007/play/a00p
+#EXTINF:-1 tvg-id="" tvg-name="Viasat FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Viasat FHD
+
+#EXTINF:-1 tvg-id="ViasatExplorer.ro" tvg-name="Viasat Explore" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/7/7b/Viasat_Explore_%282026-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Viasat Explore
+
+#EXTINF:-1 tvg-id="" tvg-name="DW Europe FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/3/34/DW_%282012-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DW Europe FHD
+
+#EXTINF:-1 tvg-id="" tvg-name="VIASAT NATURE FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",VIASAT NATURE FHD
+
+#EXTINF:-1 tvg-id="" tvg-name="Viasat History 4K" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Viasat History 4K (UHD)
+
+#EXTINF:-1 tvg-id="historychannel.ro" tvg-name="History FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",History FHD
+
+#EXTINF:-1 tvg-id="historychannel.ro" tvg-name="History SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/8/8b/History_%282021-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",History SD
+http://193.33.39.108:9019/play/a01j
+#EXTINF:-1 tvg-id="foodnetwork.ro" tvg-name="FOOD NETWORK SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FOOD NETWORK SD
+
+#EXTINF:-1 tvg-id="fishinghunting.ro" tvg-name="Fishing and Hunting SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/1/17/The_Fishing_%26_Hunting_Channel_%282025-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Fishing and Hunting SD
+http://193.33.39.108:9014/play/a01f
+#EXTINF:-1 tvg-id="CrimeInvestigation.ro" tvg-name="Crime & Investigation SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9c/Crime_and_Investigation_Canada_TV_logo.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Crime & Investigation SD
+
+#EXTINF:-1 tvg-id="InvestigationDiscovery.ro" tvg-name="Investigation Discovery" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/b/b1/Investigation_Discovery_%282020-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Investigation Discovery
+
+#EXTINF:-1 tvg-id="travelchannel.ro" tvg-name="Travel Channel FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Travel Channel FHD
+
+#EXTINF:-1 tvg-id="travelchannel.ro" tvg-name="Travel Channel SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Travel Channel SD
+
+#EXTINF:-1 tvg-id="" tvg-name="SOS CAR" tvg-logo="https://i.postimg.cc/s2QR90hY/5ac4b614242d90-09934271-png.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",SOS CAR
+
+#EXTINF:-1 tvg-id="tvpaprika.ro" tvg-name="TV Paprika SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TV Paprika SD
+
+#EXTINF:-1 tvg-id="" tvg-name="TLC FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TLC FHD
+
+#EXTINF:-1 tvg-id="tlc.ro" tvg-name="TLC SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TLC SD
+
+#EXTINF:-1 tvg-id="bbcarth.ro" tvg-name="BBC Earth FHD" tvg-logo="https://cms.bbcasia.com/sites/default/files/2023-09/BBC-Earth-YouTube-Stacked-Mobile.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",BBC Earth FHD
+
+#EXTINF:-1 tvg-id="bbcarth.ro" tvg-name="BBC Earth HD" tvg-logo="https://cms.bbcasia.com/sites/default/files/2023-09/BBC-Earth-YouTube-Stacked-Mobile.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",BBC Earth HD
+http://193.33.39.108:9019/play/a01w
+#EXTINF:-1 tvg-id="bbcarth.ro" tvg-name="BBC Earth SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",BBC Earth SD
+
+#EXTINF:-1 tvg-id="" tvg-name="BBC Earth SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/d/d7/BBC_News_%282022-.n.v.%2C_belo%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",BBC World News HD
+
+#EXTINF:-1 tvg-id="" tvg-name="BBC FIRST FHD" tvg-logo="https://bmcmedia.live:2083/images/aae2zdyaIaYigzu0sLiFw7PbbWoc3emzGRhSobJ0fSjB-EPbZuXfKiBA2x1LdQ_v.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",BBC FIRST FHD
+
+#EXTINF:-1 tvg-id="cbsreality.ro" tvg-name="CBS Reality SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",CBS Reality SD
+
+#EXTINF:-1 tvg-id="hgtv.ro" tvg-name="HGTV FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",HGTV FHD
+
+#EXTINF:-1 tvg-id="hgtv.ro" tvg-name="HGTV SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",HGTV SD
+
+#EXTINF:-1 tvg-id="davincilearning.ro" tvg-name="DaVinci Learning SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/6/61/Da_Vinci_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DaVinci Learning SD
+http://193.33.39.108:9023/play/a013
+#EXTINF:-1 tvg-id="digianimalworld.ro" tvg-name="Digi Animal World FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Digi Animal World FHD
+
+#EXTINF:-1 tvg-id="digiworld.ro" tvg-name="DIGI WORLD FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI WORLD FHD
+
+#EXTINF:-1 tvg-id="digianimalworld.ro" tvg-name="Digi Animal World SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Digi Animal World SD
+
+#EXTINF:-1 tvg-id="digiworld.ro" tvg-name="Digi World SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Digi World SD
+
+#EXTINF:-1 tvg-id="digilife.ro" tvg-name="DIGI Life FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI Life FHD
+
+#EXTINF:-1 tvg-id="digilife.ro" tvg-name="Digi Life SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Digi Life SD
+
+#EXTINF:-1 tvg-id="agrotv.ro" tvg-name="Agro SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Agro SD
+
+#EXTINF:-1 tvg-id="travelxp.ro" tvg-name="Travel XP SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Travel XP SD
+
+#EXTINF:-1 tvg-id="travelmix.ro" tvg-name="Travel Mix 4K (UHD)" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Travel Mix 4K (UHD)
+
+#EXTINF:-1 tvg-id="travelmix.ro" tvg-name="TRAVEL MIX" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/4/4b/Travel_Mix_%282011-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TRAVEL MIX
+https://hls02ns.antenaplay.ro/hls/travel-mix-hd/index.m3u8
+#EXTINF:-1 tvg-id="TV5MondeEurope.fr" tvg-name="TV5 Monde Europe" tvg-logo="https://assets.antenaplay.ro/2024/09/06/kbw57uAiLY04iaHEbJjZ.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TV5 Monde Europe
+https://hls01ns.antenaplay.ro/hls/tv5-monde-europe-sd/index.m3u8
+#EXTINF:-1 tvg-id="DottoTV.ro" tvg-name="Dotto TV" tvg-logo="https://admin.dottotv.ro/wp-content/uploads/2026/04/Dotto-tv-192-x-192-px.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Dotto TV
+https://live.dottotv.ro/index.m3u8
+#EXTINF:-1 tvg-id="DocuBox.ro" tvg-name="DocuBox" tvg-logo="https://xatimg.com/image/8JTy3woHeEHh.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DocuBox FHD
+
+#EXTINF:-1 tvg-id="DocuBox.ro" tvg-name="DocuBox" tvg-logo="https://xatimg.com/image/8JTy3woHeEHh.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DocuBox
+http://193.33.39.108:9016/play/a02e
+#EXTINF:-1 tvg-id="" tvg-name="Fast FunBox FHD" tvg-logo="https://viewatv.com/__l5e/assets-v1/d34b46fc-8c40-4c98-9624-823ea6ce1f32/fastfunbox-hd.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Fast&FunBox FHD
+
+.........................................................................................................
+#EXTINF:-1 tvg-id="" tvg-name="⭐CANALE PENTRU COPII⭐" tvg-logo="🌈" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",▁ ▂ ▄ ▅ ▆🌈 CANALE PENTRU COPII 🌈▆ ▅ ▄ ▂ ▁
+77/index.m3u8
+#EXTINF:-1 tvg-id="tralala.ro" tvg-name="TraLaLa TV" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/d/d4/TraLaLa_TV_%282021-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TraLaLa TV
+https://hls01ns.antenaplay.ro/hls/tralala-hd/index.m3u8
+#EXTINF:-1 tvg-id="TraLaLaDSN.ro" tvg-name="TraLaLa DSN" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/0/01/TraLaLa_DSN_%282025-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TraLaLa DSN
+https://hls01ns.antenaplay.ro/hls/tralala-desene-animate-hd/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.ro" tvg-name="Cartoon Network FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/1/1c/Cartoon_Network_%282010-.n.v.%2C_beli_napisi%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Cartoon Network FHD
+
+#EXTINF:-1 tvg-id="disneyjunior.ro" tvg-name="Disney JR SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/48/DisneyJr3Dver.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Disney JR SD
+http://193.33.39.108:9022/play/a00q
+#EXTINF:-1 tvg-id="disneychannel.ro" tvg-name="Disney Channel SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Disney Channel SD
+
+#EXTINF:-1 tvg-id="MiniMax.ro" tvg-name="Minimax" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/8/81/Minimax_%282021-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Minimax
+
+#EXTINF:-1 tvg-id="Cartoonito.ro" tvg-name="Cartoonito SD" tvg-logo="https://xatimg.com/image/m1zKIo3Mmnok.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Cartoonito SD
+http://193.33.39.108:9019/play/a00t
+#EXTINF:-1 tvg-id="nicktoons.ro" tvg-name="Nicktoons SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Nicktoons SD
+
+#EXTINF:-1 tvg-id="teennick.ro" tvg-name="Nick JR SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Nick JR SD
+
+#EXTINF:-1 tvg-id="" tvg-name="Megamax SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Megamax SD
+
+#EXTINF:-1 tvg-id="Nickelodeon.ro" tvg-name="NICKELODEON" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/f/fe/Nicktoons_%282024-.n.v.%2C_drugi_variant%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",NICKELODEON
+
+#EXTINF:-1 tvg-id="jimjam.ro" tvg-name="JIM JAM SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/6/6b/JimJam_%282018-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",JIM JAM SD
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fsaruman1.tharen001.cfd%2Fjimy%2Fusergenq3n0lz7kr-got.htm
+#EXTINF:-1 tvg-id="ducktv.ro" tvg-name="Duck TV SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Duck TV SD
+
+#EXTINF:-1 tvg-id="babytv.ro" tvg-name="Baby TV SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Baby TV SD
+
+
+
+.................................................................................................
+#EXTINF:-1 tvg-id="" tvg-name="⭐CANALE REGIONALE⭐" tvg-logo="🙏" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",▁ ▂ ▄ ▅ ▆🙏 CANALE REGIONALE 🙏▆ ▅ ▄ ▂ ▁
+77/index.m3u8
+#EXTINF:-1 tvg-id="TrinitasTV.ro" tvg-name="Trinitas TV" tvg-logo="https://assets.antenaplay.ro/2024/06/04/u9m6JJPBTfaRsalXxoSo.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Trinitas TV
+https://hls01ns.antenaplay.ro/hls/trinitas-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MARIA TV SD" tvg-logo="https://bmcmedia.live:2083/images/z0Jls3khql2x0Wmk_HIuLStua1d0XXmFOyshCjCrf2ikpPN2a-E4ijftCfrAGw3z.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",MARIA TV SD
+
+#EXTINF:-1 tvg-id="SperantaTV.ro" tvg-name="Speranta TV FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/3/33/Speran%C8%9Ba_TV_%282015-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Speranta TV FHD
+
+#EXTINF:-1 tvg-id="SperantaTV.ro" tvg-name="Speranta TV HD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/3/33/Speran%C8%9Ba_TV_%282015-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Speranta TV HD
+https://hls02ns.antenaplay.ro/hls/speranta-tv-hd/index.m3u8
+#EXTINF:-1 tvg-id="HD365TV.ro" tvg-name="HD365 TV" tvg-logo="https://www.hd365.tv/wp-content/uploads/2024/06/logo-hd365tv-320px-300x143.png" tvg-country="RO" group-title=""「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」"",HD365 TV
+https://s2.netstreaming.eu/hd365.m3u8
+#EXTINF:-1 tvg-id="credotv.ro" tvg-name="Credo TV SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/6/67/Credo_TV.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Credo TV SD
+
+#EXTINF:-1 tvg-id="24mix.ro" tvg-name="24 Mix" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/8/83/24_Mix_%282020-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",24 Mix
+
+#EXTINF:-1 tvg-id="AlfaOmegaTV.ro" tvg-name="Alfa Omega TV" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/9/93/Alfa_Omega_TV_%282016-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Alfa Omega TV
+
+#EXTINF:-1 tvg-id="LightChannel.ro" tvg-name="Light Channel" tvg-logo="https://lightchanneltv.de/img/logo.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Light Channel
+http://streamer1.streamhost.org:1935/salive/GMIlcbgM/playlist.m3u8
+#EXTINF:-1 tvg-id="MISATV.ro" tvg-name="MISA TV" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",MISA TV
+https://vidl.misatv.ro:5050/MSTV/romanian_720p_baseline/playlist.m3u8
+#EXTINF:-1 tvg-id="NCN.ro" tvg-name="NCN" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/9/94/NCN.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",NCN
+https://hls01ns.antenaplay.ro/hls/ncn-sd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="CGTN" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",CGTN
+
+#EXTINF:-1 tvg-id="" tvg-name="TELE M BOTOSANI" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",TELE M BOTOSANI
+
+#EXTINF:-1 tvg-id="" tvg-name="Dobrogea TV SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Dobrogea TV SD
+
+#EXTINF:-1 tvg-id="" tvg-name="Metropola TV SD" tvg-logo="https://assets.antenaplay.ro/2024/06/04/n06boe5c4ocT4eKHh9Ym.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Metropola TV SD
+https://hls01ns.antenaplay.ro/hls/metropola-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="IneditTV.ro" tvg-name="Inedit TV" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/6/61/Inedit_TV_%282011-2018%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Inedit TV
+https://hls02ns.antenaplay.ro/hls/inedit-tv-hd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Rapsodia TV SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Rapsodia TV SD
+
+#EXTINF:-1 tvg-id="sperantatv.ro" tvg-name="Speranța TV SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Speranța TV SD
+
+#EXTINF:-1 tvg-id="MedikaTV.ro" tvg-name="Medika TV" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/5e/Medika_TV_%282023-.n.v.%2C_bez_fona%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Medika TV
+
+#EXTINF:-1 tvg-id="alephnews.ro" tvg-name="ALEPH NEWS HD" tvg-logo="https://assets.antenaplay.ro/2024/06/03/IPSBnw0rFr4mHCterkh5.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",ALEPH NEWS HD
+https://stream-aleph.m.ro/Aleph/ngrp:Alephnewsmain.stream_all/chunklist_b1398304.m3u8
+#EXTINF:-1 tvg-id="alephnews.ro" tvg-name="ALEPH NEWS SD" tvg-logo="https://assets.antenaplay.ro/2024/06/03/IPSBnw0rFr4mHCterkh5.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",ALEPH NEWS SD
+https://hls02ns.antenaplay.ro/hls/aleph-news-sd/index.m3u8
+#EXTINF:-1 tvg-id="KapitalTV.ro" tvg-name="Kapital TV" tvg-logo="https://assets.antenaplay.ro/2024/06/04/m9mU993aONxU2JMhKiaG.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Kapital TV
+https://hls02ns.antenaplay.ro/hls/kapital-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SMART TV SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",SMART TV SD
+
+#EXTINF:-1 tvg-id="" tvg-name="PROFI TV SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0f/Profi_24_TV.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Profi 24 TV
+https://live.ro24tv.ro/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Shop On TV" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/d/d7/Shop_on_TV_%282021-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Shop On TV
+
+#EXTINF:-1 tvg-id="" tvg-name="CARDIO TV SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",CARDIO TV SD
+
+#EXTINF:-1 tvg-id="" tvg-name="Global News HD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Global News HD
+
+#EXTINF:-1 tvg-id="ASTV.ro" tvg-name="AS TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1d/AS_TV_2025.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",AS TV
+https://s2.netstreaming.eu/astv.m3u8
+#EXTINF:-1 tvg-id="ArgesTV.ro" tvg-name="Arges TV" tvg-logo="https://argestv.ro/wp-content/uploads/2026/06/New-Project.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Arges TV
+https://btutzctahuf0wjoq.cdn.streamingserver.io/hls/yjvam8hlp2g3u08z02tv0yz66rq3cy.m3u8
+#EXTINF:-1 tvg-id="A7TV.ro" tvg-name="A7 TV" tvg-logo="https://assets.antenaplay.ro/2024/06/04/9yInPRImaoU2KUpioIMw.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Global A7 TV
+https://hls02ns.antenaplay.ro/hls/a7-sd/index.m3u8
+#EXTINF:-1 tvg-id="MoldovaTV.ro" tvg-name="Moldova TV" tvg-logo="https://assets.antenaplay.ro/2024/06/04/MEM37WK12fv5sRGgFprW.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Moldova TV
+https://hls01ns.antenaplay.ro/hls/moldova-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MOLDOVA 1 SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",MOLDOVA 1 SD
+
+#EXTINF:-1 tvg-id="" tvg-name="MOLDOVA 2 SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",MOLDOVA 2 SD
+
+#EXTINF:-1 tvg-id="Exploris.ro" tvg-name="Exploris SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/9/92/Exploris_%282021-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Exploris SD
+
+#EXTINF:-1 tvg-id="AngelusTV.ro" tvg-name="Angelus TV" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/d/df/Angelus_TV_%282021-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Angelus TV
+https://video.angelustv.ro/hls/angelustv.m3u8
+
+
+
+
+........................................................................................................................................................
+#EXTINF:-1 tvg-id="" tvg-name="⭐CANALE RADIO (ROMANIA)⭐" tvg-logo="📻" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",▁ ▂ ▄ ▅ ▆📻 CANALE RADIO 📻▆ ▅ ▄ ▂ ▁
+77/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RADIO IMPULS" tvg-logo="https://static.wikia.nocookie.net/radiofanon/images/e/eb/Radio_Impuls_%282023-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",RADIO IMPULS
+https://live.radio-impuls.ro/stream
+#EXTINF:-1 tvg-id="" tvg-name="Radio Pro-B" tvg-logo="https://cdn-profiles.tunein.com/s54575/images/logod.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",Radio Pro-B
+https://live.radioprob.ro/8888/live
+#EXTINF:-1 tvg-id="" tvg-name="RADIO ZU" tvg-logo="https://static.wikia.nocookie.net/radiofanon/images/9/99/Radio_Zu_%282008-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",RADIO ZU
+http://zuicast.digitalag.ro:9420/zu
+#EXTINF:-1 tvg-id="" tvg-name="KISS FM ROMANIA" tvg-logo="https://static.wikia.nocookie.net/radiofanon/images/5/51/Kiss_FM_%282014-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",KISS FM ROMANIA
+https://live.kissfm.ro/kissfm.aacp
+#EXTINF:-1 tvg-id="" tvg-name="DANCE FM" tvg-logo="https://static.wikia.nocookie.net/radiofanon/images/0/0a/Dance_FM_%282023-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",DANCE FM
+https://edge126.rcs-rds.ro/profm/dancefm.mp3
+#EXTINF:-1 tvg-id="" tvg-name="MAGIC FM ROMANIA" tvg-logo="https://static.wikia.nocookie.net/radiofanon/images/c/c9/Magic_FM_%282006-2009%29.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",MAGIC FM ROMANIA
+https://live.magicfm.ro/magicfm.aacp
+#EXTINF:-1 tvg-id="" tvg-name="DIGI FM" tvg-logo="https://static.wikia.nocookie.net/radiofanon/images/7/72/Digi_FM_%282017-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",DIGI FM
+https://edge76.rcs-rds.ro/digifm/digifm.mp3
+#EXTINF:-1 tvg-id="" tvg-name="PRO FM ROMANIA" tvg-logo="https://static.wikia.nocookie.net/radiofanon/images/3/39/Pro_FM_%282011-2020%29.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",PRO FM ROMANIA
+https://edge126.rcs-rds.ro/profm/profm.mp3
+#EXTINF:-1 tvg-id="" tvg-name="VIRGIN RADIO" tvg-logo="https://virginradio.ro/wp-content/themes/virgin_v3/img/logo.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",VIRGIN RADIO
+https://astreaming.edi.ro:8443/VirginRadio_aac
+#EXTINF:-1 tvg-id="" tvg-name="EUROPA FM" tvg-logo="https://www.europafm.ro/wp-content/themes/efm-2025/img/logo-230x70.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",EUROPA FM
+https://astreaming.edi.ro:8443/EuropaFM_aac
+#EXTINF:-1 tvg-id="" tvg-name="RADIO GOLD FM" tvg-logo="https://static.wikia.nocookie.net/radiofanon/images/f/f9/Gold_FM_%282008-2015%29.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",RADIO GOLD FM
+https://live.radiogoldfm.ro:8443/WP.mp3
+#EXTINF:-1 tvg-id="" tvg-name="Radio Tequila Dance" tvg-logo="https://www.radiotequila.ro/wp-content/uploads/2023/11/logo.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",Radio Tequila Dance
+http://dance.radiotequila.ro:7000
+#EXTINF:-1 tvg-id="" tvg-name="Radio Tequila Hip Hop" tvg-logo="https://www.radiotequila.ro/wp-content/uploads/2023/11/logo.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",Radio Tequila Hip Hop
+http://necenzurat.radiotequila.ro:7000
+#EXTINF:-1 tvg-id="" tvg-name="Radio Tequila Manele" tvg-logo="https://www.radiotequila.ro/wp-content/uploads/2023/11/logo.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",Radio Tequila Manele
+http://asculta.radiotequila.ro:7000
+#EXTINF:-1 tvg-id="" tvg-name="Radio Tequila Petrecere" tvg-logo="https://www.radiotequila.ro/wp-content/uploads/2023/11/logo.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",Radio Tequila Petrecere
+http://petrecere.radiotequila.ro:7000
+#EXTINF:-1 tvg-id="" tvg-name="Radio Tequila Colinde" tvg-logo="https://www.radiotequila.ro/wp-content/uploads/2023/11/logo.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",Radio Tequila Colinde
+http://colinde.radiotequila.ro:8989
+
+.........................................................................................................
+#EXTINF:0 tvg-id="" tvg-logo="" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",▁ ▂ ▄ ▅ ▆ 🔞 ▆ ▅ ▄ ▂ ▁
+111111
+#EXTINF:0 tvg-id="" tvg-logo="https://kekomedia.com/wp-content/uploads/2022/11/BalkanErotic-1.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Balkan Erotic
+http://315e5a5d.ottrast.com/iptv/CWL2N4KECYYAXS/6270/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/CentoXCento.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Cento X Cento
+http://45.84.187.172:3001/udp/224.156.69.252:5000
+#EXTINF:0 tvg-id="" tvg-logo="http://guljaj.com/images/3229.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",True Amateurs
+http://315e5a5d.ottrast.com/iptv/4BNBHVMKQ2GQGE/6260/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="http://guljaj.com/images/4948.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",VERAPORN GROUP SEX
+http://315e5a5d.ottrast.com/iptv/CRKBTYRXLLNSEF/12141/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="http://guljaj.com/images/3211.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Playboy Plus
+http://315e5a5d.ottrast.com/iptv/CRKBTYRXLLNSEF/6242/index.m3u8
+#EXTINF:0 tvg-id="AlbaXXXHD1.ru" tvg-logo="https://i.postimg.cc/RF6m8wX4/sbne-Yqq.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Alba XXX 1
+http://315e5a5d.ottrast.com/iptv/CRKBTYRXLLNSEF/12204/index.m3u8
+#EXTINF:0 tvg-id="AlbaXXXHD2.ru" tvg-logo="" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Alba XXX 2
+http://315e5a5d.ottrast.com/iptv/PXXFGKYYT6PCZA/12194/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://aanmeldloket.meidenvanholland.nl/_ipx/f_webp&q_70&s_69x45/MvH_Logo_2020_laptop.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Meiden Van Holland
+http://315e5a5d.ottrast.com/iptv/4BNBHVMKQ2GQGE/12125/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="http://guljaj.com/images/4788.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",ОХ-АХ
+https://s.oxax.tv/Da8L5FV0r0OWsn7VEKYmQQ/1/1793756139/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/32/SuperOne_%282012%29.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",SuperOne
+https://s.oxax.tv/FsxqOO_9XQ9NLoHnnA390Q/45/1793756412/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="http://guljaj.com/images/4682.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",CineMan XXX
+https://s.oxax.tv/VRVQu03V4A_AgpHO7WEFeg/59/1793757005/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://telly.cz/wp-content/plugins/telly-pecka-channel-logos/dist/leo.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",LeoTV
+http://142.132.200.37:9000/LEOTVHD
+#EXTINF:0 tvg-id="" tvg-logo="https://telly.cz/wp-content/plugins/telly-pecka-channel-logos/dist/leo-gold.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Leo GoldTV
+http://142.132.200.37:9000/LEOGOLDTVHD
+#EXTINF:0 tvg-id="" tvg-logo="http://demo.kvarta.net:8021/admin/logo/eroxhd.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",EROXHD
+http://142.132.200.37:9000/EROXHD
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/c/cf/Eroxxx_%282013-.n.v.%29.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",EroXXX
+http://193.33.39.108:9016/play/a02f
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/27/BRAZZERS_TV_2015.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Brazzers TV Europa
+http://185.23.80.23:8080/BrazzersTV/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/27/BRAZZERS_TV_2015.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Brazzers TV
+
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/8/89/Hustler_TV_%281999-.n.v.%29.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Hustler Tv
+http://193.33.39.108:9009/play/a02a
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/8/80/Blue_Hustler_%282001-.n.v.%29.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Blue Hustler
+http://5.57.74.130:8000/play/a0c3/index.m3u8
+http://193.33.39.108:9009/play/a025
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/d/de/Private_TV_%282014-.n.v.%29.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Private TV
+http://193.33.39.108:9009/play/a020
+#EXTINF:0 tvg-id="" tvg-logo="https://xatimg.com/image/YHVWHUlUMA1W.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Venus
+https://streaming.onnethn.com/VENUS/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="http://guljaj.com/images/7079.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Red Lips
+
+https://s.oxax.tv/ijG2AUqPapdLDA3xdvYSeA/3/1793757630/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.imctransfer.com/static_01/passionxxx/logo_big_wit.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",PASSIONXXX 1
+http://45.84.187.172:3001/udp/224.156.69.241:5000
+#EXTINF:0 tvg-id="" tvg-logo="https://static.imctransfer.com/static_01/passionxxx/logo_big_wit.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",PASSIONXXX 2
+http://45.84.187.172:3001/udp/224.156.69.237:5000
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wixstatic.com/media/d2f028_43f7b5d2640f48578faee1f1d75ea18c~mv2.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",VIXEN
+http://142.132.200.37:9000/VIXENHD
+#EXTINF:0 tvg-id="" tvg-logo="https://public36-content.cdn-medias.com/pics/blockitem/84/95/28495_1_blockdefault.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",DORCEL HD
+http://142.132.200.37:9000/DORCELTVHD
+#EXTINF:0 tvg-id="" tvg-logo="https://hotelki.tv/images/xy-max.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",XY Max
+http://315e5a5d.ottrast.com/iptv/PXXFGKYYT6PCZA/6286/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://hotelki.tv/images/xy-plus.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",XY Plus
+https://s.oxax.tv/DeElz0gSMgMqRrMNXC3zig/50/1793759186/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://hotelki.tv/images/xy-mix.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",XY Mix
+https://s.oxax.tv/IMOJ8jX6F9kcc4h5FIOf4g/55/1793759993/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVMs94jf3ZnLQ09gOzn2BZIUs8qYnoepAmW4wyyD68&s.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Desire
+http://5.57.74.130:8000/play/a0eb/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://www.cableman.ru/sites/default/files/barely_legal_obychnyy.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Barely Legal Tv
+http://185.23.80.23:8080/BarelyLegal/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d4/Vivid.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Vivid Red HD
+http://5.175.174.49:1234/stream/maxtvhr/vividred/master.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://www.lyngsat.com/logo/tv/vv/vivid-touch-us.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Vivid Touch
+http://5.175.174.49:1234/stream/maxtvhr/vividtouch/master.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://exxxotica.media/wp-content/themes/simpla/img/logo.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Exxxotica
+http://315e5a5d.ottrast.com/iptv/PXXFGKYYT6PCZA/2397/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://hotelki.tv/images/babes-tv.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Babes TV
+https://s.oxax.tv/akkmi4L0MWHhjVii2FRq8g/14/1793761365/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://cdnrusnight.red-media.ru/wp-content/themes/rusnight/images/logo-header.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Russkaya Noch
+http://185.23.80.23:8080/RusskayaNoch/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a7/Pink%27O_TV.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Pink O TV
+http://45.84.187.172:3001/udp/224.156.69.250:5000
+#EXTINF:0 tvg-id="" tvg-logo="http://guljaj.com/images/5392.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Yosso TV Sexy
+http://315e5a5d.ottrast.com/iptv/AE8BY6FHF5ZGAG/14176/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="http://guljaj.com/images/6321.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Tviksel Кино 18+
+http://315e5a5d.ottrast.com/iptv/4BNBHVMKQ2GQGE/18075/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="http://guljaj.com/images/2526.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",French Lover
+http://315e5a5d.ottrast.com/iptv/AE8BY6FHF5ZGAG/12124/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="http://guljaj.com/images/3250.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Red XXX
+http://315e5a5d.ottrast.com/iptv/AE8BY6FHF5ZGAG/6281/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e3/Pink_Erotic.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Pink Erotic 1  
+http://315e5a5d.ottrast.com/iptv/AE8BY6FHF5ZGAG/12146/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/64/Pink_Erotic_2.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Pink Erotic 2
+http://315e5a5d.ottrast.com/iptv/PXXFGKYYT6PCZA/12147/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0f/Pink_Erotic_3.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Pink Erotic 3
+http://315e5a5d.ottrast.com/iptv/CRKBTYRXLLNSEF/12148/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5f/Pink_Erotic_4.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Pink Erotic 4
+http://315e5a5d.ottrast.com/iptv/AE8BY6FHF5ZGAG/6241/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/13/Pink_Erotic_5.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Pink Erotic 5
+http://315e5a5d.ottrast.com/iptv/AE8BY6FHF5ZGAG/12150/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d7/Pink_Erotic_6.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Pink Erotic 6
+http://315e5a5d.ottrast.com/iptv/PXXFGKYYT6PCZA/12151/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c1/Pink_Erotic_7.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Pink Erotic 7
+http://315e5a5d.ottrast.com/iptv/PXXFGKYYT6PCZA/12152/index.m3u8
+#EXTINF:0 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/db/Pink_Erotic_8.png" tvg-country="RO" group-title="「🔞✦⭐Adult⭐✦🔞」"",Pink Erotic 8
+http://315e5a5d.ottrast.com/iptv/CRKBTYRXLLNSEF/12153/index.m3u8
+
+
