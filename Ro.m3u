@@ -213,11 +213,11 @@ https://live77cdn2.antenaplay.ro/live2_fast/ch1/stream.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="⚽️" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",▁ ▂ ▄ ▅ ▆⚽️ CANALE SPORTIVE ⚽️▆ ▅ ▄ ▂ ▁
 http://91.235.165.117:8002/play/a08x/index.m3u8
-#EXTINF:-1 tvg-id="FIFAU-17WorldCup1AntenaPlay.ro" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FIFA U-17 World Cup 1 AntenaPlay
+#EXTINF:-1 tvg-id="FIFAU-17WorldCup1AntenaPlay.ro" tvg-logo="https://assets.antenaplay.ro/2026/11/16/1EE4BhQvQJS0LsvIEfTn.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FIFA U-17 World Cup 1 AntenaPlay
 https://live77cdn2.antenaplay.ro/live2_sport07/live2_sport07.m3u8
-#EXTINF:-1 tvg-id="FIFAU-17WorldCup2AntenaPlay.ro" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FIFA U-17 World Cup 2 AntenaPlay
+#EXTINF:-1 tvg-id="FIFAU-17WorldCup2AntenaPlay.ro" tvg-logo="https://assets.antenaplay.ro/2026/11/16/1EE4BhQvQJS0LsvIEfTn.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FIFA U-17 World Cup 2 AntenaPlay
 https://live77cdn2.antenaplay.ro/live2_sdi09/live2_sdi09.m3u8
-#EXTINF:-1 tvg-id="FIFAU-17WorldCup3AntenaPlay.ro" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FIFA U-17 World Cup 3 AntenaPlay
+#EXTINF:-1 tvg-id="FIFAU-17WorldCup3AntenaPlay.ro" tvg-logo="https://assets.antenaplay.ro/2026/11/16/1EE4BhQvQJS0LsvIEfTn.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",FIFA U-17 World Cup 3 AntenaPlay
 https://live77cdn2.antenaplay.ro/live2_sdi03/live2_sdi03.m3u8
 #EXTINF:-1 tvg-id="NBAAntenaPlay.ro" tvg-name="NBA AntenaPlay" tvg-logo="https://assets.antenaplay.ro/2024/10/25/HmBMStln2f1qwN0tAXpG.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",NBA AntenaPlay
 https://live77cdn2.antenaplay.ro/live2_sdi09/live2_sdi09.m3u8
@@ -234,7 +234,7 @@ http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus1/live_fullhd?offsetS
 #EXTINF:-1 tvg-id="VoyoSport1.ro" tvg-name="Voyo Sport 1" tvg-logo="https://cdn.aptoide.com/imgs/d/d/5/dd59c35107c2f9509547b60213f6ec59_icon.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Voyo Events 3
 
 
-#EXTINF:-1 tvg-id="digisport1.ro" tvg-name="Digi Sport 1 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_82fb036b0744495997cdc491ac34b8a7~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Digi Sport 1 FHD
+#EXTINF:-1 tvg-id="digisport1.ro" tvg-name="DIGI SPORT 1 FHD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_82fb036b0744495997cdc491ac34b8a7~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 1 FHD
 http://85.14.32.26:8800/udp/239.100.3.196:8888
 #EXTINF:-1 tvg-id="digisport1.ro" tvg-name="DIGI SPORT 1 HD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_82fb036b0744495997cdc491ac34b8a7~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 1 HD
 http://91.201.172.14:35005
@@ -258,17 +258,17 @@ http://z2gep0yj.tvclub.xyz/iptv/GKTT8YW6E9SFM2/2538/index.m3u8
 
 #EXTINF:-1 tvg-id="digisport4.ro" tvg-name="DIGI SPORT 4 SD" tvg-logo="https://static.wixstatic.com/media/0e2b3e_f6bb104e1b204d1e98f4814ceff31000~mv2.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",DIGI SPORT 4 SD
 
-#EXTINF:-1 tvg-id="primasport1.ro" tvg-name="Prima Sport 1 FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima Sport 1 FHD
+#EXTINF:-1 tvg-id="primasport1.ro" tvg-name="Prima Sport 1 FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/52/Prima_Sport_1_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA SPORT 1 FHD
 http://91.235.165.117:8001/play/a07x/index.m3u8
 #EXTINF:-1 tvg-id="primasport1.ro" tvg-name="Prima Sport 1 HD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima Sport 1 HD
 
-#EXTINF:-1 tvg-id="primasport1.ro" tvg-name="Prima Sport 1 SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/52/Prima_Sport_1_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima Sport 1 SD
+#EXTINF:-1 tvg-id="primasport1.ro" tvg-name="Prima Sport 1 SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/52/Prima_Sport_1_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA SPORT 1 SD
 
-#EXTINF:-1 tvg-id="primasport2.ro" tvg-name="Prima Sport 2 FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima Sport 2 FHD
+#EXTINF:-1 tvg-id="primasport2.ro" tvg-name="Prima Sport 2 FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/a/a9/Prima_Sport_2_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA SPORT 2 FHD
 http://91.235.165.117:8001/play/a07y/index.m3u8
-#EXTINF:-1 tvg-id="primasport2.ro" tvg-name="Prima Sport 2 SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/a/a9/Prima_Sport_2_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Prima Sport 2 SD
+#EXTINF:-1 tvg-id="primasport2.ro" tvg-name="Prima Sport 2 SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/a/a9/Prima_Sport_2_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA SPORT 2 SD
 
-#EXTINF:-1 tvg-id="primasport3.ro" tvg-name="PRIMA SPORT 3 FHD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA SPORT 3 FHD
+#EXTINF:-1 tvg-id="primasport3.ro" tvg-name="PRIMA SPORT 3 FHD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/9/9a/Prima_Sport_3_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA SPORT 3 FHD
 http://91.235.165.117:8001/play/a07z/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PRIMA SPORT 3 SD" tvg-logo="" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PRIMA SPORT 3 SD
 
@@ -356,7 +356,7 @@ https://virtualtv.ddns.net/hls/VirtualTv.m3u8
 
 #EXTINF:-1 tvg-id="PartyMix.ro" tvg-name="PartyMix HD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/4/47/Party_Mix_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PartyMix HD
 https://hls02ns.antenaplay.ro/hls/party-mix-hd/index.m3u8
-EXTINF:-1 tvg-id="PartyMix.ro" tvg-name="PartyMix" tvg-logo="https://assets.antenaplay.ro/2026/03/10/RoacUpEwSo07gLmSmrLv.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PartyMix
+#EXTINF:-1 tvg-id="PartyMix.ro"" tvg-name="PartyMix" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/4/47/Party_Mix_%282022-.n.v.%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",PartyMix
 http://91.235.165.117:8001/play/a052/index.m3u8
 #EXTINF:-1 tvg-id="TarafTV.ro" tvg-name="Taraf TV HD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/3/3b/Taraf_TV_%282017-2021%29.png" tvg-country="RO" group-title="「🇷🇴✦⭐ROMANIA TV⭐✦🇷🇴」",Taraf TV HD
 
@@ -911,7 +911,4 @@ http://asculta.radiotequila.ro:7000
 http://petrecere.radiotequila.ro:7000
 #EXTINF:-1 tvg-id="" tvg-name="Radio Tequila Colinde" tvg-logo="https://www.radiotequila.ro/wp-content/uploads/2023/11/logo.png" tvg-country="RO" group-title="「🇷🇴✦𝄞ROMANIA RADIO𝄞✦🇷🇴」",Radio Tequila Colinde
 http://colinde.radiotequila.ro:8989
-
-
-
 
